@@ -10,8 +10,9 @@ Please contact me if you would like to request exemption from the terms of the l
 Project progress
 ######################
 This project is INCOMPLETE and IN-PROGRESS.
-At the moment, only the schematic exists; no layout design yet.
-Regarding the schematic, I've laid down almost the entire design, except for power circuitry. This is what I'm working on currently.
+-At the moment, only the schematic exists; no layout design yet.
+-Analyzing (what I believe to be) the original controller reveals that they used an International Rectifier F7309. I also found that a more recent remake (https://github.com/hshutan/45x7-flipdot-controller) uses a very similar part (F7309PbF), so I'm going to consider using that (or a similar) part in place of my relatively high component count, and probably overkill design.
+-Regarding the schematic, I've laid down almost the entire design, except for power circuitry. This is what I'm working on currently.
 
 ######################
 Design details/notes
