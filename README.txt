@@ -10,14 +10,13 @@ Please contact me if you would like to request exemption from the terms of the l
 Project progress
 ######################
 This project is INCOMPLETE and IN-PROGRESS.
--At the moment, only the schematic exists; no layout design yet.
--Replace the double pole double throw switch with a silicon solution.
--Regarding the schematic, I've laid down almost the entire design, except for power circuitry. This is what I'm working on currently.
+At the moment, only the schematic exists; no layout design yet.
+The schematic is very near completion, and I'm currently working on finishing touches, and reviewing the design.
 
 ######################
 Design details/notes
 ######################
-This project is being designed with the open-source KiCAD toolchain.
+This project is being designed with the open-source KiCAD toolchain. I'm tending toward openness with this project, but my design does use an FT2232D, and my license isn't truly FOSS compliant. More FOSS friendly versions may come up in the future.
 My flipdot display driver is intended for use with a Luminator MAX 3000 flipdot display.
 My board will mount onto the back of the flipdot display, and connect to it via a board-to-board connector (samtec part SSQ-132-01-G-Q at the moment).
 Each dot on the Luminator MAX 3000 is matrixed in such a way that lends itself to be driven by what is essentially an H-bridge. (diodes in the display circuitry complicate things a tad, which is why it's not exactly an H-bridge driver, but pretty close)
@@ -29,7 +28,7 @@ If one wishes to extend their display with yet another (actually, an arbitrary n
 The brain of the operation is the FE-310, a VERY new RISC-V based microcontroller IC released by SiFive.
 Along with the uC are the typical auxilary chips: memory and serial to UART/JTAG to program the uC.
 The Luminator MAX 3000 also has 1 LED per dot. They are all connected to the same power pins, so they're either all on, or all off.
-I intend to control the brightness not with PWM (I hate the blinking), but rather by analog means, controlling the current through them. I have a couple ideas for this but haven't settled on one yet.
-Lastly, I still have to add the power circuitry. I intend for the board to be supplied with 12V. From there, several buck converters will provide the voltages for the shift registers, memory, uC, etc.
-There will also be a voltage negater, to provide a potential of 24V for the LEDs (yes, that's the nominal voltage for the LED circuit).
-I'm currently working and taking classes full time, so progress on this relatively large hobby project has been slow, but I'll have a physical board eventually! (Aiming for 3 months from now (Dec-10-2017))
+I intend to control the brightness with PWM.
+Under normal use, the board will be supplied with 12V from a power brick. From there, several buck converters will provide the voltages for the shift registers, memory, uC, etc.
+There will also be a voltage negater, to provide a potential of 24V for the LEDs.
+I'm currently working full time, so progress on this relatively large hobby project has been slow, but I'll have a physical board eventually! (Aiming for 3 months from now (5/21/2018))
