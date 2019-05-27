@@ -6,16 +6,34 @@ K capacitor smd 4700pf 4700 pf
 F datasheets/885012206087.pdf
 $ENDCMP
 #
+$CMP C0603C470J1GACTU
+D CAP CER 47PF 100V C0G/NP0 0603
+K capacitor smd
+F datasheets/‎C0603C470J1GACTU‎.pdf
+$ENDCMP
+#
 $CMP CL10B104KO8NNNC
 D CAP CER 0.1UF 16V X7R 0603
-K CAP CER 0.1UF 16V X7R 0603 capacitor smd
+K capacitor smd
 F datasheets/CL10B104KO8NNNC.pdf
 $ENDCMP
 #
 $CMP CL10B105KA8NNNC
 D CAP CER 1UF 25V X7R 0603
-K CAP CER 1UF 25V X7R 0603 capacitor smd
+K capacitor smd
 F datasheets/CL10B105KA8NNNC.pdf
+$ENDCMP
+#
+$CMP CL10B153KB8SFNC
+D CAP CER 15nF 50V X7R 0603
+K capacitor smd
+F datasheets/‎CL10B153KB8SFNC‎.pdf
+$ENDCMP
+#
+$CMP CL10B333KB8SFNC
+D CAP CER 33 nF 50V X7R 0603
+K capacitor smd
+F datasheets/CL10B333KB8SFNC.pdf
 $ENDCMP
 #
 $CMP CL21A226MOCLRNC
@@ -24,15 +42,66 @@ K capacitor smd
 F datasheets/CL21A226MOCLRNC.pdf
 $ENDCMP
 #
+$CMP CL21A475KLCLQNC
+D CAP CER 4.7UF 35V X5R 0805
+K capacitor smd
+F datasheets/‎CL21A475KLCLQNC‎.pdf
+$ENDCMP
+#
+$CMP CM1293A-04SO
+D QUAD TVS DIODE 3.3V 9.9V SC74
+K esd
+F datasheet/CM1293A-04SO-D.PDF
+$ENDCMP
+#
+$CMP CRG0603F4K7
+D RES SMD 4.7K OHM 5% 1/10W 0603
+K r resistor 4700
+F datasheets/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
 $CMP EEE-1VA220SP
 D CAP ALUMINUM ELECTROLYTIC 22 uF 35V
 K capacitor
 F datasheets/EEE-1VA220SP.pdf
 $ENDCMP
 #
+$CMP ESK476M035AC3AA
+D CAP ALUM 47uF 20% 35V RADIAL
+$ENDCMP
+#
 $CMP NP_C_0603
 D NP CAP 0603
 K NP CAP 0603 capacitor
+$ENDCMP
+#
+$CMP NP_R_0603
+D NP 0603 RESISTOR
+K r np no non populate populated dnp
+$ENDCMP
+#
+$CMP RC0603FR-0747KL
+D RES SMD 47K OHM 1% 1/10W 0603
+K r resistor 47000
+F datasheets/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP RC0603JR-070RL
+D RES SMD 0 OHM JUMPER 1/10W 0603
+K r resistor 0 jumper
+F datasheets/PYu-RC_Group_51_RoHS_L_9.pdf
+$ENDCMP
+#
+$CMP RMCF0603FT470R
+D RES 470 OHM 1% 1/10W 0603
+K r resistor
+F datasheets/SEI-RMCF_RMCP.pdf
+$ENDCMP
+#
+$CMP SSM3K35AMFV
+D N-Channel signal MOSFET
+K nmos transistor
+F datasheets/SSM3K35AMFV.pdf
 $ENDCMP
 #
 $CMP TMK042CG120JD-W‎
@@ -41,29 +110,10 @@ K capacitor smd
 F datasheets/TMK042CG120JD-W‎.pdf
 $ENDCMP
 #
-$CMP ‎C0603C470J1GACTU‎
-D CAP CER 47PF 100V C0G/NP0 0603
-K capacitor smd 47 pf
-F datasheets/‎C0603C470J1GACTU‎.pdf
-$ENDCMP
-#
-$CMP ‎CL10B153KB8SFNC‎
-D CAP CER 15nF 50V X7R 0603
-K capacitor smd
-F datasheets/‎CL10B153KB8SFNC‎.pdf
-$ENDCMP
-#
-$CMP ‎CL21A475KLCLQNC‎
-D CAP CER 4.7UF 35V X5R 0805
-K capacitor smd
-F datasheets/‎CL21A475KLCLQNC‎.pdf
-$ENDCMP
-#
-$CMP ‎ESK476M035AC3AA‎
-D CAP ALUM 47uF 20% 35V RADIAL 
-
-K capacitor aluminum electrolytic
-F datasheets/KEM_A4004_ESK.pdf
+$CMP TestPoint
+D test point
+K test point tp
+F ~
 $ENDCMP
 #
 #End Doc Library

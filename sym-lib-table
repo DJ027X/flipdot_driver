@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name custom)(type Legacy)(uri ${KIPRJMOD}/custom.lib)(options "")(descr ""))
+  (lib (name flipdot_driver-rescue)(type Legacy)(uri ${KIPRJMOD}/flipdot_driver-rescue.lib)(options "")(descr ""))
 )
