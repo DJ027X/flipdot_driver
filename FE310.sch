@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 19
+Sheet 2 20
 Title ""
 Date ""
 Rev ""
@@ -330,8 +330,6 @@ Wire Wire Line
 Wire Wire Line
 	7125 3225 7875 3225
 Connection ~ 7875 3225
-Wire Wire Line
-	9925 3225 10150 3225
 Wire Wire Line
 	8025 4125 7125 4125
 Wire Wire Line
@@ -659,8 +657,6 @@ F 4 "4.7k" V 6045 5515 39  0000 L BNN "Resistance"
 $EndComp
 Text GLabel 10150 2825 2    50   Input ~ 0
 IVDD_FE310
-Text GLabel 10150 3225 2    50   Input ~ 0
-OTP_AIVDD_FE310
 Text GLabel 10150 3625 2    50   Output ~ 0
 !ROW_RESET
 Text GLabel 10150 3725 2    50   Output ~ 0
@@ -1480,6 +1476,43 @@ F 1 "+1V8" H 3200 1390 50  0000 C CNN
 F 2 "" H 3200 1250 50  0001 C CNN
 F 3 "" H 3200 1250 50  0001 C CNN
 	1    3200 1250
+	1    0    0    -1  
+$EndComp
+Text Label 10825 3225 2    60   ~ 0
+OTP_AIVDD_FE310
+Wire Wire Line
+	9925 3225 10825 3225
+Wire Wire Line
+	6825 2300 6825 2375
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D072151
+P 6825 2300
+AR Path="/5D072151" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/5D072151" Ref="TP?"  Part="1" 
+AR Path="/64D8274A/5D072151" Ref="TP?"  Part="1" 
+F 0 "TP?" H 6775 2525 50  0000 C CNN
+F 1 "TestPoint" H 6575 2350 50  0001 C CNN
+F 2 "" H 7025 2300 50  0001 C CNN
+F 3 "~" H 7025 2300 50  0001 C CNN
+	1    6825 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 6825 2375
+Wire Wire Line
+	5950 3850 5950 3925
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5D0847E2
+P 5950 3850
+AR Path="/5D0847E2" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/5D0847E2" Ref="TP?"  Part="1" 
+AR Path="/64D8274A/5D0847E2" Ref="TP?"  Part="1" 
+F 0 "TP?" H 5900 4075 50  0000 C CNN
+F 1 "TestPoint" H 5700 3900 50  0001 C CNN
+F 2 "" H 6150 3850 50  0001 C CNN
+F 3 "~" H 6150 3850 50  0001 C CNN
+	1    5950 3850
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
