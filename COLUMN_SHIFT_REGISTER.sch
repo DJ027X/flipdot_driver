@@ -1,0 +1,1472 @@
+EESchema Schematic File Version 4
+LIBS:flipdot_driver-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 9 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:GND #PWR?
+U 1 1 62606056
+P 1550 2650
+AR Path="/62606056" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606056" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606056" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 2400 50  0001 C CNN
+F 1 "GND" H 1550 2500 50  0000 C CNN
+F 2 "" H 1550 2650 50  0001 C CNN
+F 3 "" H 1550 2650 50  0001 C CNN
+	1    1550 2650
+	1    0    0    -1  
+$EndComp
+Text Label 1000 2000 0    60   ~ 0
+!COL_RESET
+Text Label 1000 2100 0    60   ~ 0
+!ENABLE
+$Comp
+L power:GND #PWR?
+U 1 1 6260605E
+P 1550 5050
+AR Path="/6260605E" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/6260605E" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/6260605E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 4800 50  0001 C CNN
+F 1 "GND" H 1550 4900 50  0000 C CNN
+F 2 "" H 1550 5050 50  0001 C CNN
+F 3 "" H 1550 5050 50  0001 C CNN
+	1    1550 5050
+	1    0    0    -1  
+$EndComp
+Text Label 1000 1900 0    60   ~ 0
+COL_IN
+$Comp
+L power:GND #PWR?
+U 1 1 62606065
+P 1550 7450
+AR Path="/62606065" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606065" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606065" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 7200 50  0001 C CNN
+F 1 "GND" H 1550 7300 50  0000 C CNN
+F 2 "" H 1550 7450 50  0001 C CNN
+F 3 "" H 1550 7450 50  0001 C CNN
+	1    1550 7450
+	1    0    0    -1  
+$EndComp
+Text Label 1000 4500 0    60   ~ 0
+!ENABLE
+Text Label 1000 6900 0    60   ~ 0
+!ENABLE
+Text Label 3050 1800 2    60   ~ 0
+COL00_ON
+Text Label 3050 2000 2    60   ~ 0
+COL01_ON
+Text Label 3050 2200 2    60   ~ 0
+COL02_ON
+Text Label 3050 2400 2    60   ~ 0
+COL03_ON
+Text Label 3050 4200 2    60   ~ 0
+COL04_ON
+Text Label 3050 4400 2    60   ~ 0
+COL05_ON
+Text Label 3050 4600 2    60   ~ 0
+COL06_ON
+Text Label 3050 4800 2    60   ~ 0
+COL07_ON
+Text Label 3050 6600 2    60   ~ 0
+COL08_ON
+Text Label 3050 6800 2    60   ~ 0
+COL09_ON
+Text Label 3050 7000 2    60   ~ 0
+COL10_ON
+Text Label 3050 7200 2    60   ~ 0
+COL11_ON
+Text Label 3050 1900 2    60   ~ 0
+COL00_OFF
+Text Label 3050 2100 2    60   ~ 0
+COL01_OFF
+Text Label 3050 2300 2    60   ~ 0
+COL02_OFF
+Text Label 3050 2500 2    60   ~ 0
+COL03_OFF
+Text Label 3050 4300 2    60   ~ 0
+COL04_OFF
+Text Label 3050 4500 2    60   ~ 0
+COL05_OFF
+Text Label 3050 4700 2    60   ~ 0
+COL06_OFF
+Text Label 3050 4900 2    60   ~ 0
+COL07_OFF
+Text Label 3050 6700 2    60   ~ 0
+COL08_OFF
+Text Label 3050 6900 2    60   ~ 0
+COL09_OFF
+Text Label 3050 7100 2    60   ~ 0
+COL10_OFF
+Text Label 3050 7300 2    60   ~ 0
+COL11_OFF
+Text Label 1000 4400 0    60   ~ 0
+!COL_RESET
+Text Label 1000 6800 0    60   ~ 0
+!COL_RESET
+Text Label 1000 2300 0    60   ~ 0
+COL_SHCP
+Text Label 1000 2200 0    60   ~ 0
+!COL_SHCP
+Text Label 1000 4700 0    60   ~ 0
+COL_SHCP
+Text Label 1000 4600 0    60   ~ 0
+!COL_SHCP
+Text Label 1000 7100 0    60   ~ 0
+COL_SHCP
+Text Label 1000 7000 0    60   ~ 0
+!COL_SHCP
+Wire Wire Line
+	1550 1650 1550 1800
+Wire Wire Line
+	1550 2500 1550 2650
+Wire Wire Line
+	1550 1800 1600 1800
+Wire Wire Line
+	1600 2500 1550 2500
+Wire Wire Line
+	1600 2000 1000 2000
+Wire Wire Line
+	1600 2100 1000 2100
+Wire Wire Line
+	1600 2200 1000 2200
+Wire Wire Line
+	1600 2300 1000 2300
+Wire Wire Line
+	1550 4050 1550 4200
+Wire Wire Line
+	1550 4900 1550 5050
+Wire Wire Line
+	1550 4200 1600 4200
+Wire Wire Line
+	1600 4900 1550 4900
+Wire Wire Line
+	1600 2400 1400 2400
+Wire Wire Line
+	1400 2400 1400 4300
+Wire Wire Line
+	1400 4300 1600 4300
+Wire Wire Line
+	1600 1900 1000 1900
+Wire Wire Line
+	1550 6450 1550 6600
+Wire Wire Line
+	1550 7300 1550 7450
+Wire Wire Line
+	1550 6600 1600 6600
+Wire Wire Line
+	1600 7300 1550 7300
+Wire Wire Line
+	1600 6700 1400 6700
+Wire Wire Line
+	1400 6700 1400 4800
+Wire Wire Line
+	1400 4800 1600 4800
+Wire Wire Line
+	1600 4400 1000 4400
+Wire Wire Line
+	1600 4500 1000 4500
+Wire Wire Line
+	1600 4600 1000 4600
+Wire Wire Line
+	1600 4700 1000 4700
+Wire Wire Line
+	1600 6800 1000 6800
+Wire Wire Line
+	1600 6900 1000 6900
+Wire Wire Line
+	1600 7000 1000 7000
+Wire Wire Line
+	1600 7100 1000 7100
+Wire Wire Line
+	2500 1800 3050 1800
+Wire Wire Line
+	2500 2000 3050 2000
+Wire Wire Line
+	2500 2200 3050 2200
+Wire Wire Line
+	3050 2400 2500 2400
+Wire Wire Line
+	2500 4200 3050 4200
+Wire Wire Line
+	3050 4400 2500 4400
+Wire Wire Line
+	3050 4600 2500 4600
+Wire Wire Line
+	3050 4800 2500 4800
+Wire Wire Line
+	3050 6600 2500 6600
+Wire Wire Line
+	3050 6800 2500 6800
+Wire Wire Line
+	3050 7000 2500 7000
+Wire Wire Line
+	3050 7200 2500 7200
+Wire Wire Line
+	2500 1900 3050 1900
+Wire Wire Line
+	2500 2100 3050 2100
+Wire Wire Line
+	2500 2300 3050 2300
+Wire Wire Line
+	3050 2500 2500 2500
+Wire Wire Line
+	2500 4300 3050 4300
+Wire Wire Line
+	3050 4500 2500 4500
+Wire Wire Line
+	3050 4700 2500 4700
+Wire Wire Line
+	3050 4900 2500 4900
+Wire Wire Line
+	3050 6700 2500 6700
+Wire Wire Line
+	3050 6900 2500 6900
+Wire Wire Line
+	3050 7100 2500 7100
+Wire Wire Line
+	3050 7300 2500 7300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 626060C5
+P 1550 4050
+AR Path="/626060C5" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626060C5" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626060C5" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 3900 50  0001 C CNN
+F 1 "+3V3" H 1550 4190 50  0000 C CNN
+F 2 "" H 1550 4050 50  0001 C CNN
+F 3 "" H 1550 4050 50  0001 C CNN
+	1    1550 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 626060CB
+P 1550 6450
+AR Path="/626060CB" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626060CB" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626060CB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 6300 50  0001 C CNN
+F 1 "+3V3" H 1550 6590 50  0000 C CNN
+F 2 "" H 1550 6450 50  0001 C CNN
+F 3 "" H 1550 6450 50  0001 C CNN
+	1    1550 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 626060D1
+P 1550 1650
+AR Path="/626060D1" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626060D1" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626060D1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1550 1500 50  0001 C CNN
+F 1 "+3V3" H 1550 1790 50  0000 C CNN
+F 2 "" H 1550 1650 50  0001 C CNN
+F 3 "" H 1550 1650 50  0001 C CNN
+	1    1550 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 626060D7
+P 1600 800
+AR Path="/626060D7" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626060D7" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626060D7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 650 50  0001 C CNN
+F 1 "+3V3" H 1600 940 50  0000 C CNN
+F 2 "" H 1600 800 50  0001 C CNN
+F 3 "" H 1600 800 50  0001 C CNN
+	1    1600 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B105KA8NNNC C?
+U 1 1 626060DF
+P 2050 1100
+AR Path="/626060DF" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/626060DF" Ref="C?"  Part="1" 
+AR Path="/625CA44F/626060DF" Ref="C?"  Part="1" 
+F 0 "C?" H 2165 1191 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 1100 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 550 50  0001 L BNN
+F 3 "datasheets/CL10B105KA8NNNC.pdf" H 1100 450 50  0001 L BNN
+F 4 "1uF" H 2165 1100 50  0000 L CNN "Capacitance"
+F 5 "25V" H 2165 1009 50  0000 L CNN "Rating"
+	1    2050 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B104KO8NNNC C?
+U 1 1 626060E7
+P 1600 1100
+AR Path="/626060E7" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/626060E7" Ref="C?"  Part="1" 
+AR Path="/625CA44F/626060E7" Ref="C?"  Part="1" 
+F 0 "C?" H 1715 1191 50  0000 L CNN
+F 1 "CL10B104KO8NNNC" H 650 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 650 550 50  0001 L BNN
+F 3 "datasheets/CL10B104KO8NNNC.pdf" H 650 450 50  0001 L BNN
+F 4 "0.1uF" H 1715 1100 50  0000 L CNN "Capacitance"
+F 5 "16V" H 1715 1009 50  0000 L CNN "Rating"
+	1    1600 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 626060EE
+P 2500 1100
+AR Path="/626060EE" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/626060EE" Ref="C?"  Part="1" 
+AR Path="/625CA44F/626060EE" Ref="C?"  Part="1" 
+F 0 "C?" H 2615 1146 50  0000 L CNN
+F 1 "NP_C_0603" H 1550 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1550 550 50  0001 L BNN
+F 3 "" H 1550 450 50  0001 L BNN
+F 4 "NP" H 2615 1055 50  0000 L CNN "NP"
+	1    2500 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 1250 2050 1300
+Wire Wire Line
+	2050 1300 2500 1300
+Wire Wire Line
+	2500 1300 2500 1250
+Connection ~ 2050 1300
+Wire Wire Line
+	2500 1300 2500 1350
+Wire Wire Line
+	2050 1300 1600 1300
+Wire Wire Line
+	1600 1300 1600 1250
+Wire Wire Line
+	1600 950  1600 900 
+Wire Wire Line
+	1600 900  2050 900 
+Wire Wire Line
+	1600 800  1600 900 
+Wire Wire Line
+	2050 950  2050 900 
+Connection ~ 2050 900 
+Wire Wire Line
+	2500 950  2500 900 
+Wire Wire Line
+	2500 900  2050 900 
+$Comp
+L custom:74HC595 U?
+U 1 1 62606102
+P 2050 2150
+AR Path="/62606102" Ref="U?"  Part="1" 
+AR Path="/621F0CB4/62606102" Ref="U?"  Part="1" 
+AR Path="/625CA44F/62606102" Ref="U?"  Part="1" 
+F 0 "U?" H 2000 2600 60  0000 C CNN
+F 1 "74HC595" H 2050 1650 60  0000 C CNN
+F 2 "" H 1750 2200 60  0001 C CNN
+F 3 "" H 1750 2200 60  0001 C CNN
+	1    2050 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62606108
+P 2500 1350
+AR Path="/62606108" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606108" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606108" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 1100 50  0001 C CNN
+F 1 "GND" H 2500 1200 50  0000 C CNN
+F 2 "" H 2500 1350 50  0001 C CNN
+F 3 "" H 2500 1350 50  0001 C CNN
+	1    2500 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6260610E
+P 1600 3200
+AR Path="/6260610E" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/6260610E" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/6260610E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 3050 50  0001 C CNN
+F 1 "+3V3" H 1600 3340 50  0000 C CNN
+F 2 "" H 1600 3200 50  0001 C CNN
+F 3 "" H 1600 3200 50  0001 C CNN
+	1    1600 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B105KA8NNNC C?
+U 1 1 62606116
+P 2050 3500
+AR Path="/62606116" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/62606116" Ref="C?"  Part="1" 
+AR Path="/625CA44F/62606116" Ref="C?"  Part="1" 
+F 0 "C?" H 2165 3591 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 1100 3050 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 2950 50  0001 L BNN
+F 3 "datasheets/CL10B105KA8NNNC.pdf" H 1100 2850 50  0001 L BNN
+F 4 "1uF" H 2165 3500 50  0000 L CNN "Capacitance"
+F 5 "25V" H 2165 3409 50  0000 L CNN "Rating"
+	1    2050 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B104KO8NNNC C?
+U 1 1 6260611E
+P 1600 3500
+AR Path="/6260611E" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/6260611E" Ref="C?"  Part="1" 
+AR Path="/625CA44F/6260611E" Ref="C?"  Part="1" 
+F 0 "C?" H 1715 3591 50  0000 L CNN
+F 1 "CL10B104KO8NNNC" H 650 3050 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 650 2950 50  0001 L BNN
+F 3 "datasheets/CL10B104KO8NNNC.pdf" H 650 2850 50  0001 L BNN
+F 4 "0.1uF" H 1715 3500 50  0000 L CNN "Capacitance"
+F 5 "16V" H 1715 3409 50  0000 L CNN "Rating"
+	1    1600 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 62606125
+P 2500 3500
+AR Path="/62606125" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/62606125" Ref="C?"  Part="1" 
+AR Path="/625CA44F/62606125" Ref="C?"  Part="1" 
+F 0 "C?" H 2615 3546 50  0000 L CNN
+F 1 "NP_C_0603" H 1550 3050 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1550 2950 50  0001 L BNN
+F 3 "" H 1550 2850 50  0001 L BNN
+F 4 "NP" H 2615 3455 50  0000 L CNN "NP"
+	1    2500 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 3650 2050 3700
+Wire Wire Line
+	2050 3700 2500 3700
+Wire Wire Line
+	2500 3700 2500 3650
+Connection ~ 2050 3700
+Wire Wire Line
+	2500 3700 2500 3750
+Wire Wire Line
+	2050 3700 1600 3700
+Wire Wire Line
+	1600 3700 1600 3650
+Wire Wire Line
+	1600 3350 1600 3300
+Wire Wire Line
+	1600 3300 2050 3300
+Wire Wire Line
+	1600 3200 1600 3300
+Wire Wire Line
+	2050 3350 2050 3300
+Connection ~ 2050 3300
+Wire Wire Line
+	2500 3350 2500 3300
+Wire Wire Line
+	2500 3300 2050 3300
+$Comp
+L custom:74HC595 U?
+U 1 1 62606139
+P 2050 4550
+AR Path="/62606139" Ref="U?"  Part="1" 
+AR Path="/621F0CB4/62606139" Ref="U?"  Part="1" 
+AR Path="/625CA44F/62606139" Ref="U?"  Part="1" 
+F 0 "U?" H 2000 5000 60  0000 C CNN
+F 1 "74HC595" H 2050 4050 60  0000 C CNN
+F 2 "" H 1750 4600 60  0001 C CNN
+F 3 "" H 1750 4600 60  0001 C CNN
+	1    2050 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6260613F
+P 2500 3750
+AR Path="/6260613F" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/6260613F" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/6260613F" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 3500 50  0001 C CNN
+F 1 "GND" H 2500 3600 50  0000 C CNN
+F 2 "" H 2500 3750 50  0001 C CNN
+F 3 "" H 2500 3750 50  0001 C CNN
+	1    2500 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62606145
+P 1600 5600
+AR Path="/62606145" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606145" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606145" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1600 5450 50  0001 C CNN
+F 1 "+3V3" H 1600 5740 50  0000 C CNN
+F 2 "" H 1600 5600 50  0001 C CNN
+F 3 "" H 1600 5600 50  0001 C CNN
+	1    1600 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B105KA8NNNC C?
+U 1 1 6260614D
+P 2050 5900
+AR Path="/6260614D" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/6260614D" Ref="C?"  Part="1" 
+AR Path="/625CA44F/6260614D" Ref="C?"  Part="1" 
+F 0 "C?" H 2165 5991 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 1100 5450 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1100 5350 50  0001 L BNN
+F 3 "datasheets/CL10B105KA8NNNC.pdf" H 1100 5250 50  0001 L BNN
+F 4 "1uF" H 2165 5900 50  0000 L CNN "Capacitance"
+F 5 "25V" H 2165 5809 50  0000 L CNN "Rating"
+	1    2050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B104KO8NNNC C?
+U 1 1 62606155
+P 1600 5900
+AR Path="/62606155" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/62606155" Ref="C?"  Part="1" 
+AR Path="/625CA44F/62606155" Ref="C?"  Part="1" 
+F 0 "C?" H 1715 5991 50  0000 L CNN
+F 1 "CL10B104KO8NNNC" H 650 5450 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 650 5350 50  0001 L BNN
+F 3 "datasheets/CL10B104KO8NNNC.pdf" H 650 5250 50  0001 L BNN
+F 4 "0.1uF" H 1715 5900 50  0000 L CNN "Capacitance"
+F 5 "16V" H 1715 5809 50  0000 L CNN "Rating"
+	1    1600 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 6260615C
+P 2500 5900
+AR Path="/6260615C" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/6260615C" Ref="C?"  Part="1" 
+AR Path="/625CA44F/6260615C" Ref="C?"  Part="1" 
+F 0 "C?" H 2615 5946 50  0000 L CNN
+F 1 "NP_C_0603" H 1550 5450 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1550 5350 50  0001 L BNN
+F 3 "" H 1550 5250 50  0001 L BNN
+F 4 "NP" H 2615 5855 50  0000 L CNN "NP"
+	1    2500 5900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 6050 2050 6100
+Wire Wire Line
+	2050 6100 2500 6100
+Wire Wire Line
+	2500 6100 2500 6050
+Connection ~ 2050 6100
+Wire Wire Line
+	2500 6100 2500 6150
+Wire Wire Line
+	2050 6100 1600 6100
+Wire Wire Line
+	1600 6100 1600 6050
+Wire Wire Line
+	1600 5750 1600 5700
+Wire Wire Line
+	1600 5700 2050 5700
+Wire Wire Line
+	1600 5600 1600 5700
+Wire Wire Line
+	2050 5750 2050 5700
+Connection ~ 2050 5700
+Wire Wire Line
+	2500 5750 2500 5700
+Wire Wire Line
+	2500 5700 2050 5700
+$Comp
+L custom:74HC595 U?
+U 1 1 62606170
+P 2050 6950
+AR Path="/62606170" Ref="U?"  Part="1" 
+AR Path="/621F0CB4/62606170" Ref="U?"  Part="1" 
+AR Path="/625CA44F/62606170" Ref="U?"  Part="1" 
+F 0 "U?" H 2000 7400 60  0000 C CNN
+F 1 "74HC595" H 2050 6450 60  0000 C CNN
+F 2 "" H 1750 7000 60  0001 C CNN
+F 3 "" H 1750 7000 60  0001 C CNN
+	1    2050 6950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62606176
+P 2500 6150
+AR Path="/62606176" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606176" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606176" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2500 5900 50  0001 C CNN
+F 1 "GND" H 2500 6000 50  0000 C CNN
+F 2 "" H 2500 6150 50  0001 C CNN
+F 3 "" H 2500 6150 50  0001 C CNN
+	1    2500 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 6260617C
+P 8175 1350
+AR Path="/6260617C" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/6260617C" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/6260617C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 8175 1100 50  0001 C CNN
+F 1 "GND" H 8175 1200 50  0000 C CNN
+F 2 "" H 8175 1350 50  0001 C CNN
+F 3 "" H 8175 1350 50  0001 C CNN
+	1    8175 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:74HC595 U?
+U 1 1 62606182
+P 7725 2150
+AR Path="/62606182" Ref="U?"  Part="1" 
+AR Path="/621F0CB4/62606182" Ref="U?"  Part="1" 
+AR Path="/625CA44F/62606182" Ref="U?"  Part="1" 
+F 0 "U?" H 7675 2600 60  0000 C CNN
+F 1 "74HC595" H 7725 1650 60  0000 C CNN
+F 2 "" H 7425 2200 60  0001 C CNN
+F 3 "" H 7425 2200 60  0001 C CNN
+	1    7725 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8175 900  7725 900 
+Wire Wire Line
+	8175 950  8175 900 
+Connection ~ 7725 900 
+Wire Wire Line
+	7725 950  7725 900 
+Wire Wire Line
+	7275 800  7275 900 
+Wire Wire Line
+	7275 900  7725 900 
+Wire Wire Line
+	7275 950  7275 900 
+Wire Wire Line
+	7275 1300 7275 1250
+Wire Wire Line
+	7725 1300 7275 1300
+Wire Wire Line
+	8175 1300 8175 1350
+Connection ~ 7725 1300
+Wire Wire Line
+	8175 1300 8175 1250
+Wire Wire Line
+	7725 1300 8175 1300
+Wire Wire Line
+	7725 1250 7725 1300
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 62606197
+P 8175 1100
+AR Path="/62606197" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/62606197" Ref="C?"  Part="1" 
+AR Path="/625CA44F/62606197" Ref="C?"  Part="1" 
+F 0 "C?" H 8290 1146 50  0000 L CNN
+F 1 "NP_C_0603" H 7225 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7225 550 50  0001 L BNN
+F 3 "" H 7225 450 50  0001 L BNN
+F 4 "NP" H 8290 1055 50  0000 L CNN "NP"
+	1    8175 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B104KO8NNNC C?
+U 1 1 6260619F
+P 7275 1100
+AR Path="/6260619F" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/6260619F" Ref="C?"  Part="1" 
+AR Path="/625CA44F/6260619F" Ref="C?"  Part="1" 
+F 0 "C?" H 7390 1191 50  0000 L CNN
+F 1 "CL10B104KO8NNNC" H 6325 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6325 550 50  0001 L BNN
+F 3 "datasheets/CL10B104KO8NNNC.pdf" H 6325 450 50  0001 L BNN
+F 4 "0.1uF" H 7390 1100 50  0000 L CNN "Capacitance"
+F 5 "16V" H 7390 1009 50  0000 L CNN "Rating"
+	1    7275 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B105KA8NNNC C?
+U 1 1 626061A7
+P 7725 1100
+AR Path="/626061A7" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/626061A7" Ref="C?"  Part="1" 
+AR Path="/625CA44F/626061A7" Ref="C?"  Part="1" 
+F 0 "C?" H 7840 1191 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 6775 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6775 550 50  0001 L BNN
+F 3 "datasheets/CL10B105KA8NNNC.pdf" H 6775 450 50  0001 L BNN
+F 4 "1uF" H 7840 1100 50  0000 L CNN "Capacitance"
+F 5 "25V" H 7840 1009 50  0000 L CNN "Rating"
+	1    7725 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 626061AD
+P 7275 800
+AR Path="/626061AD" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626061AD" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626061AD" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7275 650 50  0001 C CNN
+F 1 "+3V3" H 7275 940 50  0000 C CNN
+F 2 "" H 7275 800 50  0001 C CNN
+F 3 "" H 7275 800 50  0001 C CNN
+	1    7275 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 626061B3
+P 5325 6150
+AR Path="/626061B3" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626061B3" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626061B3" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5325 5900 50  0001 C CNN
+F 1 "GND" H 5325 6000 50  0000 C CNN
+F 2 "" H 5325 6150 50  0001 C CNN
+F 3 "" H 5325 6150 50  0001 C CNN
+	1    5325 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:74HC595 U?
+U 1 1 626061B9
+P 4875 6950
+AR Path="/626061B9" Ref="U?"  Part="1" 
+AR Path="/621F0CB4/626061B9" Ref="U?"  Part="1" 
+AR Path="/625CA44F/626061B9" Ref="U?"  Part="1" 
+F 0 "U?" H 4825 7400 60  0000 C CNN
+F 1 "74HC595" H 4875 6450 60  0000 C CNN
+F 2 "" H 4575 7000 60  0001 C CNN
+F 3 "" H 4575 7000 60  0001 C CNN
+	1    4875 6950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 5700 4875 5700
+Wire Wire Line
+	5325 5750 5325 5700
+Connection ~ 4875 5700
+Wire Wire Line
+	4875 5750 4875 5700
+Wire Wire Line
+	4425 5600 4425 5700
+Wire Wire Line
+	4425 5700 4875 5700
+Wire Wire Line
+	4425 5750 4425 5700
+Wire Wire Line
+	4425 6100 4425 6050
+Wire Wire Line
+	4875 6100 4425 6100
+Wire Wire Line
+	5325 6100 5325 6150
+Connection ~ 4875 6100
+Wire Wire Line
+	5325 6100 5325 6050
+Wire Wire Line
+	4875 6100 5325 6100
+Wire Wire Line
+	4875 6050 4875 6100
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 626061CE
+P 5325 5900
+AR Path="/626061CE" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/626061CE" Ref="C?"  Part="1" 
+AR Path="/625CA44F/626061CE" Ref="C?"  Part="1" 
+F 0 "C?" H 5440 5946 50  0000 L CNN
+F 1 "NP_C_0603" H 4375 5450 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4375 5350 50  0001 L BNN
+F 3 "" H 4375 5250 50  0001 L BNN
+F 4 "NP" H 5440 5855 50  0000 L CNN "NP"
+	1    5325 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B104KO8NNNC C?
+U 1 1 626061D6
+P 4425 5900
+AR Path="/626061D6" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/626061D6" Ref="C?"  Part="1" 
+AR Path="/625CA44F/626061D6" Ref="C?"  Part="1" 
+F 0 "C?" H 4540 5991 50  0000 L CNN
+F 1 "CL10B104KO8NNNC" H 3475 5450 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3475 5350 50  0001 L BNN
+F 3 "datasheets/CL10B104KO8NNNC.pdf" H 3475 5250 50  0001 L BNN
+F 4 "0.1uF" H 4540 5900 50  0000 L CNN "Capacitance"
+F 5 "16V" H 4540 5809 50  0000 L CNN "Rating"
+	1    4425 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B105KA8NNNC C?
+U 1 1 626061DE
+P 4875 5900
+AR Path="/626061DE" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/626061DE" Ref="C?"  Part="1" 
+AR Path="/625CA44F/626061DE" Ref="C?"  Part="1" 
+F 0 "C?" H 4990 5991 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 3925 5450 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3925 5350 50  0001 L BNN
+F 3 "datasheets/CL10B105KA8NNNC.pdf" H 3925 5250 50  0001 L BNN
+F 4 "1uF" H 4990 5900 50  0000 L CNN "Capacitance"
+F 5 "25V" H 4990 5809 50  0000 L CNN "Rating"
+	1    4875 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 626061E4
+P 4425 5600
+AR Path="/626061E4" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626061E4" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626061E4" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4425 5450 50  0001 C CNN
+F 1 "+3V3" H 4425 5740 50  0000 C CNN
+F 2 "" H 4425 5600 50  0001 C CNN
+F 3 "" H 4425 5600 50  0001 C CNN
+	1    4425 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 626061EA
+P 5325 3750
+AR Path="/626061EA" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626061EA" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626061EA" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5325 3500 50  0001 C CNN
+F 1 "GND" H 5325 3600 50  0000 C CNN
+F 2 "" H 5325 3750 50  0001 C CNN
+F 3 "" H 5325 3750 50  0001 C CNN
+	1    5325 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:74HC595 U?
+U 1 1 626061F0
+P 4875 4550
+AR Path="/626061F0" Ref="U?"  Part="1" 
+AR Path="/621F0CB4/626061F0" Ref="U?"  Part="1" 
+AR Path="/625CA44F/626061F0" Ref="U?"  Part="1" 
+F 0 "U?" H 4825 5000 60  0000 C CNN
+F 1 "74HC595" H 4875 4050 60  0000 C CNN
+F 2 "" H 4575 4600 60  0001 C CNN
+F 3 "" H 4575 4600 60  0001 C CNN
+	1    4875 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 3300 4875 3300
+Wire Wire Line
+	5325 3350 5325 3300
+Connection ~ 4875 3300
+Wire Wire Line
+	4875 3350 4875 3300
+Wire Wire Line
+	4425 3200 4425 3300
+Wire Wire Line
+	4425 3300 4875 3300
+Wire Wire Line
+	4425 3350 4425 3300
+Wire Wire Line
+	4425 3700 4425 3650
+Wire Wire Line
+	4875 3700 4425 3700
+Wire Wire Line
+	5325 3700 5325 3750
+Connection ~ 4875 3700
+Wire Wire Line
+	5325 3700 5325 3650
+Wire Wire Line
+	4875 3700 5325 3700
+Wire Wire Line
+	4875 3650 4875 3700
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 62606205
+P 5325 3500
+AR Path="/62606205" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/62606205" Ref="C?"  Part="1" 
+AR Path="/625CA44F/62606205" Ref="C?"  Part="1" 
+F 0 "C?" H 5440 3546 50  0000 L CNN
+F 1 "NP_C_0603" H 4375 3050 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4375 2950 50  0001 L BNN
+F 3 "" H 4375 2850 50  0001 L BNN
+F 4 "NP" H 5440 3455 50  0000 L CNN "NP"
+	1    5325 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B104KO8NNNC C?
+U 1 1 6260620D
+P 4425 3500
+AR Path="/6260620D" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/6260620D" Ref="C?"  Part="1" 
+AR Path="/625CA44F/6260620D" Ref="C?"  Part="1" 
+F 0 "C?" H 4540 3591 50  0000 L CNN
+F 1 "CL10B104KO8NNNC" H 3475 3050 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3475 2950 50  0001 L BNN
+F 3 "datasheets/CL10B104KO8NNNC.pdf" H 3475 2850 50  0001 L BNN
+F 4 "0.1uF" H 4540 3500 50  0000 L CNN "Capacitance"
+F 5 "16V" H 4540 3409 50  0000 L CNN "Rating"
+	1    4425 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B105KA8NNNC C?
+U 1 1 62606215
+P 4875 3500
+AR Path="/62606215" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/62606215" Ref="C?"  Part="1" 
+AR Path="/625CA44F/62606215" Ref="C?"  Part="1" 
+F 0 "C?" H 4990 3591 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 3925 3050 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3925 2950 50  0001 L BNN
+F 3 "datasheets/CL10B105KA8NNNC.pdf" H 3925 2850 50  0001 L BNN
+F 4 "1uF" H 4990 3500 50  0000 L CNN "Capacitance"
+F 5 "25V" H 4990 3409 50  0000 L CNN "Rating"
+	1    4875 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6260621B
+P 4425 3200
+AR Path="/6260621B" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/6260621B" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/6260621B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4425 3050 50  0001 C CNN
+F 1 "+3V3" H 4425 3340 50  0000 C CNN
+F 2 "" H 4425 3200 50  0001 C CNN
+F 3 "" H 4425 3200 50  0001 C CNN
+	1    4425 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 62606221
+P 5325 1350
+AR Path="/62606221" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606221" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606221" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5325 1100 50  0001 C CNN
+F 1 "GND" H 5325 1200 50  0000 C CNN
+F 2 "" H 5325 1350 50  0001 C CNN
+F 3 "" H 5325 1350 50  0001 C CNN
+	1    5325 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:74HC595 U?
+U 1 1 62606227
+P 4875 2150
+AR Path="/62606227" Ref="U?"  Part="1" 
+AR Path="/621F0CB4/62606227" Ref="U?"  Part="1" 
+AR Path="/625CA44F/62606227" Ref="U?"  Part="1" 
+F 0 "U?" H 4825 2600 60  0000 C CNN
+F 1 "74HC595" H 4875 1650 60  0000 C CNN
+F 2 "" H 4575 2200 60  0001 C CNN
+F 3 "" H 4575 2200 60  0001 C CNN
+	1    4875 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5325 900  4875 900 
+Wire Wire Line
+	5325 950  5325 900 
+Connection ~ 4875 900 
+Wire Wire Line
+	4875 950  4875 900 
+Wire Wire Line
+	4425 800  4425 900 
+Wire Wire Line
+	4425 900  4875 900 
+Wire Wire Line
+	4425 950  4425 900 
+Wire Wire Line
+	4425 1300 4425 1250
+Wire Wire Line
+	4875 1300 4425 1300
+Wire Wire Line
+	5325 1300 5325 1350
+Connection ~ 4875 1300
+Wire Wire Line
+	5325 1300 5325 1250
+Wire Wire Line
+	4875 1300 5325 1300
+Wire Wire Line
+	4875 1250 4875 1300
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 6260623C
+P 5325 1100
+AR Path="/6260623C" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/6260623C" Ref="C?"  Part="1" 
+AR Path="/625CA44F/6260623C" Ref="C?"  Part="1" 
+F 0 "C?" H 5440 1146 50  0000 L CNN
+F 1 "NP_C_0603" H 4375 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4375 550 50  0001 L BNN
+F 3 "" H 4375 450 50  0001 L BNN
+F 4 "NP" H 5440 1055 50  0000 L CNN "NP"
+	1    5325 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B104KO8NNNC C?
+U 1 1 62606244
+P 4425 1100
+AR Path="/62606244" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/62606244" Ref="C?"  Part="1" 
+AR Path="/625CA44F/62606244" Ref="C?"  Part="1" 
+F 0 "C?" H 4540 1191 50  0000 L CNN
+F 1 "CL10B104KO8NNNC" H 3475 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3475 550 50  0001 L BNN
+F 3 "datasheets/CL10B104KO8NNNC.pdf" H 3475 450 50  0001 L BNN
+F 4 "0.1uF" H 4540 1100 50  0000 L CNN "Capacitance"
+F 5 "16V" H 4540 1009 50  0000 L CNN "Rating"
+	1    4425 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CL10B105KA8NNNC C?
+U 1 1 6260624C
+P 4875 1100
+AR Path="/6260624C" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/6260624C" Ref="C?"  Part="1" 
+AR Path="/625CA44F/6260624C" Ref="C?"  Part="1" 
+F 0 "C?" H 4990 1191 50  0000 L CNN
+F 1 "CL10B105KA8NNNC" H 3925 650 50  0001 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3925 550 50  0001 L BNN
+F 3 "datasheets/CL10B105KA8NNNC.pdf" H 3925 450 50  0001 L BNN
+F 4 "1uF" H 4990 1100 50  0000 L CNN "Capacitance"
+F 5 "25V" H 4990 1009 50  0000 L CNN "Rating"
+	1    4875 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62606252
+P 4425 800
+AR Path="/62606252" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606252" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606252" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4425 650 50  0001 C CNN
+F 1 "+3V3" H 4425 940 50  0000 C CNN
+F 2 "" H 4425 800 50  0001 C CNN
+F 3 "" H 4425 800 50  0001 C CNN
+	1    4425 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62606258
+P 7225 1650
+AR Path="/62606258" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606258" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606258" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7225 1500 50  0001 C CNN
+F 1 "+3V3" H 7225 1790 50  0000 C CNN
+F 2 "" H 7225 1650 50  0001 C CNN
+F 3 "" H 7225 1650 50  0001 C CNN
+	1    7225 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6260625E
+P 4375 6450
+AR Path="/6260625E" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/6260625E" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/6260625E" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4375 6300 50  0001 C CNN
+F 1 "+3V3" H 4375 6590 50  0000 C CNN
+F 2 "" H 4375 6450 50  0001 C CNN
+F 3 "" H 4375 6450 50  0001 C CNN
+	1    4375 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 62606264
+P 4375 4050
+AR Path="/62606264" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/62606264" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/62606264" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4375 3900 50  0001 C CNN
+F 1 "+3V3" H 4375 4190 50  0000 C CNN
+F 2 "" H 4375 4050 50  0001 C CNN
+F 3 "" H 4375 4050 50  0001 C CNN
+	1    4375 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6260626A
+P 4375 1650
+AR Path="/6260626A" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/6260626A" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/6260626A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4375 1500 50  0001 C CNN
+F 1 "+3V3" H 4375 1790 50  0000 C CNN
+F 2 "" H 4375 1650 50  0001 C CNN
+F 3 "" H 4375 1650 50  0001 C CNN
+	1    4375 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7275 2400 6675 2400
+Wire Wire Line
+	8725 2500 8175 2500
+Wire Wire Line
+	8725 2300 8175 2300
+Wire Wire Line
+	8725 2100 8175 2100
+Wire Wire Line
+	8725 1900 8175 1900
+Wire Wire Line
+	5875 7300 5325 7300
+Wire Wire Line
+	5875 7100 5325 7100
+Wire Wire Line
+	5875 6900 5325 6900
+Wire Wire Line
+	5325 6700 5875 6700
+Wire Wire Line
+	5875 4900 5325 4900
+Wire Wire Line
+	5325 4700 5875 4700
+Wire Wire Line
+	5325 4500 5875 4500
+Wire Wire Line
+	5325 4300 5875 4300
+Wire Wire Line
+	5875 2500 5325 2500
+Wire Wire Line
+	5875 2300 5325 2300
+Wire Wire Line
+	5875 2100 5325 2100
+Wire Wire Line
+	5875 1900 5325 1900
+Wire Wire Line
+	8725 2400 8175 2400
+Wire Wire Line
+	8725 2200 8175 2200
+Wire Wire Line
+	8725 2000 8175 2000
+Wire Wire Line
+	8725 1800 8175 1800
+Wire Wire Line
+	5875 7200 5325 7200
+Wire Wire Line
+	5875 7000 5325 7000
+Wire Wire Line
+	5875 6800 5325 6800
+Wire Wire Line
+	5325 6600 5875 6600
+Wire Wire Line
+	5875 4800 5325 4800
+Wire Wire Line
+	5325 4600 5875 4600
+Wire Wire Line
+	5325 4400 5875 4400
+Wire Wire Line
+	5325 4200 5875 4200
+Wire Wire Line
+	5875 2400 5325 2400
+Wire Wire Line
+	5875 2200 5325 2200
+Wire Wire Line
+	5875 2000 5325 2000
+Wire Wire Line
+	5875 1800 5325 1800
+Wire Wire Line
+	7275 2300 6675 2300
+Wire Wire Line
+	7275 2200 6675 2200
+Wire Wire Line
+	7275 2100 6675 2100
+Wire Wire Line
+	7275 2000 6675 2000
+Wire Wire Line
+	4425 7100 3825 7100
+Wire Wire Line
+	4425 7000 3825 7000
+Wire Wire Line
+	4425 6900 3825 6900
+Wire Wire Line
+	4425 6800 3825 6800
+Wire Wire Line
+	4425 4700 3825 4700
+Wire Wire Line
+	4425 4600 3825 4600
+Wire Wire Line
+	4425 4500 3825 4500
+Wire Wire Line
+	4425 4400 3825 4400
+Wire Wire Line
+	4225 2400 4425 2400
+Wire Wire Line
+	4425 2300 3825 2300
+Wire Wire Line
+	4425 2200 3825 2200
+Wire Wire Line
+	4425 2100 3825 2100
+Wire Wire Line
+	4425 2000 3825 2000
+Wire Wire Line
+	4225 4300 4225 2400
+Wire Wire Line
+	4425 4300 4225 4300
+Wire Wire Line
+	7275 2500 7225 2500
+Wire Wire Line
+	7225 1800 7275 1800
+Wire Wire Line
+	7225 2500 7225 2650
+Wire Wire Line
+	7225 1650 7225 1800
+Wire Wire Line
+	4225 6700 4425 6700
+Wire Wire Line
+	4225 4800 4225 6700
+Wire Wire Line
+	4425 4800 4225 4800
+Wire Wire Line
+	4425 7300 4375 7300
+Wire Wire Line
+	4375 6600 4425 6600
+Wire Wire Line
+	4375 7300 4375 7450
+Wire Wire Line
+	4375 6450 4375 6600
+Wire Wire Line
+	4425 4900 4375 4900
+Wire Wire Line
+	4375 4200 4425 4200
+Wire Wire Line
+	4375 4900 4375 5050
+Wire Wire Line
+	4375 4050 4375 4200
+Wire Wire Line
+	4425 2500 4375 2500
+Wire Wire Line
+	4375 1800 4425 1800
+Wire Wire Line
+	4375 2500 4375 2650
+Wire Wire Line
+	4375 1650 4375 1800
+Text Label 3825 7000 0    60   ~ 0
+!COL_SHCP
+Text Label 3825 7100 0    60   ~ 0
+COL_SHCP
+Text Label 3825 4600 0    60   ~ 0
+!COL_SHCP
+Text Label 3825 4700 0    60   ~ 0
+COL_SHCP
+Text Label 3825 2200 0    60   ~ 0
+!COL_SHCP
+Text Label 3825 2300 0    60   ~ 0
+COL_SHCP
+Text Label 6675 2000 0    60   ~ 0
+!COL_RESET
+Text Label 3825 6800 0    60   ~ 0
+!COL_RESET
+Text Label 3825 4400 0    60   ~ 0
+!COL_RESET
+Text Label 3825 2000 0    60   ~ 0
+!COL_RESET
+Text Label 6675 2400 0    60   ~ 0
+COL_OUT
+Text Label 8725 2500 2    60   ~ 0
+COL27_OFF
+Text Label 8725 2300 2    60   ~ 0
+COL26_OFF
+Text Label 8725 2100 2    60   ~ 0
+COL25_OFF
+Text Label 8725 1900 2    60   ~ 0
+COL24_OFF
+Text Label 5875 7300 2    60   ~ 0
+COL23_OFF
+Text Label 5875 7100 2    60   ~ 0
+COL22_OFF
+Text Label 5875 6900 2    60   ~ 0
+COL21_OFF
+Text Label 5875 6700 2    60   ~ 0
+COL20_OFF
+Text Label 5875 4900 2    60   ~ 0
+COL19_OFF
+Text Label 5875 4700 2    60   ~ 0
+COL18_OFF
+Text Label 5875 4500 2    60   ~ 0
+COL17_OFF
+Text Label 5875 4300 2    60   ~ 0
+COL16_OFF
+Text Label 5875 2500 2    60   ~ 0
+COL15_OFF
+Text Label 5875 2300 2    60   ~ 0
+COL14_OFF
+Text Label 5875 2100 2    60   ~ 0
+COL13_OFF
+Text Label 5875 1900 2    60   ~ 0
+COL12_OFF
+Text Label 8725 2400 2    60   ~ 0
+COL27_ON
+Text Label 8725 2200 2    60   ~ 0
+COL26_ON
+Text Label 8725 2000 2    60   ~ 0
+COL25_ON
+Text Label 8725 1800 2    60   ~ 0
+COL24_ON
+Text Label 5875 7200 2    60   ~ 0
+COL23_ON
+Text Label 5875 7000 2    60   ~ 0
+COL22_ON
+Text Label 5875 6800 2    60   ~ 0
+COL21_ON
+Text Label 5875 6600 2    60   ~ 0
+COL20_ON
+Text Label 5875 4800 2    60   ~ 0
+COL19_ON
+Text Label 5875 4600 2    60   ~ 0
+COL18_ON
+Text Label 5875 4400 2    60   ~ 0
+COL17_ON
+Text Label 5875 4200 2    60   ~ 0
+COL16_ON
+Text Label 5875 2400 2    60   ~ 0
+COL15_ON
+Text Label 5875 2200 2    60   ~ 0
+COL14_ON
+Text Label 5875 2000 2    60   ~ 0
+COL13_ON
+Text Label 5875 1800 2    60   ~ 0
+COL12_ON
+Text Label 6675 2100 0    60   ~ 0
+!ENABLE
+Text Label 3825 6900 0    60   ~ 0
+!ENABLE
+Text Label 3825 4500 0    60   ~ 0
+!ENABLE
+Text Label 3825 2100 0    60   ~ 0
+!ENABLE
+$Comp
+L power:GND #PWR?
+U 1 1 626062EB
+P 7225 2650
+AR Path="/626062EB" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626062EB" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626062EB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7225 2400 50  0001 C CNN
+F 1 "GND" H 7225 2500 50  0000 C CNN
+F 2 "" H 7225 2650 50  0001 C CNN
+F 3 "" H 7225 2650 50  0001 C CNN
+	1    7225 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 626062F1
+P 4375 7450
+AR Path="/626062F1" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626062F1" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626062F1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4375 7200 50  0001 C CNN
+F 1 "GND" H 4375 7300 50  0000 C CNN
+F 2 "" H 4375 7450 50  0001 C CNN
+F 3 "" H 4375 7450 50  0001 C CNN
+	1    4375 7450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 626062F7
+P 4375 5050
+AR Path="/626062F7" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626062F7" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626062F7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4375 4800 50  0001 C CNN
+F 1 "GND" H 4375 4900 50  0000 C CNN
+F 2 "" H 4375 5050 50  0001 C CNN
+F 3 "" H 4375 5050 50  0001 C CNN
+	1    4375 5050
+	1    0    0    -1  
+$EndComp
+Text Label 6675 2200 0    60   ~ 0
+!COL_SHCP
+$Comp
+L power:GND #PWR?
+U 1 1 626062FE
+P 4375 2650
+AR Path="/626062FE" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/626062FE" Ref="#PWR?"  Part="1" 
+AR Path="/625CA44F/626062FE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4375 2400 50  0001 C CNN
+F 1 "GND" H 4375 2500 50  0000 C CNN
+F 2 "" H 4375 2650 50  0001 C CNN
+F 3 "" H 4375 2650 50  0001 C CNN
+	1    4375 2650
+	1    0    0    -1  
+$EndComp
+Text Label 6675 2300 0    60   ~ 0
+COL_SHCP
+Text Label 1000 7200 0    50   ~ 0
+COL_SR_CHAIN_0
+Wire Wire Line
+	1000 7200 1600 7200
+Text Label 3825 7200 0    50   ~ 0
+COL_SR_CHAIN_1
+Wire Wire Line
+	3825 7200 4425 7200
+Text Label 3825 1900 0    50   ~ 0
+COL_SR_CHAIN_0
+Wire Wire Line
+	3825 1900 4425 1900
+Text Label 6675 1900 0    50   ~ 0
+COL_SR_CHAIN_1
+Wire Wire Line
+	6675 1900 7275 1900
+Connection ~ 1600 900 
+Connection ~ 2500 1300
+Connection ~ 1600 3300
+Connection ~ 2500 3700
+Connection ~ 1600 5700
+Connection ~ 2500 6100
+Connection ~ 4425 5700
+Connection ~ 5325 6100
+Connection ~ 4425 900 
+Connection ~ 5325 1300
+Connection ~ 4425 3300
+Connection ~ 5325 3700
+Connection ~ 7275 900 
+Connection ~ 8175 1300
+$EndSCHEMATC

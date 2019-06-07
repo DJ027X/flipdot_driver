@@ -1,0 +1,503 @@
+EESchema Schematic File Version 4
+LIBS:flipdot_driver-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	5500 3250 5500 3200
+Wire Wire Line
+	5600 3250 5500 3250
+$Comp
+L power:+3V3 #PWR?
+U 1 1 621E790F
+P 5500 3200
+F 0 "#PWR?" H 5500 3050 50  0001 C CNN
+F 1 "+3V3" H 5500 3340 50  0000 C CNN
+F 2 "" H 5500 3200 50  0001 C CNN
+F 3 "" H 5500 3200 50  0001 C CNN
+	1    5500 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3950 9450 3950
+Wire Wire Line
+	6700 4450 6700 3950
+Wire Wire Line
+	6300 4450 6700 4450
+Wire Wire Line
+	2550 4050 2550 4100
+Wire Wire Line
+	2650 3850 2650 4100
+Wire Wire Line
+	2650 3400 2650 3650
+Wire Wire Line
+	2550 3450 2550 3400
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E791C
+P 2650 3400
+F 0 "TP?" V 2675 3625 50  0000 L BNN
+F 1 "TestPoint" H 2400 3450 50  0001 C CNN
+F 2 "" H 2850 3400 50  0001 C CNN
+F 3 "~" H 2850 3400 50  0001 C CNN
+	1    2650 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E7922
+P 2550 3400
+F 0 "TP?" V 2575 3625 50  0000 L BNN
+F 1 "TestPoint" H 2300 3450 50  0001 C CNN
+F 2 "" H 2750 3400 50  0001 C CNN
+F 3 "~" H 2750 3400 50  0001 C CNN
+	1    2550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E7928
+P 2650 4100
+F 0 "TP?" V 2675 4325 50  0000 L BNN
+F 1 "TestPoint" H 2400 4150 50  0001 C CNN
+F 2 "" H 2850 4100 50  0001 C CNN
+F 3 "~" H 2850 4100 50  0001 C CNN
+	1    2650 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E792E
+P 2550 4100
+F 0 "TP?" V 2575 4325 50  0000 L BNN
+F 1 "TestPoint" H 2300 4150 50  0001 C CNN
+F 2 "" H 2750 4100 50  0001 C CNN
+F 3 "~" H 2750 4100 50  0001 C CNN
+	1    2550 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2550 3450 3450 3450
+Wire Wire Line
+	2550 3600 2400 3600
+Connection ~ 2550 3450
+Wire Wire Line
+	2550 3450 2550 3600
+Wire Wire Line
+	2550 4050 3450 4050
+Connection ~ 2550 4050
+Wire Wire Line
+	2550 3900 2550 4050
+Wire Wire Line
+	2400 3900 2550 3900
+Wire Wire Line
+	2650 3850 3450 3850
+Connection ~ 2650 3850
+Wire Wire Line
+	2650 3800 2650 3850
+Wire Wire Line
+	2400 3800 2650 3800
+Wire Wire Line
+	2650 3650 3450 3650
+Wire Wire Line
+	2650 3700 2400 3700
+Connection ~ 2650 3650
+Wire Wire Line
+	2650 3650 2650 3700
+Wire Wire Line
+	1600 3600 1600 3550
+Wire Wire Line
+	1700 3600 1600 3600
+$Comp
+L power:+3V3 #PWR?
+U 1 1 621E7946
+P 1600 3550
+F 0 "#PWR?" H 1600 3400 50  0001 C CNN
+F 1 "+3V3" H 1600 3690 50  0000 C CNN
+F 2 "" H 1600 3550 50  0001 C CNN
+F 3 "" H 1600 3550 50  0001 C CNN
+	1    1600 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3900 1700 3900
+Wire Wire Line
+	1600 3950 1600 3900
+$Comp
+L power:GND #PWR?
+U 1 1 621E794E
+P 1600 3950
+F 0 "#PWR?" H 1600 3700 50  0001 C CNN
+F 1 "GND" H 1600 3800 50  0000 C CNN
+F 2 "" H 1600 3950 50  0001 C CNN
+F 3 "" H 1600 3950 50  0001 C CNN
+	1    1600 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CM1293A-04SO_ALTERNATE_SYMBOL U?
+U 1 1 621E7954
+P 2050 3750
+F 0 "U?" H 2000 4000 60  0000 C CNN
+F 1 "CM1293A-04SO" H 2050 3500 60  0000 C CNN
+F 2 "" H 1900 3650 60  0001 C CNN
+F 3 "datasheets/CM1293A-04SO-D.PDF" H 2050 3400 60  0001 C CNN
+	1    2050 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6600 4350 6300 4350
+Wire Wire Line
+	6600 3850 6600 4350
+Wire Wire Line
+	6500 4250 6500 3750
+Wire Wire Line
+	6300 4250 6500 4250
+Wire Wire Line
+	6400 4150 6400 3650
+Wire Wire Line
+	6300 4150 6400 4150
+Wire Wire Line
+	5500 4150 5500 4100
+Wire Wire Line
+	5600 4150 5500 4150
+$Comp
+L power:+3V3 #PWR?
+U 1 1 621E7962
+P 5500 4100
+F 0 "#PWR?" H 5500 3950 50  0001 C CNN
+F 1 "+3V3" H 5500 4240 50  0000 C CNN
+F 2 "" H 5500 4100 50  0001 C CNN
+F 3 "" H 5500 4100 50  0001 C CNN
+	1    5500 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5500 4450 5600 4450
+Wire Wire Line
+	5500 4500 5500 4450
+$Comp
+L power:GND #PWR?
+U 1 1 621E796A
+P 5500 4500
+F 0 "#PWR?" H 5500 4250 50  0001 C CNN
+F 1 "GND" H 5500 4350 50  0000 C CNN
+F 2 "" H 5500 4500 50  0001 C CNN
+F 3 "" H 5500 4500 50  0001 C CNN
+	1    5500 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CM1293A-04SO_ALTERNATE_SYMBOL U?
+U 1 1 621E7970
+P 5950 4300
+F 0 "U?" H 5900 4550 60  0000 C CNN
+F 1 "CM1293A-04SO" H 6050 4050 60  0000 C CNN
+F 2 "" H 5800 4200 60  0001 C CNN
+F 3 "datasheets/CM1293A-04SO-D.PDF" H 5950 3950 60  0001 C CNN
+	1    5950 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E7976
+P 8300 4000
+F 0 "TP?" V 8325 4225 50  0000 L BNN
+F 1 "TestPoint" H 8050 4050 50  0001 C CNN
+F 2 "" H 8500 4000 50  0001 C CNN
+F 3 "~" H 8500 4000 50  0001 C CNN
+	1    8300 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E797C
+P 8200 4000
+F 0 "TP?" V 8225 4225 50  0000 L BNN
+F 1 "TestPoint" H 7950 4050 50  0001 C CNN
+F 2 "" H 8400 4000 50  0001 C CNN
+F 3 "~" H 8400 4000 50  0001 C CNN
+	1    8200 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E7982
+P 8100 4000
+F 0 "TP?" V 8125 4225 50  0000 L BNN
+F 1 "TestPoint" H 7850 4050 50  0001 C CNN
+F 2 "" H 8300 4000 50  0001 C CNN
+F 3 "~" H 8300 4000 50  0001 C CNN
+	1    8100 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E7988
+P 8000 4000
+F 0 "TP?" V 8025 4225 50  0000 L BNN
+F 1 "TestPoint" H 7750 4050 50  0001 C CNN
+F 2 "" H 8200 4000 50  0001 C CNN
+F 3 "~" H 8200 4000 50  0001 C CNN
+	1    8000 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E798E
+P 7900 4000
+F 0 "TP?" V 7925 4225 50  0000 L BNN
+F 1 "TestPoint" H 7650 4050 50  0001 C CNN
+F 2 "" H 8100 4000 50  0001 C CNN
+F 3 "~" H 8100 4000 50  0001 C CNN
+	1    7900 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E7994
+P 7800 4000
+F 0 "TP?" V 7825 4225 50  0000 L BNN
+F 1 "TestPoint" H 7550 4050 50  0001 C CNN
+F 2 "" H 8000 4000 50  0001 C CNN
+F 3 "~" H 8000 4000 50  0001 C CNN
+	1    7800 4000
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 621E799A
+P 7700 4000
+F 0 "TP?" V 7725 4225 50  0000 L BNN
+F 1 "TestPoint" H 7450 4050 50  0001 C CNN
+F 2 "" H 7900 4000 50  0001 C CNN
+F 3 "~" H 7900 4000 50  0001 C CNN
+	1    7700 4000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8700 4300 8700 4350
+Wire Wire Line
+	9000 4300 9000 4350
+Wire Wire Line
+	6400 3650 8100 3650
+Wire Wire Line
+	8100 3650 9450 3650
+Connection ~ 8100 3650
+Wire Wire Line
+	8100 4000 8100 3650
+Wire Wire Line
+	6600 3850 8300 3850
+Wire Wire Line
+	8300 3850 9450 3850
+Connection ~ 8300 3850
+Wire Wire Line
+	8300 3850 8300 4000
+Wire Wire Line
+	6500 3750 8200 3750
+Wire Wire Line
+	8200 3750 9450 3750
+Connection ~ 8200 3750
+Wire Wire Line
+	8200 3750 8200 4000
+Wire Wire Line
+	6300 3550 8000 3550
+Connection ~ 8000 3550
+Wire Wire Line
+	8000 3550 8000 4000
+Wire Wire Line
+	6300 3450 7900 3450
+Wire Wire Line
+	7900 3450 9450 3450
+Connection ~ 7900 3450
+Wire Wire Line
+	7900 3450 7900 4000
+Wire Wire Line
+	6300 3350 7800 3350
+Wire Wire Line
+	7800 3350 9450 3350
+Connection ~ 7800 3350
+Wire Wire Line
+	7800 3350 7800 4000
+Wire Wire Line
+	5500 3550 5600 3550
+Wire Wire Line
+	5500 3600 5500 3550
+$Comp
+L power:GND #PWR?
+U 1 1 621E79BB
+P 5500 3600
+F 0 "#PWR?" H 5500 3350 50  0001 C CNN
+F 1 "GND" H 5500 3450 50  0000 C CNN
+F 2 "" H 5500 3600 50  0001 C CNN
+F 3 "" H 5500 3600 50  0001 C CNN
+	1    5500 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CM1293A-04SO_ALTERNATE_SYMBOL U?
+U 1 1 621E79C1
+P 5950 3400
+F 0 "U?" H 5900 3650 60  0000 C CNN
+F 1 "CM1293A-04SO" H 5950 3150 60  0000 C CNN
+F 2 "" H 5800 3300 60  0001 C CNN
+F 3 "datasheets/CM1293A-04SO-D.PDF" H 5950 3050 60  0001 C CNN
+	1    5950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 621E79C8
+P 9000 4150
+F 0 "R?" V 9120 4050 50  0000 L BNN
+F 1 "CRG0603F4K7" H 8250 3700 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8250 3600 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 8250 3500 50  0001 L BNN
+F 4 "4.7k" V 9020 4090 39  0000 L BNN "Resistance"
+	1    9000 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 621E79CF
+P 8700 4150
+F 0 "R?" V 8820 4050 50  0000 L BNN
+F 1 "CRG0603F4K7" H 7950 3700 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7950 3600 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7950 3500 50  0001 L BNN
+F 4 "4.7k" V 8720 4090 39  0000 L BNN "Resistance"
+	1    8700 4150
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 4550 0    50   ~ 0
+SPACE 1x3 HEADERS SO\nAS TO PREVENT A JUMPER\nFROM CONNECTING AN\nINVALID SET OF PINS
+Wire Wire Line
+	2900 3550 3450 3550
+Wire Wire Line
+	2900 3950 3450 3950
+Text Label 2900 3950 0    60   ~ 0
+COL_DATA
+Text Label 2900 3550 0    60   ~ 0
+ROW_DATA
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 621E79DA
+P 3650 3950
+F 0 "J?" H 3550 4000 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3250 3900 50  0000 C CNN
+F 2 "" H 3650 3950 50  0001 C CNN
+F 3 "~" H 3650 3950 50  0001 C CNN
+	1    3650 3950
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J?
+U 1 1 621E79E0
+P 3650 3550
+F 0 "J?" H 3550 3600 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 3250 3500 50  0000 C CNN
+F 2 "" H 3650 3550 50  0001 C CNN
+F 3 "~" H 3650 3550 50  0001 C CNN
+	1    3650 3550
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3550 9000 3550
+Wire Wire Line
+	9000 3550 9450 3550
+Connection ~ 9000 3550
+Wire Wire Line
+	9000 4000 9000 3550
+Wire Wire Line
+	8700 3250 9450 3250
+Connection ~ 8700 3250
+Wire Wire Line
+	8700 4000 8700 3250
+$Comp
+L power:GND #PWR?
+U 1 1 621E79ED
+P 9000 4350
+F 0 "#PWR?" H 9000 4100 50  0001 C CNN
+F 1 "GND" H 9000 4200 50  0000 C CNN
+F 2 "" H 9000 4350 50  0001 C CNN
+F 3 "" H 9000 4350 50  0001 C CNN
+	1    9000 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 621E79F3
+P 8700 4350
+F 0 "#PWR?" H 8700 4100 50  0001 C CNN
+F 1 "GND" H 8700 4200 50  0000 C CNN
+F 2 "" H 8700 4350 50  0001 C CNN
+F 3 "" H 8700 4350 50  0001 C CNN
+	1    8700 4350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 3250 7700 3250
+Wire Wire Line
+	7700 3250 8700 3250
+Connection ~ 7700 3250
+Wire Wire Line
+	7700 3250 7700 4000
+Connection ~ 6700 4450
+Wire Wire Line
+	6700 4450 6700 4500
+$Comp
+L power:GND #PWR?
+U 1 1 621E7A03
+P 6700 4500
+F 0 "#PWR?" H 6700 4250 50  0001 C CNN
+F 1 "GND" H 6700 4350 50  0000 C CNN
+F 2 "" H 6700 4500 50  0001 C CNN
+F 3 "" H 6700 4500 50  0001 C CNN
+	1    6700 4500
+	1    0    0    -1  
+$EndComp
+Text Label 7050 3750 0    60   ~ 0
+!COL_RESET
+Text Label 7050 3450 0    60   ~ 0
+!ROW_RESET
+$Comp
+L Connector:Conn_01x08_Male J?
+U 1 1 621E7A0B
+P 9650 3550
+F 0 "J?" H 9650 3950 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 9650 3050 50  0000 C CNN
+F 2 "" H 9650 3550 50  0001 C CNN
+F 3 "" H 9650 3550 50  0001 C CNN
+	1    9650 3550
+	-1   0    0    -1  
+$EndComp
+Text Label 7050 3550 0    60   ~ 0
+COL_DATA
+Text Label 2900 3450 0    60   ~ 0
+ROW_IN
+Text Label 2900 3650 0    60   ~ 0
+ROW_OUT
+Text Label 7050 3250 0    60   ~ 0
+ROW_DATA
+Text Label 7050 3650 0    60   ~ 0
+COL_SHCP
+Text Label 7050 3350 0    60   ~ 0
+ROW_SHCP
+Text Label 7050 3850 0    60   ~ 0
+!ENABLE
+Text Label 2900 4050 0    60   ~ 0
+COL_OUT
+Text Label 2900 3850 0    60   ~ 0
+COL_IN
+$EndSCHEMATC

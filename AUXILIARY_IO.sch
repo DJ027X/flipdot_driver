@@ -1,0 +1,1027 @@
+EESchema Schematic File Version 4
+LIBS:flipdot_driver-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 6 19
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 9800 3100 0    60   ~ 0
+AUX_5
+Text Label 9800 3400 0    60   ~ 0
+AUX_2
+Text Label 9800 3300 0    60   ~ 0
+AUX_3
+Text Label 9800 3200 0    60   ~ 0
+AUX_4
+Text Label 9800 3600 0    60   ~ 0
+AUX_0
+Text Label 9800 3500 0    60   ~ 0
+AUX_1
+Text Notes 8300 5100 0    60   ~ 0
+SILKSCREEN: POPULATE TVS DIODES\nAS APPROPRIATE FOR USE\nWITH GPIO PERIPHERALS
+$Comp
+L power:GND #PWR?
+U 1 1 61EC0FDB
+P 6275 4400
+AR Path="/61EC0FDB" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC0FDB" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6275 4150 50  0001 C CNN
+F 1 "GND" H 6275 4250 50  0000 C CNN
+F 2 "" H 6275 4400 50  0001 C CNN
+F 3 "" H 6275 4400 50  0001 C CNN
+	1    6275 4400
+	1    0    0    -1  
+$EndComp
+Text Label 5925 3300 3    60   ~ 0
+AUX_5
+$Comp
+L power:GND #PWR?
+U 1 1 61EC0FE2
+P 5375 4400
+AR Path="/61EC0FE2" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC0FE2" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5375 4150 50  0001 C CNN
+F 1 "GND" H 5375 4250 50  0000 C CNN
+F 2 "" H 5375 4400 50  0001 C CNN
+F 3 "" H 5375 4400 50  0001 C CNN
+	1    5375 4400
+	1    0    0    -1  
+$EndComp
+Text Label 5025 3300 3    60   ~ 0
+AUX_4
+$Comp
+L power:GND #PWR?
+U 1 1 61EC0FE9
+P 4475 4400
+AR Path="/61EC0FE9" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC0FE9" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4475 4150 50  0001 C CNN
+F 1 "GND" H 4475 4250 50  0000 C CNN
+F 2 "" H 4475 4400 50  0001 C CNN
+F 3 "" H 4475 4400 50  0001 C CNN
+	1    4475 4400
+	1    0    0    -1  
+$EndComp
+Text Label 4125 3300 3    60   ~ 0
+AUX_3
+$Comp
+L power:GND #PWR?
+U 1 1 61EC0FF0
+P 3575 4400
+AR Path="/61EC0FF0" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC0FF0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3575 4150 50  0001 C CNN
+F 1 "GND" H 3575 4250 50  0000 C CNN
+F 2 "" H 3575 4400 50  0001 C CNN
+F 3 "" H 3575 4400 50  0001 C CNN
+	1    3575 4400
+	1    0    0    -1  
+$EndComp
+Text Label 3225 3300 3    60   ~ 0
+AUX_2
+$Comp
+L power:GND #PWR?
+U 1 1 61EC0FF7
+P 2675 4400
+AR Path="/61EC0FF7" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC0FF7" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2675 4150 50  0001 C CNN
+F 1 "GND" H 2675 4250 50  0000 C CNN
+F 2 "" H 2675 4400 50  0001 C CNN
+F 3 "" H 2675 4400 50  0001 C CNN
+	1    2675 4400
+	1    0    0    -1  
+$EndComp
+Text Label 2325 3300 3    60   ~ 0
+AUX_1
+$Comp
+L power:GND #PWR?
+U 1 1 61EC0FFE
+P 1775 4400
+AR Path="/61EC0FFE" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC0FFE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1775 4150 50  0001 C CNN
+F 1 "GND" H 1775 4250 50  0000 C CNN
+F 2 "" H 1775 4400 50  0001 C CNN
+F 3 "" H 1775 4400 50  0001 C CNN
+	1    1775 4400
+	1    0    0    -1  
+$EndComp
+Text Label 1425 3300 3    60   ~ 0
+AUX_0
+Text Notes 8300 4700 0    60   ~ 0
+PLACE CLOSE TO CONNECTOR
+Text Notes 8300 4800 0    60   ~ 0
+AVOID STUBS
+Text Notes 3325 4950 0    60   ~ 0
+INCLUDE FILLED RECTANGLES\nON SILKSCREEN NEAR EACH\nLED TO WRITE LABELS ON
+Wire Wire Line
+	1475 3850 1425 3850
+Wire Wire Line
+	1775 2950 1775 2850
+Wire Wire Line
+	1775 3600 1775 3650
+Wire Wire Line
+	1775 3300 1775 3250
+Wire Wire Line
+	1775 4050 1775 4300
+Wire Wire Line
+	1425 4300 1775 4300
+Wire Wire Line
+	1425 4300 1425 4250
+Wire Wire Line
+	1425 3300 1425 3850
+Connection ~ 1775 4300
+Connection ~ 1425 3850
+Wire Wire Line
+	2375 3850 2325 3850
+Wire Wire Line
+	2675 2950 2675 2850
+Wire Wire Line
+	2675 3600 2675 3650
+Wire Wire Line
+	2675 3300 2675 3250
+Wire Wire Line
+	2675 4050 2675 4300
+Wire Wire Line
+	2325 4300 2675 4300
+Wire Wire Line
+	2325 4300 2325 4250
+Wire Wire Line
+	2325 3300 2325 3850
+Connection ~ 2675 4300
+Connection ~ 2325 3850
+Wire Wire Line
+	3275 3850 3225 3850
+Wire Wire Line
+	3575 2950 3575 2850
+Wire Wire Line
+	3575 3600 3575 3650
+Wire Wire Line
+	3575 3300 3575 3250
+Wire Wire Line
+	3575 4050 3575 4300
+Wire Wire Line
+	3225 4300 3575 4300
+Wire Wire Line
+	3225 4300 3225 4250
+Wire Wire Line
+	3225 3300 3225 3850
+Connection ~ 3575 4300
+Connection ~ 3225 3850
+Wire Wire Line
+	4175 3850 4125 3850
+Wire Wire Line
+	4475 2950 4475 2850
+Wire Wire Line
+	4475 3600 4475 3650
+Wire Wire Line
+	4475 3300 4475 3250
+Wire Wire Line
+	4475 4050 4475 4300
+Wire Wire Line
+	4125 4300 4475 4300
+Wire Wire Line
+	4125 4300 4125 4250
+Wire Wire Line
+	4125 3300 4125 3850
+Connection ~ 4475 4300
+Connection ~ 4125 3850
+Wire Wire Line
+	5075 3850 5025 3850
+Wire Wire Line
+	5375 2950 5375 2850
+Wire Wire Line
+	5375 3600 5375 3650
+Wire Wire Line
+	5375 3300 5375 3250
+Wire Wire Line
+	5375 4050 5375 4300
+Wire Wire Line
+	5025 4300 5375 4300
+Wire Wire Line
+	5025 4300 5025 4250
+Wire Wire Line
+	5025 3300 5025 3850
+Connection ~ 5375 4300
+Connection ~ 5025 3850
+Wire Wire Line
+	5975 3850 5925 3850
+Wire Wire Line
+	6275 2950 6275 2850
+Wire Wire Line
+	6275 3600 6275 3650
+Wire Wire Line
+	6275 3300 6275 3250
+Wire Wire Line
+	6275 4050 6275 4300
+Wire Wire Line
+	5925 4300 6275 4300
+Wire Wire Line
+	5925 4300 5925 4250
+Wire Wire Line
+	5925 3300 5925 3850
+Connection ~ 6275 4300
+Connection ~ 5925 3850
+Wire Wire Line
+	1775 4300 1775 4400
+Wire Wire Line
+	1425 3850 1425 3950
+Wire Wire Line
+	2675 4300 2675 4400
+Wire Wire Line
+	2325 3850 2325 3950
+Wire Wire Line
+	3575 4300 3575 4400
+Wire Wire Line
+	3225 3850 3225 3950
+Wire Wire Line
+	4475 4300 4475 4400
+Wire Wire Line
+	4125 3850 4125 3950
+Wire Wire Line
+	5375 4300 5375 4400
+Wire Wire Line
+	5025 3850 5025 3950
+Wire Wire Line
+	6275 4300 6275 4400
+Wire Wire Line
+	5925 3850 5925 3950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC1054
+P 1775 2850
+AR Path="/61EC1054" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC1054" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1775 2700 50  0001 C CNN
+F 1 "+3V3" H 1775 2990 50  0000 C CNN
+F 2 "" H 1775 2850 50  0001 C CNN
+F 3 "" H 1775 2850 50  0001 C CNN
+	1    1775 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC105A
+P 2675 2850
+AR Path="/61EC105A" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC105A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 2675 2700 50  0001 C CNN
+F 1 "+3V3" H 2675 2990 50  0000 C CNN
+F 2 "" H 2675 2850 50  0001 C CNN
+F 3 "" H 2675 2850 50  0001 C CNN
+	1    2675 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC1060
+P 3575 2850
+AR Path="/61EC1060" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC1060" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 3575 2700 50  0001 C CNN
+F 1 "+3V3" H 3575 2990 50  0000 C CNN
+F 2 "" H 3575 2850 50  0001 C CNN
+F 3 "" H 3575 2850 50  0001 C CNN
+	1    3575 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC1066
+P 4475 2850
+AR Path="/61EC1066" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC1066" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 4475 2700 50  0001 C CNN
+F 1 "+3V3" H 4475 2990 50  0000 C CNN
+F 2 "" H 4475 2850 50  0001 C CNN
+F 3 "" H 4475 2850 50  0001 C CNN
+	1    4475 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC106C
+P 5375 2850
+AR Path="/61EC106C" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC106C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5375 2700 50  0001 C CNN
+F 1 "+3V3" H 5375 2990 50  0000 C CNN
+F 2 "" H 5375 2850 50  0001 C CNN
+F 3 "" H 5375 2850 50  0001 C CNN
+	1    5375 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC1072
+P 6275 2850
+AR Path="/61EC1072" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC1072" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6275 2700 50  0001 C CNN
+F 1 "+3V3" H 6275 2990 50  0000 C CNN
+F 2 "" H 6275 2850 50  0001 C CNN
+F 3 "" H 6275 2850 50  0001 C CNN
+	1    6275 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 61EC1078
+P 1675 3850
+AR Path="/61EC1078" Ref="Q?"  Part="1" 
+AR Path="/61C6D021/61EC1078" Ref="Q?"  Part="1" 
+F 0 "Q?" V 2000 3775 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 1925 3600 50  0000 L BNN
+F 2 "" H 1875 3725 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 1875 3700 50  0001 L BNN
+	1    1675 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 61EC107E
+P 2575 3850
+AR Path="/61EC107E" Ref="Q?"  Part="1" 
+AR Path="/61C6D021/61EC107E" Ref="Q?"  Part="1" 
+F 0 "Q?" V 2900 3775 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 2825 3600 50  0000 L BNN
+F 2 "" H 2775 3725 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 2775 3700 50  0001 L BNN
+	1    2575 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 61EC1084
+P 3475 3850
+AR Path="/61EC1084" Ref="Q?"  Part="1" 
+AR Path="/61C6D021/61EC1084" Ref="Q?"  Part="1" 
+F 0 "Q?" V 3800 3775 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 3725 3600 50  0000 L BNN
+F 2 "" H 3675 3725 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 3675 3700 50  0001 L BNN
+	1    3475 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 61EC108A
+P 4375 3850
+AR Path="/61EC108A" Ref="Q?"  Part="1" 
+AR Path="/61C6D021/61EC108A" Ref="Q?"  Part="1" 
+F 0 "Q?" V 4700 3775 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 4625 3600 50  0000 L BNN
+F 2 "" H 4575 3725 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 4575 3700 50  0001 L BNN
+	1    4375 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 61EC1090
+P 5275 3850
+AR Path="/61EC1090" Ref="Q?"  Part="1" 
+AR Path="/61C6D021/61EC1090" Ref="Q?"  Part="1" 
+F 0 "Q?" V 5600 3775 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 5525 3600 50  0000 L BNN
+F 2 "" H 5475 3725 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 5475 3700 50  0001 L BNN
+	1    5275 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 61EC1096
+P 6175 3850
+AR Path="/61EC1096" Ref="Q?"  Part="1" 
+AR Path="/61C6D021/61EC1096" Ref="Q?"  Part="1" 
+F 0 "Q?" V 6500 3775 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 6425 3600 50  0000 L BNN
+F 2 "" H 6375 3725 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 6375 3700 50  0001 L BNN
+	1    6175 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CM1293A-04SO_ALTERNATE_SYMBOL U?
+U 1 1 61EC109C
+P 8350 3150
+AR Path="/61EC109C" Ref="U?"  Part="1" 
+AR Path="/61C6D021/61EC109C" Ref="U?"  Part="1" 
+F 0 "U?" H 8300 3400 60  0000 C CNN
+F 1 "NP_CM1293A-04SO" H 8550 2900 60  0000 C CNN
+F 2 "" H 8200 3050 60  0001 C CNN
+F 3 "datasheets/CM1293A-04SO-D.PDF" H 8350 2800 60  0001 C CNN
+	1    8350 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CM1293A-04SO_ALTERNATE_SYMBOL U?
+U 1 1 61EC10A2
+P 8350 4050
+AR Path="/61EC10A2" Ref="U?"  Part="1" 
+AR Path="/61C6D021/61EC10A2" Ref="U?"  Part="1" 
+F 0 "U?" H 8300 4300 60  0000 C CNN
+F 1 "NP_CM1293A-04SO" H 8550 3800 60  0000 C CNN
+F 2 "" H 8200 3950 60  0001 C CNN
+F 3 "datasheets/CM1293A-04SO-D.PDF" H 8350 3700 60  0001 C CNN
+	1    8350 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61EC10A8
+P 7900 4250
+AR Path="/61EC10A8" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC10A8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 4000 50  0001 C CNN
+F 1 "GND" H 7900 4100 50  0000 C CNN
+F 2 "" H 7900 4250 50  0001 C CNN
+F 3 "" H 7900 4250 50  0001 C CNN
+	1    7900 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 4250 7900 4200
+Wire Wire Line
+	7900 4200 8000 4200
+$Comp
+L power:GND #PWR?
+U 1 1 61EC10B0
+P 7900 3350
+AR Path="/61EC10B0" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC10B0" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 3100 50  0001 C CNN
+F 1 "GND" H 7900 3200 50  0000 C CNN
+F 2 "" H 7900 3350 50  0001 C CNN
+F 3 "" H 7900 3350 50  0001 C CNN
+	1    7900 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 3350 7900 3300
+Wire Wire Line
+	7900 3300 8000 3300
+Wire Wire Line
+	8700 3900 9100 3900
+Wire Wire Line
+	9100 3900 9100 3400
+Wire Wire Line
+	9100 3400 9500 3400
+Wire Wire Line
+	10150 3500 9600 3500
+Wire Wire Line
+	9200 3500 9200 4000
+Wire Wire Line
+	9200 4000 8700 4000
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC10BE
+P 7900 2950
+AR Path="/61EC10BE" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC10BE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 2800 50  0001 C CNN
+F 1 "+3V3" H 7900 3090 50  0000 C CNN
+F 2 "" H 7900 2950 50  0001 C CNN
+F 3 "" H 7900 2950 50  0001 C CNN
+	1    7900 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3000 7900 3000
+Wire Wire Line
+	7900 3000 7900 2950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC10C6
+P 7900 3850
+AR Path="/61EC10C6" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC10C6" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7900 3700 50  0001 C CNN
+F 1 "+3V3" H 7900 3990 50  0000 C CNN
+F 2 "" H 7900 3850 50  0001 C CNN
+F 3 "" H 7900 3850 50  0001 C CNN
+	1    7900 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8000 3900 7900 3900
+Wire Wire Line
+	7900 3900 7900 3850
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EC10CE
+P 9100 2950
+AR Path="/61EC10CE" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/61EC10CE" Ref="TP?"  Part="1" 
+F 0 "TP?" V 9100 3200 50  0000 C CNN
+F 1 "TestPoint" H 8850 3000 50  0001 C CNN
+F 2 "" H 9300 2950 50  0001 C CNN
+F 3 "~" H 9300 2950 50  0001 C CNN
+	1    9100 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EC10D4
+P 9200 2950
+AR Path="/61EC10D4" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/61EC10D4" Ref="TP?"  Part="1" 
+F 0 "TP?" V 9200 3200 50  0000 C CNN
+F 1 "TestPoint" H 8950 3000 50  0001 C CNN
+F 2 "" H 9400 2950 50  0001 C CNN
+F 3 "~" H 9400 2950 50  0001 C CNN
+	1    9200 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EC10DA
+P 9300 2950
+AR Path="/61EC10DA" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/61EC10DA" Ref="TP?"  Part="1" 
+F 0 "TP?" V 9300 3200 50  0000 C CNN
+F 1 "TestPoint" H 9050 3000 50  0001 C CNN
+F 2 "" H 9500 2950 50  0001 C CNN
+F 3 "~" H 9500 2950 50  0001 C CNN
+	1    9300 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EC10E0
+P 9400 2950
+AR Path="/61EC10E0" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/61EC10E0" Ref="TP?"  Part="1" 
+F 0 "TP?" V 9400 3200 50  0000 C CNN
+F 1 "TestPoint" H 9150 3000 50  0001 C CNN
+F 2 "" H 9600 2950 50  0001 C CNN
+F 3 "~" H 9600 2950 50  0001 C CNN
+	1    9400 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EC10E6
+P 9500 2950
+AR Path="/61EC10E6" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/61EC10E6" Ref="TP?"  Part="1" 
+F 0 "TP?" V 9500 3200 50  0000 C CNN
+F 1 "TestPoint" H 9250 3000 50  0001 C CNN
+F 2 "" H 9700 2950 50  0001 C CNN
+F 3 "~" H 9700 2950 50  0001 C CNN
+	1    9500 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EC10EC
+P 9600 2950
+AR Path="/61EC10EC" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/61EC10EC" Ref="TP?"  Part="1" 
+F 0 "TP?" V 9600 3200 50  0000 C CNN
+F 1 "TestPoint" H 9350 3000 50  0001 C CNN
+F 2 "" H 9800 2950 50  0001 C CNN
+F 3 "~" H 9800 2950 50  0001 C CNN
+	1    9600 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L flipdot_driver-rescue:‎RMCF0603FT470R‎-custom R?
+U 1 1 61EC10F3
+P 1775 3100
+AR Path="/61EC10F3" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC10F3" Ref="R?"  Part="1" 
+F 0 "R?" V 1895 3000 50  0000 L BNN
+F 1 "‎RMCF0603FT470R‎" H 1025 2650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1025 2550 50  0001 L BNN
+F 3 "datasheets/SEI-RMCF_RMCP.pdf" H 1025 2450 50  0001 L BNN
+F 4 "470" V 1800 3025 47  0000 L BNN "Resistance"
+	1    1775 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L flipdot_driver-rescue:‎RMCF0603FT470R‎-custom R?
+U 1 1 61EC10FA
+P 2675 3100
+AR Path="/61EC10FA" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC10FA" Ref="R?"  Part="1" 
+F 0 "R?" V 2795 3000 50  0000 L BNN
+F 1 "‎RMCF0603FT470R‎" H 1925 2650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1925 2550 50  0001 L BNN
+F 3 "datasheets/SEI-RMCF_RMCP.pdf" H 1925 2450 50  0001 L BNN
+F 4 "470" V 2700 3025 47  0000 L BNN "Resistance"
+	1    2675 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L flipdot_driver-rescue:‎RMCF0603FT470R‎-custom R?
+U 1 1 61EC1101
+P 3575 3100
+AR Path="/61EC1101" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC1101" Ref="R?"  Part="1" 
+F 0 "R?" V 3695 3000 50  0000 L BNN
+F 1 "‎RMCF0603FT470R‎" H 2825 2650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2825 2550 50  0001 L BNN
+F 3 "datasheets/SEI-RMCF_RMCP.pdf" H 2825 2450 50  0001 L BNN
+F 4 "470" V 3600 3025 47  0000 L BNN "Resistance"
+	1    3575 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L flipdot_driver-rescue:‎RMCF0603FT470R‎-custom R?
+U 1 1 61EC1108
+P 4475 3100
+AR Path="/61EC1108" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC1108" Ref="R?"  Part="1" 
+F 0 "R?" V 4595 3000 50  0000 L BNN
+F 1 "‎RMCF0603FT470R‎" H 3725 2650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3725 2550 50  0001 L BNN
+F 3 "datasheets/SEI-RMCF_RMCP.pdf" H 3725 2450 50  0001 L BNN
+F 4 "470" V 4500 3025 47  0000 L BNN "Resistance"
+	1    4475 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L flipdot_driver-rescue:‎RMCF0603FT470R‎-custom R?
+U 1 1 61EC110F
+P 5375 3100
+AR Path="/61EC110F" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC110F" Ref="R?"  Part="1" 
+F 0 "R?" V 5495 3000 50  0000 L BNN
+F 1 "‎RMCF0603FT470R‎" H 4625 2650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4625 2550 50  0001 L BNN
+F 3 "datasheets/SEI-RMCF_RMCP.pdf" H 4625 2450 50  0001 L BNN
+F 4 "470" V 5400 3025 47  0000 L BNN "Resistance"
+	1    5375 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L flipdot_driver-rescue:‎RMCF0603FT470R‎-custom R?
+U 1 1 61EC1116
+P 6275 3100
+AR Path="/61EC1116" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC1116" Ref="R?"  Part="1" 
+F 0 "R?" V 6395 3000 50  0000 L BNN
+F 1 "‎RMCF0603FT470R‎" H 5525 2650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5525 2550 50  0001 L BNN
+F 3 "datasheets/SEI-RMCF_RMCP.pdf" H 5525 2450 50  0001 L BNN
+F 4 "470" V 6300 3025 47  0000 L BNN "Resistance"
+	1    6275 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 61EC111D
+P 5925 4100
+AR Path="/61EC111D" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC111D" Ref="R?"  Part="1" 
+F 0 "R?" V 6045 4000 50  0000 L BNN
+F 1 "CRG0603F4K7" H 5175 3650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5175 3550 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 5175 3450 50  0001 L BNN
+F 4 "4.7k" V 5945 4040 39  0000 L BNN "Resistance"
+	1    5925 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 61EC1124
+P 5025 4100
+AR Path="/61EC1124" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC1124" Ref="R?"  Part="1" 
+F 0 "R?" V 5145 4000 50  0000 L BNN
+F 1 "CRG0603F4K7" H 4275 3650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4275 3550 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4275 3450 50  0001 L BNN
+F 4 "4.7k" V 5045 4040 39  0000 L BNN "Resistance"
+	1    5025 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 61EC112B
+P 4125 4100
+AR Path="/61EC112B" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC112B" Ref="R?"  Part="1" 
+F 0 "R?" V 4245 4000 50  0000 L BNN
+F 1 "CRG0603F4K7" H 3375 3650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3375 3550 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 3375 3450 50  0001 L BNN
+F 4 "4.7k" V 4145 4040 39  0000 L BNN "Resistance"
+	1    4125 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 61EC1132
+P 3225 4100
+AR Path="/61EC1132" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC1132" Ref="R?"  Part="1" 
+F 0 "R?" V 3345 4000 50  0000 L BNN
+F 1 "CRG0603F4K7" H 2475 3650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2475 3550 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 2475 3450 50  0001 L BNN
+F 4 "4.7k" V 3245 4040 39  0000 L BNN "Resistance"
+	1    3225 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 61EC1139
+P 2325 4100
+AR Path="/61EC1139" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC1139" Ref="R?"  Part="1" 
+F 0 "R?" V 2445 4000 50  0000 L BNN
+F 1 "CRG0603F4K7" H 1575 3650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1575 3550 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 1575 3450 50  0001 L BNN
+F 4 "4.7k" V 2345 4040 39  0000 L BNN "Resistance"
+	1    2325 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 61EC1140
+P 1425 4100
+AR Path="/61EC1140" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC1140" Ref="R?"  Part="1" 
+F 0 "R?" V 1545 4000 50  0000 L BNN
+F 1 "CRG0603F4K7" H 675 3650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 675 3550 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 675 3450 50  0001 L BNN
+F 4 "4.7k" V 1445 4040 39  0000 L BNN "Resistance"
+	1    1425 4100
+	1    0    0    -1  
+$EndComp
+NoConn ~ 8700 4200
+$Comp
+L power:GND #PWR?
+U 1 1 61EC1147
+P 7175 4400
+AR Path="/61EC1147" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC1147" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7175 4150 50  0001 C CNN
+F 1 "GND" H 7175 4250 50  0000 C CNN
+F 2 "" H 7175 4400 50  0001 C CNN
+F 3 "" H 7175 4400 50  0001 C CNN
+	1    7175 4400
+	1    0    0    -1  
+$EndComp
+Text Label 6825 3300 3    60   ~ 0
+AUX_6
+Wire Wire Line
+	6875 3850 6825 3850
+Wire Wire Line
+	7175 2950 7175 2850
+Wire Wire Line
+	7175 3600 7175 3650
+Wire Wire Line
+	7175 3300 7175 3250
+Wire Wire Line
+	7175 4050 7175 4300
+Wire Wire Line
+	6825 4300 7175 4300
+Wire Wire Line
+	6825 4300 6825 4250
+Wire Wire Line
+	6825 3300 6825 3850
+Connection ~ 7175 4300
+Connection ~ 6825 3850
+Wire Wire Line
+	7175 4300 7175 4400
+Wire Wire Line
+	6825 3850 6825 3950
+$Comp
+L power:+3V3 #PWR?
+U 1 1 61EC115A
+P 7175 2850
+AR Path="/61EC115A" Ref="#PWR?"  Part="1" 
+AR Path="/61C6D021/61EC115A" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 7175 2700 50  0001 C CNN
+F 1 "+3V3" H 7175 2990 50  0000 C CNN
+F 2 "" H 7175 2850 50  0001 C CNN
+F 3 "" H 7175 2850 50  0001 C CNN
+	1    7175 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 61EC1160
+P 7075 3850
+AR Path="/61EC1160" Ref="Q?"  Part="1" 
+AR Path="/61C6D021/61EC1160" Ref="Q?"  Part="1" 
+F 0 "Q?" V 7400 3775 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 7325 3600 50  0000 L BNN
+F 2 "" H 7275 3725 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 7275 3700 50  0001 L BNN
+	1    7075 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L flipdot_driver-rescue:‎RMCF0603FT470R‎-custom R?
+U 1 1 61EC1167
+P 7175 3100
+AR Path="/61EC1167" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC1167" Ref="R?"  Part="1" 
+F 0 "R?" V 7295 3000 50  0000 L BNN
+F 1 "‎RMCF0603FT470R‎" H 6425 2650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6425 2550 50  0001 L BNN
+F 3 "datasheets/SEI-RMCF_RMCP.pdf" H 6425 2450 50  0001 L BNN
+F 4 "470" V 7200 3025 47  0000 L BNN "Resistance"
+	1    7175 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 61EC116E
+P 6825 4100
+AR Path="/61EC116E" Ref="R?"  Part="1" 
+AR Path="/61C6D021/61EC116E" Ref="R?"  Part="1" 
+F 0 "R?" V 6945 4000 50  0000 L BNN
+F 1 "CRG0603F4K7" H 6075 3650 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6075 3550 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 6075 3450 50  0001 L BNN
+F 4 "4.7k" V 6845 4040 39  0000 L BNN "Resistance"
+	1    6825 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:LED_GENERIC_0805 D?
+U 1 1 61EC1174
+P 1775 3450
+AR Path="/61EC1174" Ref="D?"  Part="1" 
+AR Path="/61C6D021/61EC1174" Ref="D?"  Part="1" 
+F 0 "D?" H 1835 3470 50  0000 L BNN
+F 1 "LED_GENERIC_0805" H 1425 3250 50  0001 L BNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 1375 3150 50  0001 L BNN
+F 3 "~" H 1695 3530 50  0001 C CNN
+	1    1775 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:LED_GENERIC_0805 D?
+U 1 1 61EC117A
+P 2675 3450
+AR Path="/61EC117A" Ref="D?"  Part="1" 
+AR Path="/61C6D021/61EC117A" Ref="D?"  Part="1" 
+F 0 "D?" H 2735 3470 50  0000 L BNN
+F 1 "LED_GENERIC_0805" H 2325 3250 50  0001 L BNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 2275 3150 50  0001 L BNN
+F 3 "~" H 2595 3530 50  0001 C CNN
+	1    2675 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:LED_GENERIC_0805 D?
+U 1 1 61EC1180
+P 3575 3450
+AR Path="/61EC1180" Ref="D?"  Part="1" 
+AR Path="/61C6D021/61EC1180" Ref="D?"  Part="1" 
+F 0 "D?" H 3635 3470 50  0000 L BNN
+F 1 "LED_GENERIC_0805" H 3225 3250 50  0001 L BNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 3175 3150 50  0001 L BNN
+F 3 "~" H 3495 3530 50  0001 C CNN
+	1    3575 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:LED_GENERIC_0805 D?
+U 1 1 61EC1186
+P 4475 3450
+AR Path="/61EC1186" Ref="D?"  Part="1" 
+AR Path="/61C6D021/61EC1186" Ref="D?"  Part="1" 
+F 0 "D?" H 4535 3470 50  0000 L BNN
+F 1 "LED_GENERIC_0805" H 4125 3250 50  0001 L BNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4075 3150 50  0001 L BNN
+F 3 "~" H 4395 3530 50  0001 C CNN
+	1    4475 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:LED_GENERIC_0805 D?
+U 1 1 61EC118C
+P 5375 3450
+AR Path="/61EC118C" Ref="D?"  Part="1" 
+AR Path="/61C6D021/61EC118C" Ref="D?"  Part="1" 
+F 0 "D?" H 5435 3470 50  0000 L BNN
+F 1 "LED_GENERIC_0805" H 5025 3250 50  0001 L BNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 4975 3150 50  0001 L BNN
+F 3 "~" H 5295 3530 50  0001 C CNN
+	1    5375 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:LED_GENERIC_0805 D?
+U 1 1 61EC1192
+P 6275 3450
+AR Path="/61EC1192" Ref="D?"  Part="1" 
+AR Path="/61C6D021/61EC1192" Ref="D?"  Part="1" 
+F 0 "D?" H 6335 3470 50  0000 L BNN
+F 1 "LED_GENERIC_0805" H 5925 3250 50  0001 L BNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 5875 3150 50  0001 L BNN
+F 3 "~" H 6195 3530 50  0001 C CNN
+	1    6275 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L custom:LED_GENERIC_0805 D?
+U 1 1 61EC1198
+P 7175 3450
+AR Path="/61EC1198" Ref="D?"  Part="1" 
+AR Path="/61C6D021/61EC1198" Ref="D?"  Part="1" 
+F 0 "D?" H 7235 3470 50  0000 L BNN
+F 1 "LED_GENERIC_0805" H 6825 3250 50  0001 L BNN
+F 2 "Diode_SMD:D_0805_2012Metric" H 6775 3150 50  0001 L BNN
+F 3 "~" H 7095 3530 50  0001 C CNN
+	1    7175 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector:Conn_01x07_Male J?
+U 1 1 61EC119E
+P 10350 3300
+AR Path="/61EC119E" Ref="J?"  Part="1" 
+AR Path="/61C6D021/61EC119E" Ref="J?"  Part="1" 
+F 0 "J?" H 10350 3700 50  0000 C CNN
+F 1 "NP_Conn_01x07_Male" H 10700 2900 50  0000 C CNN
+F 2 "" H 10350 3300 50  0001 C CNN
+F 3 "~" H 10350 3300 50  0001 C CNN
+	1    10350 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	8700 4100 9300 4100
+Wire Wire Line
+	9300 4100 9300 3600
+Wire Wire Line
+	9300 3600 9700 3600
+Text Label 9800 3000 0    60   ~ 0
+AUX_6
+Wire Wire Line
+	8700 3000 9100 3000
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61EC11A9
+P 9700 2950
+AR Path="/61EC11A9" Ref="TP?"  Part="1" 
+AR Path="/61C6D021/61EC11A9" Ref="TP?"  Part="1" 
+F 0 "TP?" V 9700 3200 50  0000 C CNN
+F 1 "TestPoint" H 9450 3000 50  0001 C CNN
+F 2 "" H 9900 2950 50  0001 C CNN
+F 3 "~" H 9900 2950 50  0001 C CNN
+	1    9700 2950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9700 2950 9700 3600
+Connection ~ 9700 3600
+Wire Wire Line
+	9700 3600 10150 3600
+Wire Wire Line
+	9600 2950 9600 3500
+Connection ~ 9600 3500
+Wire Wire Line
+	9600 3500 9200 3500
+Wire Wire Line
+	9500 2950 9500 3400
+Connection ~ 9500 3400
+Wire Wire Line
+	9500 3400 10150 3400
+Wire Wire Line
+	9400 2950 9400 3300
+Wire Wire Line
+	8700 3300 9400 3300
+Connection ~ 9400 3300
+Wire Wire Line
+	9400 3300 10150 3300
+Wire Wire Line
+	9300 2950 9300 3200
+Wire Wire Line
+	8700 3200 9300 3200
+Connection ~ 9300 3200
+Wire Wire Line
+	9300 3200 10150 3200
+Wire Wire Line
+	9200 2950 9200 3100
+Wire Wire Line
+	8700 3100 9200 3100
+Connection ~ 9200 3100
+Wire Wire Line
+	9200 3100 10150 3100
+Wire Wire Line
+	9100 2950 9100 3000
+Connection ~ 9100 3000
+Wire Wire Line
+	9100 3000 10150 3000
+$EndSCHEMATC
