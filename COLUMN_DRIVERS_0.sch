@@ -27,8 +27,6 @@ F 3 "" H 3450 1125 50  0001 C CNN
 	1    3450 1125
 	1    0    0    -1  
 $EndComp
-Text Label 3800 2075 2    60   ~ 0
-COL00
 $Comp
 L custom:DMG6602 Q?
 U 1 1 62B84DB4
@@ -70,7 +68,7 @@ Connection ~ 2950 1775
 Wire Wire Line
 	3450 1975 3450 2075
 Wire Wire Line
-	3450 2075 3800 2075
+	3450 2075 3550 2075
 Connection ~ 3450 2075
 Wire Wire Line
 	3450 1175 3450 1575
@@ -115,20 +113,16 @@ Wire Wire Line
 Wire Wire Line
 	2950 3000 3450 3000
 Connection ~ 3450 3000
-Text Label 875  2075 0    60   ~ 0
-COL00_ON
-Text Label 875  2375 0    60   ~ 0
-COL00_OFF
 Wire Wire Line
 	1425 3000 1725 3000
 Wire Wire Line
-	875  2375 1725 2375
+	1325 2375 1725 2375
 Wire Wire Line
 	1725 3000 1725 2775
 Wire Wire Line
 	1725 2475 1725 2375
 Wire Wire Line
-	875  2075 1425 2075
+	1325 2075 1425 2075
 Wire Wire Line
 	1425 3000 1425 2775
 Connection ~ 1725 3000
@@ -242,8 +236,6 @@ F 3 "" H 6850 1125 50  0001 C CNN
 	1    6850 1125
 	1    0    0    -1  
 $EndComp
-Text Label 7200 2075 2    60   ~ 0
-COL00
 $Comp
 L custom:DMG6602 Q?
 U 1 1 62B84E22
@@ -283,16 +275,9 @@ Wire Wire Line
 	6350 1775 6550 1775
 Connection ~ 6350 1775
 Wire Wire Line
-	6850 1975 6850 2075
-Wire Wire Line
-	6850 2075 7200 2075
-Connection ~ 6850 2075
-Wire Wire Line
 	6850 1175 6850 1575
 Wire Wire Line
 	6350 1775 6350 1875
-Wire Wire Line
-	6850 2075 6850 2175
 $Comp
 L custom:CRG0603F4K7 R?
 U 1 1 62B84E3C
@@ -330,26 +315,17 @@ Wire Wire Line
 Wire Wire Line
 	6350 3000 6850 3000
 Connection ~ 6850 3000
-Text Label 4275 2075 0    60   ~ 0
-COL00_ON
-Text Label 4275 2375 0    60   ~ 0
-COL00_OFF
 Wire Wire Line
 	4825 3000 5125 3000
-Wire Wire Line
-	4275 2375 5125 2375
 Wire Wire Line
 	5125 3000 5125 2775
 Wire Wire Line
 	5125 2475 5125 2375
 Wire Wire Line
-	4275 2075 4825 2075
-Wire Wire Line
 	4825 3000 4825 2775
 Connection ~ 5125 3000
 Wire Wire Line
 	4825 2475 4825 2075
-Connection ~ 4825 2075
 Wire Wire Line
 	5125 3000 6025 3000
 $Comp
@@ -398,7 +374,6 @@ F 4 "4.7k" V 5695 2315 39  0000 L BNN "Resistance"
 $EndComp
 Wire Wire Line
 	5525 2375 5125 2375
-Connection ~ 5125 2375
 $Comp
 L custom:SSM3K35AMFV Q?
 U 1 1 62B84E72
@@ -457,8 +432,6 @@ F 3 "" H 10250 1125 50  0001 C CNN
 	1    10250 1125
 	1    0    0    -1  
 $EndComp
-Text Label 10600 2075 2    60   ~ 0
-COL00
 $Comp
 L custom:DMG6602 Q?
 U 1 1 62B84E90
@@ -498,16 +471,9 @@ Wire Wire Line
 	9750 1775 9950 1775
 Connection ~ 9750 1775
 Wire Wire Line
-	10250 1975 10250 2075
-Wire Wire Line
-	10250 2075 10600 2075
-Connection ~ 10250 2075
-Wire Wire Line
 	10250 1175 10250 1575
 Wire Wire Line
 	9750 1775 9750 1875
-Wire Wire Line
-	10250 2075 10250 2175
 $Comp
 L custom:CRG0603F4K7 R?
 U 1 1 62B84EAA
@@ -545,26 +511,17 @@ Wire Wire Line
 Wire Wire Line
 	9750 3000 10250 3000
 Connection ~ 10250 3000
-Text Label 7675 2075 0    60   ~ 0
-COL00_ON
-Text Label 7675 2375 0    60   ~ 0
-COL00_OFF
 Wire Wire Line
 	8225 3000 8525 3000
-Wire Wire Line
-	7675 2375 8525 2375
 Wire Wire Line
 	8525 3000 8525 2775
 Wire Wire Line
 	8525 2475 8525 2375
 Wire Wire Line
-	7675 2075 8225 2075
-Wire Wire Line
 	8225 3000 8225 2775
 Connection ~ 8525 3000
 Wire Wire Line
 	8225 2475 8225 2075
-Connection ~ 8225 2075
 Wire Wire Line
 	8525 3000 9425 3000
 $Comp
@@ -613,7 +570,6 @@ F 4 "4.7k" V 9095 2315 39  0000 L BNN "Resistance"
 $EndComp
 Wire Wire Line
 	8925 2375 8525 2375
-Connection ~ 8525 2375
 $Comp
 L custom:SSM3K35AMFV Q?
 U 1 1 62B84EE0
@@ -672,8 +628,6 @@ F 3 "" H 3450 3725 50  0001 C CNN
 	1    3450 3725
 	1    0    0    -1  
 $EndComp
-Text Label 3800 4675 2    60   ~ 0
-COL00
 $Comp
 L custom:DMG6602 Q?
 U 1 1 62BE401B
@@ -713,16 +667,9 @@ Wire Wire Line
 	2950 4375 3150 4375
 Connection ~ 2950 4375
 Wire Wire Line
-	3450 4575 3450 4675
-Wire Wire Line
-	3450 4675 3800 4675
-Connection ~ 3450 4675
-Wire Wire Line
 	3450 3775 3450 4175
 Wire Wire Line
 	2950 4375 2950 4475
-Wire Wire Line
-	3450 4675 3450 4775
 $Comp
 L custom:CRG0603F4K7 R?
 U 1 1 62BE4035
@@ -760,26 +707,17 @@ Wire Wire Line
 Wire Wire Line
 	2950 5600 3450 5600
 Connection ~ 3450 5600
-Text Label 875  4675 0    60   ~ 0
-COL00_ON
-Text Label 875  4975 0    60   ~ 0
-COL00_OFF
 Wire Wire Line
 	1425 5600 1725 5600
-Wire Wire Line
-	875  4975 1725 4975
 Wire Wire Line
 	1725 5600 1725 5375
 Wire Wire Line
 	1725 5075 1725 4975
 Wire Wire Line
-	875  4675 1425 4675
-Wire Wire Line
 	1425 5600 1425 5375
 Connection ~ 1725 5600
 Wire Wire Line
 	1425 5075 1425 4675
-Connection ~ 1425 4675
 Wire Wire Line
 	1725 5600 2625 5600
 $Comp
@@ -828,7 +766,6 @@ F 4 "4.7k" V 2295 4915 39  0000 L BNN "Resistance"
 $EndComp
 Wire Wire Line
 	2125 4975 1725 4975
-Connection ~ 1725 4975
 $Comp
 L custom:SSM3K35AMFV Q?
 U 1 1 62BE406B
@@ -887,8 +824,6 @@ F 3 "" H 6850 3725 50  0001 C CNN
 	1    6850 3725
 	1    0    0    -1  
 $EndComp
-Text Label 7200 4675 2    60   ~ 0
-COL00
 $Comp
 L custom:DMG6602 Q?
 U 1 1 62BE4089
@@ -928,16 +863,9 @@ Wire Wire Line
 	6350 4375 6550 4375
 Connection ~ 6350 4375
 Wire Wire Line
-	6850 4575 6850 4675
-Wire Wire Line
-	6850 4675 7200 4675
-Connection ~ 6850 4675
-Wire Wire Line
 	6850 3775 6850 4175
 Wire Wire Line
 	6350 4375 6350 4475
-Wire Wire Line
-	6850 4675 6850 4775
 $Comp
 L custom:CRG0603F4K7 R?
 U 1 1 62BE40A3
@@ -975,26 +903,17 @@ Wire Wire Line
 Wire Wire Line
 	6350 5600 6850 5600
 Connection ~ 6850 5600
-Text Label 4275 4675 0    60   ~ 0
-COL00_ON
-Text Label 4275 4975 0    60   ~ 0
-COL00_OFF
 Wire Wire Line
 	4825 5600 5125 5600
-Wire Wire Line
-	4275 4975 5125 4975
 Wire Wire Line
 	5125 5600 5125 5375
 Wire Wire Line
 	5125 5075 5125 4975
 Wire Wire Line
-	4275 4675 4825 4675
-Wire Wire Line
 	4825 5600 4825 5375
 Connection ~ 5125 5600
 Wire Wire Line
 	4825 5075 4825 4675
-Connection ~ 4825 4675
 Wire Wire Line
 	5125 5600 6025 5600
 $Comp
@@ -1043,7 +962,6 @@ F 4 "4.7k" V 5695 4915 39  0000 L BNN "Resistance"
 $EndComp
 Wire Wire Line
 	5525 4975 5125 4975
-Connection ~ 5125 4975
 $Comp
 L custom:SSM3K35AMFV Q?
 U 1 1 62BE40D9
@@ -1102,8 +1020,6 @@ F 3 "" H 10250 3725 50  0001 C CNN
 	1    10250 3725
 	1    0    0    -1  
 $EndComp
-Text Label 10600 4675 2    60   ~ 0
-COL00
 $Comp
 L custom:DMG6602 Q?
 U 1 1 62BE40F7
@@ -1143,16 +1059,9 @@ Wire Wire Line
 	9750 4375 9950 4375
 Connection ~ 9750 4375
 Wire Wire Line
-	10250 4575 10250 4675
-Wire Wire Line
-	10250 4675 10600 4675
-Connection ~ 10250 4675
-Wire Wire Line
 	10250 3775 10250 4175
 Wire Wire Line
 	9750 4375 9750 4475
-Wire Wire Line
-	10250 4675 10250 4775
 $Comp
 L custom:CRG0603F4K7 R?
 U 1 1 62BE4111
@@ -1190,26 +1099,17 @@ Wire Wire Line
 Wire Wire Line
 	9750 5600 10250 5600
 Connection ~ 10250 5600
-Text Label 7675 4675 0    60   ~ 0
-COL00_ON
-Text Label 7675 4975 0    60   ~ 0
-COL00_OFF
 Wire Wire Line
 	8225 5600 8525 5600
-Wire Wire Line
-	7675 4975 8525 4975
 Wire Wire Line
 	8525 5600 8525 5375
 Wire Wire Line
 	8525 5075 8525 4975
 Wire Wire Line
-	7675 4675 8225 4675
-Wire Wire Line
 	8225 5600 8225 5375
 Connection ~ 8525 5600
 Wire Wire Line
 	8225 5075 8225 4675
-Connection ~ 8225 4675
 Wire Wire Line
 	8525 5600 9425 5600
 $Comp
@@ -1258,7 +1158,6 @@ F 4 "4.7k" V 9095 4915 39  0000 L BNN "Resistance"
 $EndComp
 Wire Wire Line
 	8925 4975 8525 4975
-Connection ~ 8525 4975
 $Comp
 L custom:SSM3K35AMFV Q?
 U 1 1 62BE4147
@@ -1304,4 +1203,105 @@ F 3 "datasheets/SSM3K35AMFV.pdf" H 9850 4525 50  0001 L BNN
 	1    9650 4675
 	1    0    0    -1  
 $EndComp
+Text GLabel 1325 2075 0    50   Input ~ 0
+COL00_ON
+Text GLabel 1325 2375 0    50   Input ~ 0
+COL00_OFF
+Text GLabel 3550 2075 2    50   Output ~ 0
+COL00
+Wire Wire Line
+	6850 1975 6850 2075
+Wire Wire Line
+	10250 1975 10250 2075
+Wire Wire Line
+	3450 4575 3450 4675
+Wire Wire Line
+	6850 4575 6850 4675
+Wire Wire Line
+	10250 4575 10250 4675
+Wire Wire Line
+	1325 4975 1725 4975
+Wire Wire Line
+	1325 4675 1425 4675
+Text GLabel 1325 4675 0    50   Input ~ 0
+COL03_ON
+Text GLabel 1325 4975 0    50   Input ~ 0
+COL03_OFF
+Wire Wire Line
+	4725 2375 5125 2375
+Wire Wire Line
+	4725 2075 4825 2075
+Text GLabel 4725 2075 0    50   Input ~ 0
+COL01_ON
+Text GLabel 4725 2375 0    50   Input ~ 0
+COL01_OFF
+Wire Wire Line
+	4725 4975 5125 4975
+Wire Wire Line
+	4725 4675 4825 4675
+Text GLabel 4725 4675 0    50   Input ~ 0
+COL04_ON
+Text GLabel 4725 4975 0    50   Input ~ 0
+COL04_OFF
+Wire Wire Line
+	8125 4975 8525 4975
+Wire Wire Line
+	8125 4675 8225 4675
+Text GLabel 8125 4675 0    50   Input ~ 0
+COL05_ON
+Text GLabel 8125 4975 0    50   Input ~ 0
+COL05_OFF
+Wire Wire Line
+	8125 2375 8525 2375
+Wire Wire Line
+	8125 2075 8225 2075
+Text GLabel 8125 2075 0    50   Input ~ 0
+COL02_ON
+Text GLabel 8125 2375 0    50   Input ~ 0
+COL02_OFF
+Connection ~ 8225 2075
+Connection ~ 8525 2375
+Wire Wire Line
+	3450 4675 3550 4675
+Text GLabel 3550 4675 2    50   Output ~ 0
+COL03
+Wire Wire Line
+	6850 4675 6950 4675
+Text GLabel 6950 4675 2    50   Output ~ 0
+COL04
+Wire Wire Line
+	6850 2075 6950 2075
+Text GLabel 6950 2075 2    50   Output ~ 0
+COL01
+Text GLabel 10350 2075 2    50   Output ~ 0
+COL02
+Text GLabel 10350 4675 2    50   Output ~ 0
+COL05
+Connection ~ 4825 2075
+Connection ~ 5125 2375
+Connection ~ 6850 2075
+Wire Wire Line
+	6850 2075 6850 2175
+Wire Wire Line
+	10250 2075 10350 2075
+Connection ~ 10250 2075
+Wire Wire Line
+	10250 2075 10250 2175
+Connection ~ 3450 4675
+Wire Wire Line
+	3450 4675 3450 4775
+Connection ~ 6850 4675
+Wire Wire Line
+	6850 4675 6850 4775
+Wire Wire Line
+	10250 4675 10350 4675
+Connection ~ 10250 4675
+Wire Wire Line
+	10250 4675 10250 4775
+Connection ~ 8225 4675
+Connection ~ 8525 4975
+Connection ~ 4825 4675
+Connection ~ 5125 4975
+Connection ~ 1725 4975
+Connection ~ 1425 4675
 $EndSCHEMATC

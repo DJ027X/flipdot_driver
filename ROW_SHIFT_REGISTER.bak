@@ -27,12 +27,6 @@ F 3 "" H 1875 3100 50  0001 C CNN
 	1    1875 3100
 	1    0    0    -1  
 $EndComp
-Text Label 1325 2450 0    60   ~ 0
-!ROW_RESET
-Text Label 1325 2550 0    60   ~ 0
-!ENABLE
-Text Label 1325 2750 0    60   ~ 0
-ROW_SHCP
 $Comp
 L power:GND #PWR?
 U 1 1 622B9CFD
@@ -46,10 +40,6 @@ F 3 "" H 1875 6025 50  0001 C CNN
 	1    1875 6025
 	1    0    0    -1  
 $EndComp
-Text Label 1325 5475 0    60   ~ 0
-!ENABLE
-Text Label 1325 2350 0    60   ~ 0
-ROW_IN
 $Comp
 L power:GND #PWR?
 U 1 1 622B9D05
@@ -63,109 +53,6 @@ F 3 "" H 5025 3100 50  0001 C CNN
 	1    5025 3100
 	1    0    0    -1  
 $EndComp
-Text Label 4475 2550 0    60   ~ 0
-!ENABLE
-$Comp
-L power:GND #PWR?
-U 1 1 622B9D0C
-P 5025 6025
-AR Path="/622B9D0C" Ref="#PWR?"  Part="1" 
-AR Path="/621F0CB4/622B9D0C" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 5025 5775 50  0001 C CNN
-F 1 "GND" H 5025 5875 50  0000 C CNN
-F 2 "" H 5025 6025 50  0001 C CNN
-F 3 "" H 5025 6025 50  0001 C CNN
-	1    5025 6025
-	1    0    0    -1  
-$EndComp
-Text Label 4475 5475 0    60   ~ 0
-!ENABLE
-Text Label 1325 2650 0    60   ~ 0
-!ROW_SHCP
-Text Label 3375 2250 2    60   ~ 0
-ROW00_ON
-Text Label 3375 2350 2    60   ~ 0
-ROW01_ON
-Text Label 3375 2450 2    60   ~ 0
-ROW02_ON
-Text Label 3375 2550 2    60   ~ 0
-ROW03_ON
-Text Label 3375 2650 2    60   ~ 0
-ROW04_ON
-Text Label 3375 2750 2    60   ~ 0
-ROW05_ON
-Text Label 3375 2850 2    60   ~ 0
-ROW06_ON
-Text Label 3375 2950 2    60   ~ 0
-ROW07_ON
-Text Label 3375 5175 2    60   ~ 0
-ROW08_ON
-Text Label 3375 5275 2    60   ~ 0
-ROW09_ON
-Text Label 3375 5375 2    60   ~ 0
-ROW10_ON
-Text Label 3375 5475 2    60   ~ 0
-ROW11_ON
-Text Label 3375 5575 2    60   ~ 0
-ROW12_ON
-Text Label 3375 5675 2    60   ~ 0
-ROW13_ON
-Text Label 3375 5775 2    60   ~ 0
-ROW14_ON
-Text Label 3375 5875 2    60   ~ 0
-ROW15_ON
-Text Label 6525 2250 2    60   ~ 0
-ROW00_OFF
-Text Label 6525 2350 2    60   ~ 0
-ROW01_OFF
-Text Label 6525 2450 2    60   ~ 0
-ROW02_OFF
-Text Label 6525 2550 2    60   ~ 0
-ROW03_OFF
-Text Label 6525 2650 2    60   ~ 0
-ROW04_OFF
-Text Label 6525 2750 2    60   ~ 0
-ROW05_OFF
-Text Label 6525 2850 2    60   ~ 0
-ROW06_OFF
-Text Label 6525 2950 2    60   ~ 0
-ROW07_OFF
-Text Label 6525 5175 2    60   ~ 0
-ROW08_OFF
-Text Label 6525 5275 2    60   ~ 0
-ROW09_OFF
-Text Label 6525 5375 2    60   ~ 0
-ROW10_OFF
-Text Label 6525 5475 2    60   ~ 0
-ROW11_OFF
-Text Label 6525 5575 2    60   ~ 0
-ROW12_OFF
-Text Label 6525 5675 2    60   ~ 0
-ROW13_OFF
-Text Label 6525 5775 2    60   ~ 0
-ROW14_OFF
-Text Label 6525 5875 2    60   ~ 0
-ROW15_OFF
-Text Label 4475 5775 0    60   ~ 0
-ROW_OUT
-Text Label 1325 5375 0    60   ~ 0
-!ROW_RESET
-Text Label 4475 2450 0    60   ~ 0
-!ROW_RESET
-Text Label 4475 5375 0    60   ~ 0
-!ROW_RESET
-Text Label 4475 2650 0    60   ~ 0
-!ROW_SHCP
-Text Label 4475 2750 0    60   ~ 0
-ROW_SHCP
-Text Label 1325 5575 0    60   ~ 0
-!ROW_SHCP
-Text Label 1325 5675 0    60   ~ 0
-ROW_SHCP
-Text Label 4475 5575 0    60   ~ 0
-!ROW_SHCP
-Text Label 4475 5675 0    60   ~ 0
-ROW_SHCP
 Wire Wire Line
 	1875 2100 1875 2250
 Wire Wire Line
@@ -175,13 +62,13 @@ Wire Wire Line
 Wire Wire Line
 	1925 2950 1875 2950
 Wire Wire Line
-	1925 2450 1325 2450
+	1925 2450 1825 2450
 Wire Wire Line
-	1925 2550 1325 2550
+	1925 2550 1825 2550
 Wire Wire Line
-	1925 2650 1325 2650
+	1925 2650 1825 2650
 Wire Wire Line
-	1925 2750 1325 2750
+	1925 2750 1825 2750
 Wire Wire Line
 	1875 5025 1875 5175
 Wire Wire Line
@@ -191,21 +78,21 @@ Wire Wire Line
 Wire Wire Line
 	1925 5875 1875 5875
 Wire Wire Line
-	1925 5375 1325 5375
+	1925 5375 1825 5375
 Wire Wire Line
-	1925 5475 1325 5475
+	1925 5475 1825 5475
 Wire Wire Line
-	1925 5575 1325 5575
+	1925 5575 1825 5575
 Wire Wire Line
-	1925 5675 1325 5675
+	1925 5675 1825 5675
 Wire Wire Line
-	1925 2850 1725 2850
+	1925 2850 1600 2850
 Wire Wire Line
-	1725 2850 1725 5275
+	1600 2850 1600 5275
 Wire Wire Line
-	1725 5275 1925 5275
+	1600 5275 1925 5275
 Wire Wire Line
-	1925 2350 1325 2350
+	1925 2350 1825 2350
 Wire Wire Line
 	5025 2100 5025 2250
 Wire Wire Line
@@ -215,13 +102,13 @@ Wire Wire Line
 Wire Wire Line
 	5075 2950 5025 2950
 Wire Wire Line
-	5075 2450 4475 2450
+	5075 2450 4975 2450
 Wire Wire Line
-	5075 2550 4475 2550
+	5075 2550 4975 2550
 Wire Wire Line
-	5075 2650 4475 2650
+	5075 2650 4975 2650
 Wire Wire Line
-	5075 2750 4475 2750
+	5075 2750 4975 2750
 Wire Wire Line
 	5025 5025 5025 5175
 Wire Wire Line
@@ -231,85 +118,85 @@ Wire Wire Line
 Wire Wire Line
 	5075 5875 5025 5875
 Wire Wire Line
-	5075 5375 4475 5375
+	5075 5375 4975 5375
 Wire Wire Line
-	5075 5475 4475 5475
+	5075 5475 4975 5475
 Wire Wire Line
-	5075 5575 4475 5575
+	5075 5575 4975 5575
 Wire Wire Line
-	5075 5675 4475 5675
+	5075 5675 4975 5675
 Wire Wire Line
-	5075 2850 4875 2850
+	5075 2850 4750 2850
 Wire Wire Line
-	4875 2850 4875 5275
+	4750 2850 4750 5275
 Wire Wire Line
-	4875 5275 5075 5275
+	4750 5275 5075 5275
 Wire Wire Line
-	2825 2250 3375 2250
+	2825 2250 2925 2250
 Wire Wire Line
-	2825 2350 3375 2350
+	2825 2350 2925 2350
 Wire Wire Line
-	2825 2450 3375 2450
+	2825 2450 2925 2450
 Wire Wire Line
-	3375 2550 2825 2550
+	2925 2550 2825 2550
 Wire Wire Line
-	2825 2650 3375 2650
+	2825 2650 2925 2650
 Wire Wire Line
-	3375 2750 2825 2750
+	2925 2750 2825 2750
 Wire Wire Line
-	3375 2850 2825 2850
+	2925 2850 2825 2850
 Wire Wire Line
-	3375 2950 2825 2950
+	2925 2950 2825 2950
 Wire Wire Line
-	3375 5175 2825 5175
+	2925 5175 2825 5175
 Wire Wire Line
-	3375 5275 2825 5275
+	2925 5275 2825 5275
 Wire Wire Line
-	3375 5375 2825 5375
+	2925 5375 2825 5375
 Wire Wire Line
-	3375 5475 2825 5475
+	2925 5475 2825 5475
 Wire Wire Line
-	3375 5575 2825 5575
+	2925 5575 2825 5575
 Wire Wire Line
-	3375 5675 2825 5675
+	2925 5675 2825 5675
 Wire Wire Line
-	3375 5775 2825 5775
+	2925 5775 2825 5775
 Wire Wire Line
-	3375 5875 2825 5875
+	2925 5875 2825 5875
 Wire Wire Line
-	5975 2250 6525 2250
+	5975 2250 6075 2250
 Wire Wire Line
-	5975 2350 6525 2350
+	5975 2350 6075 2350
 Wire Wire Line
-	5975 2450 6525 2450
+	5975 2450 6075 2450
 Wire Wire Line
-	6525 2550 5975 2550
+	6075 2550 5975 2550
 Wire Wire Line
-	5975 2650 6525 2650
+	5975 2650 6075 2650
 Wire Wire Line
-	6525 2750 5975 2750
+	6075 2750 5975 2750
 Wire Wire Line
-	6525 2850 5975 2850
+	6075 2850 5975 2850
 Wire Wire Line
-	6525 2950 5975 2950
+	6075 2950 5975 2950
 Wire Wire Line
-	6525 5175 5975 5175
+	6075 5175 5975 5175
 Wire Wire Line
-	6525 5275 5975 5275
+	6075 5275 5975 5275
 Wire Wire Line
-	6525 5375 5975 5375
+	6075 5375 5975 5375
 Wire Wire Line
-	6525 5475 5975 5475
+	6075 5475 5975 5475
 Wire Wire Line
-	6525 5575 5975 5575
+	6075 5575 5975 5575
 Wire Wire Line
-	6525 5675 5975 5675
+	6075 5675 5975 5675
 Wire Wire Line
-	6525 5775 5975 5775
+	6075 5775 5975 5775
 Wire Wire Line
-	6525 5875 5975 5875
+	6075 5875 5975 5875
 Wire Wire Line
-	5075 5775 4475 5775
+	5075 5775 4975 5775
 $Comp
 L power:+3V3 #PWR?
 U 1 1 622B9E98
@@ -806,12 +693,129 @@ Connection ~ 5075 4275
 Connection ~ 5975 4675
 Connection ~ 5075 1350
 Connection ~ 5975 1750
-Text Label 1325 5775 0    50   ~ 0
+Text Label 1250 5825 0    50   ~ 0
 ROW_SR_CHAIN
 Wire Wire Line
-	1325 5775 1925 5775
+	1825 5775 1925 5775
 Text Label 4475 2350 0    50   ~ 0
 ROW_SR_CHAIN
 Wire Wire Line
 	4475 2350 5075 2350
+Text GLabel 1825 2450 0    50   Input ~ 0
+!ROW_RESET
+Text GLabel 1825 2550 0    50   Input ~ 0
+!ENABLE
+Text GLabel 1825 2650 0    50   Input ~ 0
+!ROW_SHCP
+Text GLabel 1825 2750 0    50   Input ~ 0
+ROW_SHCP
+Text GLabel 1825 5375 0    50   Input ~ 0
+!ROW_RESET
+Text GLabel 1825 5475 0    50   Input ~ 0
+!ENABLE
+Text GLabel 1825 5575 0    50   Input ~ 0
+!ROW_SHCP
+Text GLabel 1825 5675 0    50   Input ~ 0
+ROW_SHCP
+Text GLabel 4975 2450 0    50   Input ~ 0
+!ROW_RESET
+Text GLabel 4975 2550 0    50   Input ~ 0
+!ENABLE
+Text GLabel 4975 2650 0    50   Input ~ 0
+!ROW_SHCP
+Text GLabel 4975 2750 0    50   Input ~ 0
+ROW_SHCP
+Text GLabel 4975 5375 0    50   Input ~ 0
+!ROW_RESET
+Text GLabel 4975 5475 0    50   Input ~ 0
+!ENABLE
+Text GLabel 4975 5575 0    50   Input ~ 0
+!ROW_SHCP
+Text GLabel 4975 5675 0    50   Input ~ 0
+ROW_SHCP
+Wire Wire Line
+	1250 5825 1825 5825
+Wire Wire Line
+	1825 5825 1825 5775
+Text GLabel 1825 2350 0    50   Input ~ 0
+ROW_IN
+Text GLabel 4975 5775 0    50   Output ~ 0
+ROW_OUT
+$Comp
+L power:GND #PWR?
+U 1 1 622B9D0C
+P 5025 6025
+AR Path="/622B9D0C" Ref="#PWR?"  Part="1" 
+AR Path="/621F0CB4/622B9D0C" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 5025 5775 50  0001 C CNN
+F 1 "GND" H 5025 5875 50  0000 C CNN
+F 2 "" H 5025 6025 50  0001 C CNN
+F 3 "" H 5025 6025 50  0001 C CNN
+	1    5025 6025
+	1    0    0    -1  
+$EndComp
+Text GLabel 2925 2250 2    50   Output ~ 0
+ROW00_ON
+Text GLabel 2925 2350 2    50   Output ~ 0
+ROW01_ON
+Text GLabel 2925 2450 2    50   Output ~ 0
+ROW02_ON
+Text GLabel 2925 2550 2    50   Output ~ 0
+ROW03_ON
+Text GLabel 2925 2650 2    50   Output ~ 0
+ROW04_ON
+Text GLabel 2925 2750 2    50   Output ~ 0
+ROW05_ON
+Text GLabel 2925 2850 2    50   Output ~ 0
+ROW06_ON
+Text GLabel 2925 2950 2    50   Output ~ 0
+ROW07_ON
+Text GLabel 2925 5175 2    50   Output ~ 0
+ROW08_ON
+Text GLabel 2925 5275 2    50   Output ~ 0
+ROW09_ON
+Text GLabel 2925 5375 2    50   Output ~ 0
+ROW10_ON
+Text GLabel 2925 5475 2    50   Output ~ 0
+ROW11_ON
+Text GLabel 2925 5575 2    50   Output ~ 0
+ROW12_ON
+Text GLabel 2925 5675 2    50   Output ~ 0
+ROW13_ON
+Text GLabel 2925 5775 2    50   Output ~ 0
+ROW14_ON
+Text GLabel 2925 5875 2    50   Output ~ 0
+ROW15_ON
+Text GLabel 6075 5175 2    50   Output ~ 0
+ROW08_OFF
+Text GLabel 6075 5275 2    50   Output ~ 0
+ROW09_OFF
+Text GLabel 6075 5375 2    50   Output ~ 0
+ROW10_OFF
+Text GLabel 6075 5475 2    50   Output ~ 0
+ROW11_OFF
+Text GLabel 6075 5575 2    50   Output ~ 0
+ROW12_OFF
+Text GLabel 6075 5675 2    50   Output ~ 0
+ROW13_OFF
+Text GLabel 6075 5775 2    50   Output ~ 0
+ROW14_OFF
+Text GLabel 6075 5875 2    50   Output ~ 0
+ROW15_OFF
+Text GLabel 6075 2250 2    50   Output ~ 0
+ROW00_OFF
+Text GLabel 6075 2350 2    50   Output ~ 0
+ROW01_OFF
+Text GLabel 6075 2450 2    50   Output ~ 0
+ROW02_OFF
+Text GLabel 6075 2550 2    50   Output ~ 0
+ROW03_OFF
+Text GLabel 6075 2650 2    50   Output ~ 0
+ROW04_OFF
+Text GLabel 6075 2750 2    50   Output ~ 0
+ROW05_OFF
+Text GLabel 6075 2850 2    50   Output ~ 0
+ROW06_OFF
+Text GLabel 6075 2950 2    50   Output ~ 0
+ROW07_OFF
 $EndSCHEMATC
