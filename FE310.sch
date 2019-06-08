@@ -4,7 +4,7 @@ EELAYER 29 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
-Sheet 17 20
+Sheet 4 20
 Title "FLIPDOT_DRIVER"
 Date ""
 Rev ""
