@@ -2,1306 +2,1306 @@ EESchema Schematic File Version 4
 LIBS:flipdot_driver-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 11 20
-Title ""
+Title "FLIPDOT_DRIVER"
 Date ""
 Rev ""
-Comp ""
+Comp "DYLAN DAILEY"
 Comment1 ""
 Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
+Connection ~ 1125 4875
+Connection ~ 1425 5175
+Connection ~ 4825 5175
+Connection ~ 4525 4875
+Connection ~ 8225 5175
+Connection ~ 7925 4875
+Wire Wire Line
+	9950 4875 9950 4975
+Connection ~ 9950 4875
+Wire Wire Line
+	9950 4875 10050 4875
+Wire Wire Line
+	6550 4875 6550 4975
+Connection ~ 6550 4875
+Wire Wire Line
+	3150 4875 3150 4975
+Connection ~ 3150 4875
+Wire Wire Line
+	9950 2275 9950 2375
+Connection ~ 9950 2275
+Wire Wire Line
+	9950 2275 10050 2275
+Wire Wire Line
+	6550 2275 6550 2375
+Connection ~ 6550 2275
+Connection ~ 4825 2575
+Connection ~ 4525 2275
+Text GLabel 10050 4875 2    50   Output ~ 0
+COL05
+Text GLabel 10050 2275 2    50   Output ~ 0
+COL02
+Text GLabel 6650 2275 2    50   Output ~ 0
+COL01
+Wire Wire Line
+	6550 2275 6650 2275
+Text GLabel 6650 4875 2    50   Output ~ 0
+COL04
+Wire Wire Line
+	6550 4875 6650 4875
+Text GLabel 3250 4875 2    50   Output ~ 0
+COL03
+Wire Wire Line
+	3150 4875 3250 4875
+Connection ~ 8225 2575
+Connection ~ 7925 2275
+Text GLabel 7825 2575 0    50   Input ~ 0
+COL02_OFF
+Text GLabel 7825 2275 0    50   Input ~ 0
+COL02_ON
+Wire Wire Line
+	7825 2275 7925 2275
+Wire Wire Line
+	7825 2575 8225 2575
+Text GLabel 7825 5175 0    50   Input ~ 0
+COL05_OFF
+Text GLabel 7825 4875 0    50   Input ~ 0
+COL05_ON
+Wire Wire Line
+	7825 4875 7925 4875
+Wire Wire Line
+	7825 5175 8225 5175
+Text GLabel 4425 5175 0    50   Input ~ 0
+COL04_OFF
+Text GLabel 4425 4875 0    50   Input ~ 0
+COL04_ON
+Wire Wire Line
+	4425 4875 4525 4875
+Wire Wire Line
+	4425 5175 4825 5175
+Text GLabel 4425 2575 0    50   Input ~ 0
+COL01_OFF
+Text GLabel 4425 2275 0    50   Input ~ 0
+COL01_ON
+Wire Wire Line
+	4425 2275 4525 2275
+Wire Wire Line
+	4425 2575 4825 2575
+Text GLabel 1025 5175 0    50   Input ~ 0
+COL03_OFF
+Text GLabel 1025 4875 0    50   Input ~ 0
+COL03_ON
+Wire Wire Line
+	1025 4875 1125 4875
+Wire Wire Line
+	1025 5175 1425 5175
+Wire Wire Line
+	9950 4775 9950 4875
+Wire Wire Line
+	6550 4775 6550 4875
+Wire Wire Line
+	3150 4775 3150 4875
+Wire Wire Line
+	9950 2175 9950 2275
+Wire Wire Line
+	6550 2175 6550 2275
+Text GLabel 3250 2275 2    50   Output ~ 0
+COL00
+Text GLabel 1025 2575 0    50   Input ~ 0
+COL00_OFF
+Text GLabel 1025 2275 0    50   Input ~ 0
+COL00_ON
 $Comp
-L power:+12V #PWR?
-U 1 1 62B84DAD
-P 3450 1125
-AR Path="/62B84DAD" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62B84DAD" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3450 975 50  0001 C CNN
-F 1 "+12V" H 3450 1265 50  0000 C CNN
-F 2 "" H 3450 1125 50  0001 C CNN
-F 3 "" H 3450 1125 50  0001 C CNN
-	1    3450 1125
+L custom:SSM3K35AMFV Q?
+U 1 1 62BE4158
+P 9350 4875
+AR Path="/62BE4158" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62BE4158" Ref="Q26"  Part="1" 
+F 0 "Q26" V 9675 4800 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 9600 4625 50  0000 L BNN
+F 2 "" H 9550 4750 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 9550 4725 50  0001 L BNN
+	1    9350 4875
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	8475 4875 9150 4875
+Connection ~ 8475 4875
+Wire Wire Line
+	8475 5500 8475 4875
+Wire Wire Line
+	8825 5500 8475 5500
+Wire Wire Line
+	9125 5800 9450 5800
+Connection ~ 9125 5800
+Wire Wire Line
+	9125 5700 9125 5800
+Connection ~ 9125 5175
+Wire Wire Line
+	9125 5175 9650 5175
+Wire Wire Line
+	9125 5175 8925 5175
+Wire Wire Line
+	9125 5300 9125 5175
 $Comp
-L custom:DMG6602 Q?
-U 1 1 62B84DB4
-P 3350 2375
-AR Path="/62B84DB4" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84DB4" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3550 2450 50  0000 L CNN
-F 1 "DMG6602" H 3550 2375 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3550 2300 50  0001 L CIN
-F 3 "" H 3350 2375 50  0001 L CNN
-	1    3350 2375
+L custom:SSM3K35AMFV Q?
+U 1 1 62BE4147
+P 9025 5500
+AR Path="/62BE4147" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62BE4147" Ref="Q29"  Part="1" 
+F 0 "Q29" V 9350 5425 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 9275 5250 50  0000 L BNN
+F 2 "" H 9225 5375 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 9225 5350 50  0001 L BNN
+	1    9025 5500
 	1    0    0    -1  
 $EndComp
-$Comp
-L custom:DMG6602 Q?
-U 2 1 62B84DBA
-P 3350 1775
-AR Path="/62B84DBA" Ref="Q?"  Part="2" 
-AR Path="/62A8D0C3/62B84DBA" Ref="Q?"  Part="2" 
-F 0 "Q?" H 3550 1850 50  0000 L CNN
-F 1 "DMG6602" H 3550 1775 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3550 1700 50  0001 L CIN
-F 3 "" H 3350 1775 50  0001 L CNN
-	2    3350 1775
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
-	3450 1125 3450 1175
-Wire Wire Line
-	2950 1275 2950 1175
-Wire Wire Line
-	2950 1175 3450 1175
-Connection ~ 3450 1175
-Wire Wire Line
-	2950 1575 2950 1775
-Wire Wire Line
-	2950 1775 3150 1775
-Connection ~ 2950 1775
-Wire Wire Line
-	3450 1975 3450 2075
-Wire Wire Line
-	3450 2075 3550 2075
-Connection ~ 3450 2075
-Wire Wire Line
-	3450 1175 3450 1575
-Wire Wire Line
-	2950 1775 2950 1875
-Wire Wire Line
-	3450 2075 3450 2175
+	8625 5175 8225 5175
 $Comp
 L custom:CRG0603F4K7 R?
-U 1 1 62B84DCE
-P 2950 1425
-AR Path="/62B84DCE" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84DCE" Ref="R?"  Part="1" 
-F 0 "R?" V 3070 1325 50  0000 L BNN
-F 1 "CRG0603F4K7" H 2200 975 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2200 875 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 2200 775 50  0001 L BNN
-F 4 "4.7k" V 2970 1365 39  0000 L BNN "Resistance"
-	1    2950 1425
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62B84DD4
-P 3450 3050
-AR Path="/62B84DD4" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62B84DD4" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3450 2800 50  0001 C CNN
-F 1 "GND" H 3450 2900 50  0000 C CNN
-F 2 "" H 3450 3050 50  0001 C CNN
-F 3 "" H 3450 3050 50  0001 C CNN
-	1    3450 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 2275 2950 3000
-Wire Wire Line
-	3450 3000 3450 2575
-Connection ~ 2950 3000
-Wire Wire Line
-	3450 3000 3450 3050
-Wire Wire Line
-	2950 3000 3450 3000
-Connection ~ 3450 3000
-Wire Wire Line
-	1425 3000 1725 3000
-Wire Wire Line
-	1325 2375 1725 2375
-Wire Wire Line
-	1725 3000 1725 2775
-Wire Wire Line
-	1725 2475 1725 2375
-Wire Wire Line
-	1325 2075 1425 2075
-Wire Wire Line
-	1425 3000 1425 2775
-Connection ~ 1725 3000
-Wire Wire Line
-	1425 2475 1425 2075
-Connection ~ 1425 2075
-Wire Wire Line
-	1725 3000 2625 3000
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84DED
-P 1425 2625
-AR Path="/62B84DED" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84DED" Ref="R?"  Part="1" 
-F 0 "R?" V 1545 2525 50  0000 L BNN
-F 1 "CRG0603F4K7" H 675 2175 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 675 2075 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 675 1975 50  0001 L BNN
-F 4 "4.7k" V 1445 2565 39  0000 L BNN "Resistance"
-	1    1425 2625
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84DF4
-P 1725 2625
-AR Path="/62B84DF4" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84DF4" Ref="R?"  Part="1" 
-F 0 "R?" V 1845 2525 50  0000 L BNN
-F 1 "CRG0603F4K7" H 975 2175 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 975 2075 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 975 1975 50  0001 L BNN
-F 4 "4.7k" V 1745 2565 39  0000 L BNN "Resistance"
-	1    1725 2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1425 2075 1975 2075
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84DFC
-P 2275 2375
-AR Path="/62B84DFC" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84DFC" Ref="R?"  Part="1" 
-F 0 "R?" V 2395 2275 50  0000 L BNN
-F 1 "CRG0603F4K7" H 1525 1925 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1525 1825 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 1525 1725 50  0001 L BNN
-F 4 "4.7k" V 2295 2315 39  0000 L BNN "Resistance"
-	1    2275 2375
+U 1 1 62BE413F
+P 8775 5175
+AR Path="/62BE413F" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE413F" Ref="R83"  Part="1" 
+F 0 "R83" V 8895 5075 50  0000 L BNN
+F 1 "CRG0603F4K7" H 8025 4725 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8025 4625 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 8025 4525 50  0001 L BNN
+F 4 "4.7k" V 8795 5115 39  0000 L BNN "Resistance"
+	1    8775 5175
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2125 2375 1725 2375
-Connection ~ 1725 2375
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62B84E04
-P 2525 2700
-AR Path="/62B84E04" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84E04" Ref="Q?"  Part="1" 
-F 0 "Q?" V 2850 2625 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 2775 2450 50  0000 L BNN
-F 2 "" H 2725 2575 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 2725 2550 50  0001 L BNN
-	1    2525 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2625 2500 2625 2375
-Wire Wire Line
-	2625 2375 2425 2375
-Wire Wire Line
-	2625 2375 3150 2375
-Connection ~ 2625 2375
-Wire Wire Line
-	2625 2900 2625 3000
-Connection ~ 2625 3000
-Wire Wire Line
-	2625 3000 2950 3000
-Wire Wire Line
-	2325 2700 1975 2700
-Wire Wire Line
-	1975 2700 1975 2075
-Connection ~ 1975 2075
-Wire Wire Line
-	1975 2075 2650 2075
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62B84E15
-P 2850 2075
-AR Path="/62B84E15" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84E15" Ref="Q?"  Part="1" 
-F 0 "Q?" V 3175 2000 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 3100 1825 50  0000 L BNN
-F 2 "" H 3050 1950 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 3050 1925 50  0001 L BNN
-	1    2850 2075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 62B84E1B
-P 6850 1125
-AR Path="/62B84E1B" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62B84E1B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6850 975 50  0001 C CNN
-F 1 "+12V" H 6850 1265 50  0000 C CNN
-F 2 "" H 6850 1125 50  0001 C CNN
-F 3 "" H 6850 1125 50  0001 C CNN
-	1    6850 1125
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:DMG6602 Q?
-U 1 1 62B84E22
-P 6750 2375
-AR Path="/62B84E22" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84E22" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6950 2450 50  0000 L CNN
-F 1 "DMG6602" H 6950 2375 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6950 2300 50  0001 L CIN
-F 3 "" H 6750 2375 50  0001 L CNN
-	1    6750 2375
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:DMG6602 Q?
-U 2 1 62B84E28
-P 6750 1775
-AR Path="/62B84E28" Ref="Q?"  Part="2" 
-AR Path="/62A8D0C3/62B84E28" Ref="Q?"  Part="2" 
-F 0 "Q?" H 6950 1850 50  0000 L CNN
-F 1 "DMG6602" H 6950 1775 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6950 1700 50  0001 L CIN
-F 3 "" H 6750 1775 50  0001 L CNN
-	2    6750 1775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 1125 6850 1175
-Wire Wire Line
-	6350 1275 6350 1175
-Wire Wire Line
-	6350 1175 6850 1175
-Connection ~ 6850 1175
-Wire Wire Line
-	6350 1575 6350 1775
-Wire Wire Line
-	6350 1775 6550 1775
-Connection ~ 6350 1775
-Wire Wire Line
-	6850 1175 6850 1575
-Wire Wire Line
-	6350 1775 6350 1875
+	7925 4875 8475 4875
 $Comp
 L custom:CRG0603F4K7 R?
-U 1 1 62B84E3C
-P 6350 1425
-AR Path="/62B84E3C" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84E3C" Ref="R?"  Part="1" 
-F 0 "R?" V 6470 1325 50  0000 L BNN
-F 1 "CRG0603F4K7" H 5600 975 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 875 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 5600 775 50  0001 L BNN
-F 4 "4.7k" V 6370 1365 39  0000 L BNN "Resistance"
-	1    6350 1425
+U 1 1 62BE4137
+P 8225 5425
+AR Path="/62BE4137" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE4137" Ref="R89"  Part="1" 
+F 0 "R89" V 8345 5325 50  0000 L BNN
+F 1 "CRG0603F4K7" H 7475 4975 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7475 4875 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7475 4775 50  0001 L BNN
+F 4 "4.7k" V 8245 5365 39  0000 L BNN "Resistance"
+	1    8225 5425
 	1    0    0    -1  
 $EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62BE4130
+P 7925 5425
+AR Path="/62BE4130" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE4130" Ref="R88"  Part="1" 
+F 0 "R88" V 8045 5325 50  0000 L BNN
+F 1 "CRG0603F4K7" H 7175 4975 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7175 4875 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7175 4775 50  0001 L BNN
+F 4 "4.7k" V 7945 5365 39  0000 L BNN "Resistance"
+	1    7925 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8225 5800 9125 5800
+Wire Wire Line
+	7925 5275 7925 4875
+Connection ~ 8225 5800
+Wire Wire Line
+	7925 5800 7925 5575
+Wire Wire Line
+	8225 5275 8225 5175
+Wire Wire Line
+	8225 5800 8225 5575
+Wire Wire Line
+	7925 5800 8225 5800
+Connection ~ 9950 5800
+Wire Wire Line
+	9450 5800 9950 5800
+Wire Wire Line
+	9950 5800 9950 5850
+Connection ~ 9450 5800
+Wire Wire Line
+	9950 5800 9950 5375
+Wire Wire Line
+	9450 5075 9450 5800
 $Comp
 L power:GND #PWR?
-U 1 1 62B84E42
-P 6850 3050
-AR Path="/62B84E42" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62B84E42" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6850 2800 50  0001 C CNN
-F 1 "GND" H 6850 2900 50  0000 C CNN
-F 2 "" H 6850 3050 50  0001 C CNN
-F 3 "" H 6850 3050 50  0001 C CNN
-	1    6850 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 2275 6350 3000
-Wire Wire Line
-	6850 3000 6850 2575
-Connection ~ 6350 3000
-Wire Wire Line
-	6850 3000 6850 3050
-Wire Wire Line
-	6350 3000 6850 3000
-Connection ~ 6850 3000
-Wire Wire Line
-	4825 3000 5125 3000
-Wire Wire Line
-	5125 3000 5125 2775
-Wire Wire Line
-	5125 2475 5125 2375
-Wire Wire Line
-	4825 3000 4825 2775
-Connection ~ 5125 3000
-Wire Wire Line
-	4825 2475 4825 2075
-Wire Wire Line
-	5125 3000 6025 3000
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84E5B
-P 4825 2625
-AR Path="/62B84E5B" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84E5B" Ref="R?"  Part="1" 
-F 0 "R?" V 4945 2525 50  0000 L BNN
-F 1 "CRG0603F4K7" H 4075 2175 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4075 2075 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4075 1975 50  0001 L BNN
-F 4 "4.7k" V 4845 2565 39  0000 L BNN "Resistance"
-	1    4825 2625
+U 1 1 62BE4117
+P 9950 5850
+AR Path="/62BE4117" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62BE4117" Ref="#PWR0167"  Part="1" 
+F 0 "#PWR0167" H 9950 5600 50  0001 C CNN
+F 1 "GND" H 9950 5700 50  0000 C CNN
+F 2 "" H 9950 5850 50  0001 C CNN
+F 3 "" H 9950 5850 50  0001 C CNN
+	1    9950 5850
 	1    0    0    -1  
 $EndComp
 $Comp
 L custom:CRG0603F4K7 R?
-U 1 1 62B84E62
-P 5125 2625
-AR Path="/62B84E62" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84E62" Ref="R?"  Part="1" 
-F 0 "R?" V 5245 2525 50  0000 L BNN
-F 1 "CRG0603F4K7" H 4375 2175 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4375 2075 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4375 1975 50  0001 L BNN
-F 4 "4.7k" V 5145 2565 39  0000 L BNN "Resistance"
-	1    5125 2625
+U 1 1 62BE4111
+P 9450 4225
+AR Path="/62BE4111" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE4111" Ref="R80"  Part="1" 
+F 0 "R80" V 9570 4125 50  0000 L BNN
+F 1 "CRG0603F4K7" H 8700 3775 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 3675 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 8700 3575 50  0001 L BNN
+F 4 "4.7k" V 9470 4165 39  0000 L BNN "Resistance"
+	1    9450 4225
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4825 2075 5375 2075
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84E6A
-P 5675 2375
-AR Path="/62B84E6A" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84E6A" Ref="R?"  Part="1" 
-F 0 "R?" V 5795 2275 50  0000 L BNN
-F 1 "CRG0603F4K7" H 4925 1925 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4925 1825 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4925 1725 50  0001 L BNN
-F 4 "4.7k" V 5695 2315 39  0000 L BNN "Resistance"
-	1    5675 2375
-	0    1    1    0   
-$EndComp
+	9450 4575 9450 4675
 Wire Wire Line
-	5525 2375 5125 2375
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62B84E72
-P 5925 2700
-AR Path="/62B84E72" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84E72" Ref="Q?"  Part="1" 
-F 0 "Q?" V 6250 2625 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 6175 2450 50  0000 L BNN
-F 2 "" H 6125 2575 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 6125 2550 50  0001 L BNN
-	1    5925 2700
-	1    0    0    -1  
-$EndComp
+	9950 3975 9950 4375
+Connection ~ 9450 4575
 Wire Wire Line
-	6025 2500 6025 2375
+	9450 4575 9650 4575
 Wire Wire Line
-	6025 2375 5825 2375
+	9450 4375 9450 4575
+Connection ~ 9950 3975
 Wire Wire Line
-	6025 2375 6550 2375
-Connection ~ 6025 2375
+	9450 3975 9950 3975
 Wire Wire Line
-	6025 2900 6025 3000
-Connection ~ 6025 3000
+	9450 4075 9450 3975
 Wire Wire Line
-	6025 3000 6350 3000
-Wire Wire Line
-	5725 2700 5375 2700
-Wire Wire Line
-	5375 2700 5375 2075
-Connection ~ 5375 2075
-Wire Wire Line
-	5375 2075 6050 2075
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62B84E83
-P 6250 2075
-AR Path="/62B84E83" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84E83" Ref="Q?"  Part="1" 
-F 0 "Q?" V 6575 2000 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 6500 1825 50  0000 L BNN
-F 2 "" H 6450 1950 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 6450 1925 50  0001 L BNN
-	1    6250 2075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 62B84E89
-P 10250 1125
-AR Path="/62B84E89" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62B84E89" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10250 975 50  0001 C CNN
-F 1 "+12V" H 10250 1265 50  0000 C CNN
-F 2 "" H 10250 1125 50  0001 C CNN
-F 3 "" H 10250 1125 50  0001 C CNN
-	1    10250 1125
-	1    0    0    -1  
-$EndComp
+	9950 3925 9950 3975
 $Comp
 L custom:DMG6602 Q?
-U 1 1 62B84E90
-P 10150 2375
-AR Path="/62B84E90" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84E90" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10350 2450 50  0000 L CNN
-F 1 "DMG6602" H 10350 2375 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 10350 2300 50  0001 L CIN
-F 3 "" H 10150 2375 50  0001 L CNN
-	1    10150 2375
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:DMG6602 Q?
-U 2 1 62B84E96
-P 10150 1775
-AR Path="/62B84E96" Ref="Q?"  Part="2" 
-AR Path="/62A8D0C3/62B84E96" Ref="Q?"  Part="2" 
-F 0 "Q?" H 10350 1850 50  0000 L CNN
-F 1 "DMG6602" H 10350 1775 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 10350 1700 50  0001 L CIN
-F 3 "" H 10150 1775 50  0001 L CNN
-	2    10150 1775
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10250 1125 10250 1175
-Wire Wire Line
-	9750 1275 9750 1175
-Wire Wire Line
-	9750 1175 10250 1175
-Connection ~ 10250 1175
-Wire Wire Line
-	9750 1575 9750 1775
-Wire Wire Line
-	9750 1775 9950 1775
-Connection ~ 9750 1775
-Wire Wire Line
-	10250 1175 10250 1575
-Wire Wire Line
-	9750 1775 9750 1875
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84EAA
-P 9750 1425
-AR Path="/62B84EAA" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84EAA" Ref="R?"  Part="1" 
-F 0 "R?" V 9870 1325 50  0000 L BNN
-F 1 "CRG0603F4K7" H 9000 975 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 875 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 9000 775 50  0001 L BNN
-F 4 "4.7k" V 9770 1365 39  0000 L BNN "Resistance"
-	1    9750 1425
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62B84EB0
-P 10250 3050
-AR Path="/62B84EB0" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62B84EB0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10250 2800 50  0001 C CNN
-F 1 "GND" H 10250 2900 50  0000 C CNN
-F 2 "" H 10250 3050 50  0001 C CNN
-F 3 "" H 10250 3050 50  0001 C CNN
-	1    10250 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 2275 9750 3000
-Wire Wire Line
-	10250 3000 10250 2575
-Connection ~ 9750 3000
-Wire Wire Line
-	10250 3000 10250 3050
-Wire Wire Line
-	9750 3000 10250 3000
-Connection ~ 10250 3000
-Wire Wire Line
-	8225 3000 8525 3000
-Wire Wire Line
-	8525 3000 8525 2775
-Wire Wire Line
-	8525 2475 8525 2375
-Wire Wire Line
-	8225 3000 8225 2775
-Connection ~ 8525 3000
-Wire Wire Line
-	8225 2475 8225 2075
-Wire Wire Line
-	8525 3000 9425 3000
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84EC9
-P 8225 2625
-AR Path="/62B84EC9" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84EC9" Ref="R?"  Part="1" 
-F 0 "R?" V 8345 2525 50  0000 L BNN
-F 1 "CRG0603F4K7" H 7475 2175 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7475 2075 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7475 1975 50  0001 L BNN
-F 4 "4.7k" V 8245 2565 39  0000 L BNN "Resistance"
-	1    8225 2625
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84ED0
-P 8525 2625
-AR Path="/62B84ED0" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84ED0" Ref="R?"  Part="1" 
-F 0 "R?" V 8645 2525 50  0000 L BNN
-F 1 "CRG0603F4K7" H 7775 2175 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7775 2075 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7775 1975 50  0001 L BNN
-F 4 "4.7k" V 8545 2565 39  0000 L BNN "Resistance"
-	1    8525 2625
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8225 2075 8775 2075
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62B84ED8
-P 9075 2375
-AR Path="/62B84ED8" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62B84ED8" Ref="R?"  Part="1" 
-F 0 "R?" V 9195 2275 50  0000 L BNN
-F 1 "CRG0603F4K7" H 8325 1925 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8325 1825 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 8325 1725 50  0001 L BNN
-F 4 "4.7k" V 9095 2315 39  0000 L BNN "Resistance"
-	1    9075 2375
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	8925 2375 8525 2375
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62B84EE0
-P 9325 2700
-AR Path="/62B84EE0" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84EE0" Ref="Q?"  Part="1" 
-F 0 "Q?" V 9650 2625 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 9575 2450 50  0000 L BNN
-F 2 "" H 9525 2575 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 9525 2550 50  0001 L BNN
-	1    9325 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9425 2500 9425 2375
-Wire Wire Line
-	9425 2375 9225 2375
-Wire Wire Line
-	9425 2375 9950 2375
-Connection ~ 9425 2375
-Wire Wire Line
-	9425 2900 9425 3000
-Connection ~ 9425 3000
-Wire Wire Line
-	9425 3000 9750 3000
-Wire Wire Line
-	9125 2700 8775 2700
-Wire Wire Line
-	8775 2700 8775 2075
-Connection ~ 8775 2075
-Wire Wire Line
-	8775 2075 9450 2075
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62B84EF1
-P 9650 2075
-AR Path="/62B84EF1" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62B84EF1" Ref="Q?"  Part="1" 
-F 0 "Q?" V 9975 2000 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 9900 1825 50  0000 L BNN
-F 2 "" H 9850 1950 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 9850 1925 50  0001 L BNN
-	1    9650 2075
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 62BE4014
-P 3450 3725
-AR Path="/62BE4014" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62BE4014" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3450 3575 50  0001 C CNN
-F 1 "+12V" H 3450 3865 50  0000 C CNN
-F 2 "" H 3450 3725 50  0001 C CNN
-F 3 "" H 3450 3725 50  0001 C CNN
-	1    3450 3725
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:DMG6602 Q?
-U 1 1 62BE401B
-P 3350 4975
-AR Path="/62BE401B" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE401B" Ref="Q?"  Part="1" 
-F 0 "Q?" H 3550 5050 50  0000 L CNN
-F 1 "DMG6602" H 3550 4975 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3550 4900 50  0001 L CIN
-F 3 "" H 3350 4975 50  0001 L CNN
-	1    3350 4975
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:DMG6602 Q?
-U 2 1 62BE4021
-P 3350 4375
-AR Path="/62BE4021" Ref="Q?"  Part="2" 
-AR Path="/62A8D0C3/62BE4021" Ref="Q?"  Part="2" 
-F 0 "Q?" H 3550 4450 50  0000 L CNN
-F 1 "DMG6602" H 3550 4375 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3550 4300 50  0001 L CIN
-F 3 "" H 3350 4375 50  0001 L CNN
-	2    3350 4375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3450 3725 3450 3775
-Wire Wire Line
-	2950 3875 2950 3775
-Wire Wire Line
-	2950 3775 3450 3775
-Connection ~ 3450 3775
-Wire Wire Line
-	2950 4175 2950 4375
-Wire Wire Line
-	2950 4375 3150 4375
-Connection ~ 2950 4375
-Wire Wire Line
-	3450 3775 3450 4175
-Wire Wire Line
-	2950 4375 2950 4475
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE4035
-P 2950 4025
-AR Path="/62BE4035" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE4035" Ref="R?"  Part="1" 
-F 0 "R?" V 3070 3925 50  0000 L BNN
-F 1 "CRG0603F4K7" H 2200 3575 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2200 3475 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 2200 3375 50  0001 L BNN
-F 4 "4.7k" V 2970 3965 39  0000 L BNN "Resistance"
-	1    2950 4025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62BE403B
-P 3450 5650
-AR Path="/62BE403B" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62BE403B" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 3450 5400 50  0001 C CNN
-F 1 "GND" H 3450 5500 50  0000 C CNN
-F 2 "" H 3450 5650 50  0001 C CNN
-F 3 "" H 3450 5650 50  0001 C CNN
-	1    3450 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2950 4875 2950 5600
-Wire Wire Line
-	3450 5600 3450 5175
-Connection ~ 2950 5600
-Wire Wire Line
-	3450 5600 3450 5650
-Wire Wire Line
-	2950 5600 3450 5600
-Connection ~ 3450 5600
-Wire Wire Line
-	1425 5600 1725 5600
-Wire Wire Line
-	1725 5600 1725 5375
-Wire Wire Line
-	1725 5075 1725 4975
-Wire Wire Line
-	1425 5600 1425 5375
-Connection ~ 1725 5600
-Wire Wire Line
-	1425 5075 1425 4675
-Wire Wire Line
-	1725 5600 2625 5600
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE4054
-P 1425 5225
-AR Path="/62BE4054" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE4054" Ref="R?"  Part="1" 
-F 0 "R?" V 1545 5125 50  0000 L BNN
-F 1 "CRG0603F4K7" H 675 4775 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 675 4675 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 675 4575 50  0001 L BNN
-F 4 "4.7k" V 1445 5165 39  0000 L BNN "Resistance"
-	1    1425 5225
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE405B
-P 1725 5225
-AR Path="/62BE405B" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE405B" Ref="R?"  Part="1" 
-F 0 "R?" V 1845 5125 50  0000 L BNN
-F 1 "CRG0603F4K7" H 975 4775 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 975 4675 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 975 4575 50  0001 L BNN
-F 4 "4.7k" V 1745 5165 39  0000 L BNN "Resistance"
-	1    1725 5225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	1425 4675 1975 4675
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE4063
-P 2275 4975
-AR Path="/62BE4063" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE4063" Ref="R?"  Part="1" 
-F 0 "R?" V 2395 4875 50  0000 L BNN
-F 1 "CRG0603F4K7" H 1525 4525 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 1525 4425 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 1525 4325 50  0001 L BNN
-F 4 "4.7k" V 2295 4915 39  0000 L BNN "Resistance"
-	1    2275 4975
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	2125 4975 1725 4975
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62BE406B
-P 2525 5300
-AR Path="/62BE406B" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE406B" Ref="Q?"  Part="1" 
-F 0 "Q?" V 2850 5225 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 2775 5050 50  0000 L BNN
-F 2 "" H 2725 5175 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 2725 5150 50  0001 L BNN
-	1    2525 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	2625 5100 2625 4975
-Wire Wire Line
-	2625 4975 2425 4975
-Wire Wire Line
-	2625 4975 3150 4975
-Connection ~ 2625 4975
-Wire Wire Line
-	2625 5500 2625 5600
-Connection ~ 2625 5600
-Wire Wire Line
-	2625 5600 2950 5600
-Wire Wire Line
-	2325 5300 1975 5300
-Wire Wire Line
-	1975 5300 1975 4675
-Connection ~ 1975 4675
-Wire Wire Line
-	1975 4675 2650 4675
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62BE407C
-P 2850 4675
-AR Path="/62BE407C" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE407C" Ref="Q?"  Part="1" 
-F 0 "Q?" V 3175 4600 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 3100 4425 50  0000 L BNN
-F 2 "" H 3050 4550 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 3050 4525 50  0001 L BNN
-	1    2850 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 62BE4082
-P 6850 3725
-AR Path="/62BE4082" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62BE4082" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6850 3575 50  0001 C CNN
-F 1 "+12V" H 6850 3865 50  0000 C CNN
-F 2 "" H 6850 3725 50  0001 C CNN
-F 3 "" H 6850 3725 50  0001 C CNN
-	1    6850 3725
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:DMG6602 Q?
-U 1 1 62BE4089
-P 6750 4975
-AR Path="/62BE4089" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE4089" Ref="Q?"  Part="1" 
-F 0 "Q?" H 6950 5050 50  0000 L CNN
-F 1 "DMG6602" H 6950 4975 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6950 4900 50  0001 L CIN
-F 3 "" H 6750 4975 50  0001 L CNN
-	1    6750 4975
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:DMG6602 Q?
-U 2 1 62BE408F
-P 6750 4375
-AR Path="/62BE408F" Ref="Q?"  Part="2" 
-AR Path="/62A8D0C3/62BE408F" Ref="Q?"  Part="2" 
-F 0 "Q?" H 6950 4450 50  0000 L CNN
-F 1 "DMG6602" H 6950 4375 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6950 4300 50  0001 L CIN
-F 3 "" H 6750 4375 50  0001 L CNN
-	2    6750 4375
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6850 3725 6850 3775
-Wire Wire Line
-	6350 3875 6350 3775
-Wire Wire Line
-	6350 3775 6850 3775
-Connection ~ 6850 3775
-Wire Wire Line
-	6350 4175 6350 4375
-Wire Wire Line
-	6350 4375 6550 4375
-Connection ~ 6350 4375
-Wire Wire Line
-	6850 3775 6850 4175
-Wire Wire Line
-	6350 4375 6350 4475
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE40A3
-P 6350 4025
-AR Path="/62BE40A3" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE40A3" Ref="R?"  Part="1" 
-F 0 "R?" V 6470 3925 50  0000 L BNN
-F 1 "CRG0603F4K7" H 5600 3575 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5600 3475 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 5600 3375 50  0001 L BNN
-F 4 "4.7k" V 6370 3965 39  0000 L BNN "Resistance"
-	1    6350 4025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62BE40A9
-P 6850 5650
-AR Path="/62BE40A9" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62BE40A9" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 6850 5400 50  0001 C CNN
-F 1 "GND" H 6850 5500 50  0000 C CNN
-F 2 "" H 6850 5650 50  0001 C CNN
-F 3 "" H 6850 5650 50  0001 C CNN
-	1    6850 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6350 4875 6350 5600
-Wire Wire Line
-	6850 5600 6850 5175
-Connection ~ 6350 5600
-Wire Wire Line
-	6850 5600 6850 5650
-Wire Wire Line
-	6350 5600 6850 5600
-Connection ~ 6850 5600
-Wire Wire Line
-	4825 5600 5125 5600
-Wire Wire Line
-	5125 5600 5125 5375
-Wire Wire Line
-	5125 5075 5125 4975
-Wire Wire Line
-	4825 5600 4825 5375
-Connection ~ 5125 5600
-Wire Wire Line
-	4825 5075 4825 4675
-Wire Wire Line
-	5125 5600 6025 5600
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE40C2
-P 4825 5225
-AR Path="/62BE40C2" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE40C2" Ref="R?"  Part="1" 
-F 0 "R?" V 4945 5125 50  0000 L BNN
-F 1 "CRG0603F4K7" H 4075 4775 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4075 4675 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4075 4575 50  0001 L BNN
-F 4 "4.7k" V 4845 5165 39  0000 L BNN "Resistance"
-	1    4825 5225
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE40C9
-P 5125 5225
-AR Path="/62BE40C9" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE40C9" Ref="R?"  Part="1" 
-F 0 "R?" V 5245 5125 50  0000 L BNN
-F 1 "CRG0603F4K7" H 4375 4775 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4375 4675 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4375 4575 50  0001 L BNN
-F 4 "4.7k" V 5145 5165 39  0000 L BNN "Resistance"
-	1    5125 5225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4825 4675 5375 4675
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE40D1
-P 5675 4975
-AR Path="/62BE40D1" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE40D1" Ref="R?"  Part="1" 
-F 0 "R?" V 5795 4875 50  0000 L BNN
-F 1 "CRG0603F4K7" H 4925 4525 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 4925 4425 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4925 4325 50  0001 L BNN
-F 4 "4.7k" V 5695 4915 39  0000 L BNN "Resistance"
-	1    5675 4975
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	5525 4975 5125 4975
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62BE40D9
-P 5925 5300
-AR Path="/62BE40D9" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE40D9" Ref="Q?"  Part="1" 
-F 0 "Q?" V 6250 5225 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 6175 5050 50  0000 L BNN
-F 2 "" H 6125 5175 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 6125 5150 50  0001 L BNN
-	1    5925 5300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6025 5100 6025 4975
-Wire Wire Line
-	6025 4975 5825 4975
-Wire Wire Line
-	6025 4975 6550 4975
-Connection ~ 6025 4975
-Wire Wire Line
-	6025 5500 6025 5600
-Connection ~ 6025 5600
-Wire Wire Line
-	6025 5600 6350 5600
-Wire Wire Line
-	5725 5300 5375 5300
-Wire Wire Line
-	5375 5300 5375 4675
-Connection ~ 5375 4675
-Wire Wire Line
-	5375 4675 6050 4675
-$Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62BE40EA
-P 6250 4675
-AR Path="/62BE40EA" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE40EA" Ref="Q?"  Part="1" 
-F 0 "Q?" V 6575 4600 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 6500 4425 50  0000 L BNN
-F 2 "" H 6450 4550 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 6450 4525 50  0001 L BNN
-	1    6250 4675
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR?
-U 1 1 62BE40F0
-P 10250 3725
-AR Path="/62BE40F0" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62BE40F0" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10250 3575 50  0001 C CNN
-F 1 "+12V" H 10250 3865 50  0000 C CNN
-F 2 "" H 10250 3725 50  0001 C CNN
-F 3 "" H 10250 3725 50  0001 C CNN
-	1    10250 3725
+U 2 1 62BE40FD
+P 9850 4575
+AR Path="/62BE40FD" Ref="Q?"  Part="2" 
+AR Path="/62A8D0C3/62BE40FD" Ref="Q23"  Part="2" 
+F 0 "Q23" H 10050 4650 50  0000 L CNN
+F 1 "DMG6602" H 10050 4575 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 10050 4500 50  0001 L CIN
+F 3 "" H 9850 4575 50  0001 L CNN
+	2    9850 4575
 	1    0    0    -1  
 $EndComp
 $Comp
 L custom:DMG6602 Q?
 U 1 1 62BE40F7
-P 10150 4975
+P 9850 5175
 AR Path="/62BE40F7" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE40F7" Ref="Q?"  Part="1" 
-F 0 "Q?" H 10350 5050 50  0000 L CNN
-F 1 "DMG6602" H 10350 4975 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 10350 4900 50  0001 L CIN
-F 3 "" H 10150 4975 50  0001 L CNN
-	1    10150 4975
+AR Path="/62A8D0C3/62BE40F7" Ref="Q23"  Part="1" 
+F 0 "Q23" H 10050 5250 50  0000 L CNN
+F 1 "DMG6602" H 10050 5175 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 10050 5100 50  0001 L CIN
+F 3 "" H 9850 5175 50  0001 L CNN
+	1    9850 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62BE40F0
+P 9950 3925
+AR Path="/62BE40F0" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62BE40F0" Ref="#PWR0164"  Part="1" 
+F 0 "#PWR0164" H 9950 3775 50  0001 C CNN
+F 1 "+12V" H 9950 4065 50  0000 C CNN
+F 2 "" H 9950 3925 50  0001 C CNN
+F 3 "" H 9950 3925 50  0001 C CNN
+	1    9950 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62BE40EA
+P 5950 4875
+AR Path="/62BE40EA" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62BE40EA" Ref="Q25"  Part="1" 
+F 0 "Q25" V 6275 4800 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 6200 4625 50  0000 L BNN
+F 2 "" H 6150 4750 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 6150 4725 50  0001 L BNN
+	1    5950 4875
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 4875 5750 4875
+Connection ~ 5075 4875
+Wire Wire Line
+	5075 5500 5075 4875
+Wire Wire Line
+	5425 5500 5075 5500
+Wire Wire Line
+	5725 5800 6050 5800
+Connection ~ 5725 5800
+Wire Wire Line
+	5725 5700 5725 5800
+Connection ~ 5725 5175
+Wire Wire Line
+	5725 5175 6250 5175
+Wire Wire Line
+	5725 5175 5525 5175
+Wire Wire Line
+	5725 5300 5725 5175
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62BE40D9
+P 5625 5500
+AR Path="/62BE40D9" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62BE40D9" Ref="Q28"  Part="1" 
+F 0 "Q28" V 5950 5425 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 5875 5250 50  0000 L BNN
+F 2 "" H 5825 5375 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 5825 5350 50  0001 L BNN
+	1    5625 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 5175 4825 5175
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62BE40D1
+P 5375 5175
+AR Path="/62BE40D1" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE40D1" Ref="R82"  Part="1" 
+F 0 "R82" V 5495 5075 50  0000 L BNN
+F 1 "CRG0603F4K7" H 4625 4725 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4625 4625 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4625 4525 50  0001 L BNN
+F 4 "4.7k" V 5395 5115 39  0000 L BNN "Resistance"
+	1    5375 5175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4525 4875 5075 4875
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62BE40C9
+P 4825 5425
+AR Path="/62BE40C9" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE40C9" Ref="R87"  Part="1" 
+F 0 "R87" V 4945 5325 50  0000 L BNN
+F 1 "CRG0603F4K7" H 4075 4975 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4075 4875 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4075 4775 50  0001 L BNN
+F 4 "4.7k" V 4845 5365 39  0000 L BNN "Resistance"
+	1    4825 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62BE40C2
+P 4525 5425
+AR Path="/62BE40C2" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE40C2" Ref="R86"  Part="1" 
+F 0 "R86" V 4645 5325 50  0000 L BNN
+F 1 "CRG0603F4K7" H 3775 4975 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3775 4875 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 3775 4775 50  0001 L BNN
+F 4 "4.7k" V 4545 5365 39  0000 L BNN "Resistance"
+	1    4525 5425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 5800 5725 5800
+Wire Wire Line
+	4525 5275 4525 4875
+Connection ~ 4825 5800
+Wire Wire Line
+	4525 5800 4525 5575
+Wire Wire Line
+	4825 5275 4825 5175
+Wire Wire Line
+	4825 5800 4825 5575
+Wire Wire Line
+	4525 5800 4825 5800
+Connection ~ 6550 5800
+Wire Wire Line
+	6050 5800 6550 5800
+Wire Wire Line
+	6550 5800 6550 5850
+Connection ~ 6050 5800
+Wire Wire Line
+	6550 5800 6550 5375
+Wire Wire Line
+	6050 5075 6050 5800
+$Comp
+L power:GND #PWR?
+U 1 1 62BE40A9
+P 6550 5850
+AR Path="/62BE40A9" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62BE40A9" Ref="#PWR0166"  Part="1" 
+F 0 "#PWR0166" H 6550 5600 50  0001 C CNN
+F 1 "GND" H 6550 5700 50  0000 C CNN
+F 2 "" H 6550 5850 50  0001 C CNN
+F 3 "" H 6550 5850 50  0001 C CNN
+	1    6550 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62BE40A3
+P 6050 4225
+AR Path="/62BE40A3" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE40A3" Ref="R79"  Part="1" 
+F 0 "R79" V 6170 4125 50  0000 L BNN
+F 1 "CRG0603F4K7" H 5300 3775 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5300 3675 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 5300 3575 50  0001 L BNN
+F 4 "4.7k" V 6070 4165 39  0000 L BNN "Resistance"
+	1    6050 4225
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4575 6050 4675
+Wire Wire Line
+	6550 3975 6550 4375
+Connection ~ 6050 4575
+Wire Wire Line
+	6050 4575 6250 4575
+Wire Wire Line
+	6050 4375 6050 4575
+Connection ~ 6550 3975
+Wire Wire Line
+	6050 3975 6550 3975
+Wire Wire Line
+	6050 4075 6050 3975
+Wire Wire Line
+	6550 3925 6550 3975
+$Comp
+L custom:DMG6602 Q?
+U 2 1 62BE408F
+P 6450 4575
+AR Path="/62BE408F" Ref="Q?"  Part="2" 
+AR Path="/62A8D0C3/62BE408F" Ref="Q22"  Part="2" 
+F 0 "Q22" H 6650 4650 50  0000 L CNN
+F 1 "DMG6602" H 6650 4575 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6650 4500 50  0001 L CIN
+F 3 "" H 6450 4575 50  0001 L CNN
+	2    6450 4575
 	1    0    0    -1  
 $EndComp
 $Comp
 L custom:DMG6602 Q?
-U 2 1 62BE40FD
-P 10150 4375
-AR Path="/62BE40FD" Ref="Q?"  Part="2" 
-AR Path="/62A8D0C3/62BE40FD" Ref="Q?"  Part="2" 
-F 0 "Q?" H 10350 4450 50  0000 L CNN
-F 1 "DMG6602" H 10350 4375 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 10350 4300 50  0001 L CIN
-F 3 "" H 10150 4375 50  0001 L CNN
-	2    10150 4375
+U 1 1 62BE4089
+P 6450 5175
+AR Path="/62BE4089" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62BE4089" Ref="Q22"  Part="1" 
+F 0 "Q22" H 6650 5250 50  0000 L CNN
+F 1 "DMG6602" H 6650 5175 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6650 5100 50  0001 L CIN
+F 3 "" H 6450 5175 50  0001 L CNN
+	1    6450 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62BE4082
+P 6550 3925
+AR Path="/62BE4082" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62BE4082" Ref="#PWR0163"  Part="1" 
+F 0 "#PWR0163" H 6550 3775 50  0001 C CNN
+F 1 "+12V" H 6550 4065 50  0000 C CNN
+F 2 "" H 6550 3925 50  0001 C CNN
+F 3 "" H 6550 3925 50  0001 C CNN
+	1    6550 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62BE407C
+P 2550 4875
+AR Path="/62BE407C" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62BE407C" Ref="Q24"  Part="1" 
+F 0 "Q24" V 2875 4800 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 2800 4625 50  0000 L BNN
+F 2 "" H 2750 4750 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 2750 4725 50  0001 L BNN
+	1    2550 4875
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	10250 3725 10250 3775
+	1675 4875 2350 4875
+Connection ~ 1675 4875
 Wire Wire Line
-	9750 3875 9750 3775
+	1675 5500 1675 4875
 Wire Wire Line
-	9750 3775 10250 3775
-Connection ~ 10250 3775
+	2025 5500 1675 5500
 Wire Wire Line
-	9750 4175 9750 4375
+	2325 5800 2650 5800
+Connection ~ 2325 5800
 Wire Wire Line
-	9750 4375 9950 4375
-Connection ~ 9750 4375
+	2325 5700 2325 5800
+Connection ~ 2325 5175
 Wire Wire Line
-	10250 3775 10250 4175
+	2325 5175 2850 5175
 Wire Wire Line
-	9750 4375 9750 4475
+	2325 5175 2125 5175
+Wire Wire Line
+	2325 5300 2325 5175
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62BE406B
+P 2225 5500
+AR Path="/62BE406B" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62BE406B" Ref="Q27"  Part="1" 
+F 0 "Q27" V 2550 5425 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 2475 5250 50  0000 L BNN
+F 2 "" H 2425 5375 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 2425 5350 50  0001 L BNN
+	1    2225 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1825 5175 1425 5175
 $Comp
 L custom:CRG0603F4K7 R?
-U 1 1 62BE4111
-P 9750 4025
-AR Path="/62BE4111" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE4111" Ref="R?"  Part="1" 
-F 0 "R?" V 9870 3925 50  0000 L BNN
-F 1 "CRG0603F4K7" H 9000 3575 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 9000 3475 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 9000 3375 50  0001 L BNN
-F 4 "4.7k" V 9770 3965 39  0000 L BNN "Resistance"
-	1    9750 4025
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 62BE4117
-P 10250 5650
-AR Path="/62BE4117" Ref="#PWR?"  Part="1" 
-AR Path="/62A8D0C3/62BE4117" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 10250 5400 50  0001 C CNN
-F 1 "GND" H 10250 5500 50  0000 C CNN
-F 2 "" H 10250 5650 50  0001 C CNN
-F 3 "" H 10250 5650 50  0001 C CNN
-	1    10250 5650
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9750 4875 9750 5600
-Wire Wire Line
-	10250 5600 10250 5175
-Connection ~ 9750 5600
-Wire Wire Line
-	10250 5600 10250 5650
-Wire Wire Line
-	9750 5600 10250 5600
-Connection ~ 10250 5600
-Wire Wire Line
-	8225 5600 8525 5600
-Wire Wire Line
-	8525 5600 8525 5375
-Wire Wire Line
-	8525 5075 8525 4975
-Wire Wire Line
-	8225 5600 8225 5375
-Connection ~ 8525 5600
-Wire Wire Line
-	8225 5075 8225 4675
-Wire Wire Line
-	8525 5600 9425 5600
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE4130
-P 8225 5225
-AR Path="/62BE4130" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE4130" Ref="R?"  Part="1" 
-F 0 "R?" V 8345 5125 50  0000 L BNN
-F 1 "CRG0603F4K7" H 7475 4775 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7475 4675 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7475 4575 50  0001 L BNN
-F 4 "4.7k" V 8245 5165 39  0000 L BNN "Resistance"
-	1    8225 5225
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE4137
-P 8525 5225
-AR Path="/62BE4137" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE4137" Ref="R?"  Part="1" 
-F 0 "R?" V 8645 5125 50  0000 L BNN
-F 1 "CRG0603F4K7" H 7775 4775 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 7775 4675 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7775 4575 50  0001 L BNN
-F 4 "4.7k" V 8545 5165 39  0000 L BNN "Resistance"
-	1    8525 5225
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8225 4675 8775 4675
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 62BE413F
-P 9075 4975
-AR Path="/62BE413F" Ref="R?"  Part="1" 
-AR Path="/62A8D0C3/62BE413F" Ref="R?"  Part="1" 
-F 0 "R?" V 9195 4875 50  0000 L BNN
-F 1 "CRG0603F4K7" H 8325 4525 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8325 4425 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 8325 4325 50  0001 L BNN
-F 4 "4.7k" V 9095 4915 39  0000 L BNN "Resistance"
-	1    9075 4975
+U 1 1 62BE4063
+P 1975 5175
+AR Path="/62BE4063" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE4063" Ref="R81"  Part="1" 
+F 0 "R81" V 2095 5075 50  0000 L BNN
+F 1 "CRG0603F4K7" H 1225 4725 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1225 4625 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 1225 4525 50  0001 L BNN
+F 4 "4.7k" V 1995 5115 39  0000 L BNN "Resistance"
+	1    1975 5175
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	8925 4975 8525 4975
+	1125 4875 1675 4875
 $Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62BE4147
-P 9325 5300
-AR Path="/62BE4147" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE4147" Ref="Q?"  Part="1" 
-F 0 "Q?" V 9650 5225 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 9575 5050 50  0000 L BNN
-F 2 "" H 9525 5175 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 9525 5150 50  0001 L BNN
-	1    9325 5300
+L custom:CRG0603F4K7 R?
+U 1 1 62BE405B
+P 1425 5425
+AR Path="/62BE405B" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE405B" Ref="R85"  Part="1" 
+F 0 "R85" V 1545 5325 50  0000 L BNN
+F 1 "CRG0603F4K7" H 675 4975 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 675 4875 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 675 4775 50  0001 L BNN
+F 4 "4.7k" V 1445 5365 39  0000 L BNN "Resistance"
+	1    1425 5425
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62BE4054
+P 1125 5425
+AR Path="/62BE4054" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE4054" Ref="R84"  Part="1" 
+F 0 "R84" V 1245 5325 50  0000 L BNN
+F 1 "CRG0603F4K7" H 375 4975 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 375 4875 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 375 4775 50  0001 L BNN
+F 4 "4.7k" V 1145 5365 39  0000 L BNN "Resistance"
+	1    1125 5425
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9425 5100 9425 4975
+	1425 5800 2325 5800
 Wire Wire Line
-	9425 4975 9225 4975
+	1125 5275 1125 4875
+Connection ~ 1425 5800
 Wire Wire Line
-	9425 4975 9950 4975
-Connection ~ 9425 4975
+	1125 5800 1125 5575
 Wire Wire Line
-	9425 5500 9425 5600
-Connection ~ 9425 5600
+	1425 5275 1425 5175
 Wire Wire Line
-	9425 5600 9750 5600
+	1425 5800 1425 5575
 Wire Wire Line
-	9125 5300 8775 5300
+	1125 5800 1425 5800
+Connection ~ 3150 5800
 Wire Wire Line
-	8775 5300 8775 4675
-Connection ~ 8775 4675
+	2650 5800 3150 5800
 Wire Wire Line
-	8775 4675 9450 4675
+	3150 5800 3150 5850
+Connection ~ 2650 5800
+Wire Wire Line
+	3150 5800 3150 5375
+Wire Wire Line
+	2650 5075 2650 5800
 $Comp
-L custom:SSM3K35AMFV Q?
-U 1 1 62BE4158
-P 9650 4675
-AR Path="/62BE4158" Ref="Q?"  Part="1" 
-AR Path="/62A8D0C3/62BE4158" Ref="Q?"  Part="1" 
-F 0 "Q?" V 9975 4600 50  0000 L BNN
-F 1 "SSM3K35AMFV" V 9900 4425 50  0000 L BNN
-F 2 "" H 9850 4550 50  0001 L BIN
-F 3 "datasheets/SSM3K35AMFV.pdf" H 9850 4525 50  0001 L BNN
-	1    9650 4675
+L power:GND #PWR?
+U 1 1 62BE403B
+P 3150 5850
+AR Path="/62BE403B" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62BE403B" Ref="#PWR0165"  Part="1" 
+F 0 "#PWR0165" H 3150 5600 50  0001 C CNN
+F 1 "GND" H 3150 5700 50  0000 C CNN
+F 2 "" H 3150 5850 50  0001 C CNN
+F 3 "" H 3150 5850 50  0001 C CNN
+	1    3150 5850
 	1    0    0    -1  
 $EndComp
-Text GLabel 1325 2075 0    50   Input ~ 0
-COL00_ON
-Text GLabel 1325 2375 0    50   Input ~ 0
-COL00_OFF
-Text GLabel 3550 2075 2    50   Output ~ 0
-COL00
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62BE4035
+P 2650 4225
+AR Path="/62BE4035" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62BE4035" Ref="R78"  Part="1" 
+F 0 "R78" V 2770 4125 50  0000 L BNN
+F 1 "CRG0603F4K7" H 1900 3775 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 3675 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 1900 3575 50  0001 L BNN
+F 4 "4.7k" V 2670 4165 39  0000 L BNN "Resistance"
+	1    2650 4225
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6850 1975 6850 2075
+	2650 4575 2650 4675
 Wire Wire Line
-	10250 1975 10250 2075
+	3150 3975 3150 4375
+Connection ~ 2650 4575
 Wire Wire Line
-	3450 4575 3450 4675
+	2650 4575 2850 4575
 Wire Wire Line
-	6850 4575 6850 4675
+	2650 4375 2650 4575
+Connection ~ 3150 3975
 Wire Wire Line
-	10250 4575 10250 4675
+	2650 3975 3150 3975
 Wire Wire Line
-	1325 4975 1725 4975
+	2650 4075 2650 3975
 Wire Wire Line
-	1325 4675 1425 4675
-Text GLabel 1325 4675 0    50   Input ~ 0
-COL03_ON
-Text GLabel 1325 4975 0    50   Input ~ 0
-COL03_OFF
+	3150 3925 3150 3975
+$Comp
+L custom:DMG6602 Q?
+U 2 1 62BE4021
+P 3050 4575
+AR Path="/62BE4021" Ref="Q?"  Part="2" 
+AR Path="/62A8D0C3/62BE4021" Ref="Q21"  Part="2" 
+F 0 "Q21" H 3250 4650 50  0000 L CNN
+F 1 "DMG6602" H 3250 4575 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3250 4500 50  0001 L CIN
+F 3 "" H 3050 4575 50  0001 L CNN
+	2    3050 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:DMG6602 Q?
+U 1 1 62BE401B
+P 3050 5175
+AR Path="/62BE401B" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62BE401B" Ref="Q21"  Part="1" 
+F 0 "Q21" H 3250 5250 50  0000 L CNN
+F 1 "DMG6602" H 3250 5175 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3250 5100 50  0001 L CIN
+F 3 "" H 3050 5175 50  0001 L CNN
+	1    3050 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62BE4014
+P 3150 3925
+AR Path="/62BE4014" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62BE4014" Ref="#PWR0162"  Part="1" 
+F 0 "#PWR0162" H 3150 3775 50  0001 C CNN
+F 1 "+12V" H 3150 4065 50  0000 C CNN
+F 2 "" H 3150 3925 50  0001 C CNN
+F 3 "" H 3150 3925 50  0001 C CNN
+	1    3150 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62B84EF1
+P 9350 2275
+AR Path="/62B84EF1" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84EF1" Ref="Q17"  Part="1" 
+F 0 "Q17" V 9675 2200 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 9600 2025 50  0000 L BNN
+F 2 "" H 9550 2150 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 9550 2125 50  0001 L BNN
+	1    9350 2275
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	4725 2375 5125 2375
+	8475 2275 9150 2275
+Connection ~ 8475 2275
 Wire Wire Line
-	4725 2075 4825 2075
-Text GLabel 4725 2075 0    50   Input ~ 0
-COL01_ON
-Text GLabel 4725 2375 0    50   Input ~ 0
-COL01_OFF
+	8475 2900 8475 2275
 Wire Wire Line
-	4725 4975 5125 4975
+	8825 2900 8475 2900
 Wire Wire Line
-	4725 4675 4825 4675
-Text GLabel 4725 4675 0    50   Input ~ 0
-COL04_ON
-Text GLabel 4725 4975 0    50   Input ~ 0
-COL04_OFF
+	9125 3200 9450 3200
+Connection ~ 9125 3200
 Wire Wire Line
-	8125 4975 8525 4975
+	9125 3100 9125 3200
+Connection ~ 9125 2575
 Wire Wire Line
-	8125 4675 8225 4675
-Text GLabel 8125 4675 0    50   Input ~ 0
-COL05_ON
-Text GLabel 8125 4975 0    50   Input ~ 0
-COL05_OFF
+	9125 2575 9650 2575
 Wire Wire Line
-	8125 2375 8525 2375
+	9125 2575 8925 2575
 Wire Wire Line
-	8125 2075 8225 2075
-Text GLabel 8125 2075 0    50   Input ~ 0
-COL02_ON
-Text GLabel 8125 2375 0    50   Input ~ 0
-COL02_OFF
-Connection ~ 8225 2075
-Connection ~ 8525 2375
+	9125 2700 9125 2575
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62B84EE0
+P 9025 2900
+AR Path="/62B84EE0" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84EE0" Ref="Q20"  Part="1" 
+F 0 "Q20" V 9350 2825 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 9275 2650 50  0000 L BNN
+F 2 "" H 9225 2775 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 9225 2750 50  0001 L BNN
+	1    9025 2900
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	3450 4675 3550 4675
-Text GLabel 3550 4675 2    50   Output ~ 0
-COL03
+	8625 2575 8225 2575
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84ED8
+P 8775 2575
+AR Path="/62B84ED8" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84ED8" Ref="R71"  Part="1" 
+F 0 "R71" V 8895 2475 50  0000 L BNN
+F 1 "CRG0603F4K7" H 8025 2125 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8025 2025 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 8025 1925 50  0001 L BNN
+F 4 "4.7k" V 8795 2515 39  0000 L BNN "Resistance"
+	1    8775 2575
+	0    1    1    0   
+$EndComp
 Wire Wire Line
-	6850 4675 6950 4675
-Text GLabel 6950 4675 2    50   Output ~ 0
-COL04
+	7925 2275 8475 2275
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84ED0
+P 8225 2825
+AR Path="/62B84ED0" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84ED0" Ref="R77"  Part="1" 
+F 0 "R77" V 8345 2725 50  0000 L BNN
+F 1 "CRG0603F4K7" H 7475 2375 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7475 2275 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7475 2175 50  0001 L BNN
+F 4 "4.7k" V 8245 2765 39  0000 L BNN "Resistance"
+	1    8225 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84EC9
+P 7925 2825
+AR Path="/62B84EC9" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84EC9" Ref="R76"  Part="1" 
+F 0 "R76" V 8045 2725 50  0000 L BNN
+F 1 "CRG0603F4K7" H 7175 2375 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7175 2275 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 7175 2175 50  0001 L BNN
+F 4 "4.7k" V 7945 2765 39  0000 L BNN "Resistance"
+	1    7925 2825
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	6850 2075 6950 2075
-Text GLabel 6950 2075 2    50   Output ~ 0
-COL01
-Text GLabel 10350 2075 2    50   Output ~ 0
-COL02
-Text GLabel 10350 4675 2    50   Output ~ 0
-COL05
-Connection ~ 4825 2075
-Connection ~ 5125 2375
-Connection ~ 6850 2075
+	8225 3200 9125 3200
 Wire Wire Line
-	6850 2075 6850 2175
+	7925 2675 7925 2275
+Connection ~ 8225 3200
 Wire Wire Line
-	10250 2075 10350 2075
-Connection ~ 10250 2075
+	7925 3200 7925 2975
 Wire Wire Line
-	10250 2075 10250 2175
-Connection ~ 3450 4675
+	8225 2675 8225 2575
 Wire Wire Line
-	3450 4675 3450 4775
-Connection ~ 6850 4675
+	8225 3200 8225 2975
 Wire Wire Line
-	6850 4675 6850 4775
+	7925 3200 8225 3200
+Connection ~ 9950 3200
 Wire Wire Line
-	10250 4675 10350 4675
-Connection ~ 10250 4675
+	9450 3200 9950 3200
 Wire Wire Line
-	10250 4675 10250 4775
-Connection ~ 8225 4675
-Connection ~ 8525 4975
-Connection ~ 4825 4675
-Connection ~ 5125 4975
-Connection ~ 1725 4975
-Connection ~ 1425 4675
+	9950 3200 9950 3250
+Connection ~ 9450 3200
+Wire Wire Line
+	9950 3200 9950 2775
+Wire Wire Line
+	9450 2475 9450 3200
+$Comp
+L power:GND #PWR?
+U 1 1 62B84EB0
+P 9950 3250
+AR Path="/62B84EB0" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62B84EB0" Ref="#PWR0161"  Part="1" 
+F 0 "#PWR0161" H 9950 3000 50  0001 C CNN
+F 1 "GND" H 9950 3100 50  0000 C CNN
+F 2 "" H 9950 3250 50  0001 C CNN
+F 3 "" H 9950 3250 50  0001 C CNN
+	1    9950 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84EAA
+P 9450 1625
+AR Path="/62B84EAA" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84EAA" Ref="R68"  Part="1" 
+F 0 "R68" V 9570 1525 50  0000 L BNN
+F 1 "CRG0603F4K7" H 8700 1175 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 8700 1075 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 8700 975 50  0001 L BNN
+F 4 "4.7k" V 9470 1565 39  0000 L BNN "Resistance"
+	1    9450 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9450 1975 9450 2075
+Wire Wire Line
+	9950 1375 9950 1775
+Connection ~ 9450 1975
+Wire Wire Line
+	9450 1975 9650 1975
+Wire Wire Line
+	9450 1775 9450 1975
+Connection ~ 9950 1375
+Wire Wire Line
+	9450 1375 9950 1375
+Wire Wire Line
+	9450 1475 9450 1375
+Wire Wire Line
+	9950 1325 9950 1375
+$Comp
+L custom:DMG6602 Q?
+U 2 1 62B84E96
+P 9850 1975
+AR Path="/62B84E96" Ref="Q?"  Part="2" 
+AR Path="/62A8D0C3/62B84E96" Ref="Q14"  Part="2" 
+F 0 "Q14" H 10050 2050 50  0000 L CNN
+F 1 "DMG6602" H 10050 1975 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 10050 1900 50  0001 L CIN
+F 3 "" H 9850 1975 50  0001 L CNN
+	2    9850 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:DMG6602 Q?
+U 1 1 62B84E90
+P 9850 2575
+AR Path="/62B84E90" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84E90" Ref="Q14"  Part="1" 
+F 0 "Q14" H 10050 2650 50  0000 L CNN
+F 1 "DMG6602" H 10050 2575 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 10050 2500 50  0001 L CIN
+F 3 "" H 9850 2575 50  0001 L CNN
+	1    9850 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62B84E89
+P 9950 1325
+AR Path="/62B84E89" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62B84E89" Ref="#PWR0158"  Part="1" 
+F 0 "#PWR0158" H 9950 1175 50  0001 C CNN
+F 1 "+12V" H 9950 1465 50  0000 C CNN
+F 2 "" H 9950 1325 50  0001 C CNN
+F 3 "" H 9950 1325 50  0001 C CNN
+	1    9950 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62B84E83
+P 5950 2275
+AR Path="/62B84E83" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84E83" Ref="Q16"  Part="1" 
+F 0 "Q16" V 6275 2200 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 6200 2025 50  0000 L BNN
+F 2 "" H 6150 2150 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 6150 2125 50  0001 L BNN
+	1    5950 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5075 2275 5750 2275
+Connection ~ 5075 2275
+Wire Wire Line
+	5075 2900 5075 2275
+Wire Wire Line
+	5425 2900 5075 2900
+Wire Wire Line
+	5725 3200 6050 3200
+Connection ~ 5725 3200
+Wire Wire Line
+	5725 3100 5725 3200
+Connection ~ 5725 2575
+Wire Wire Line
+	5725 2575 6250 2575
+Wire Wire Line
+	5725 2575 5525 2575
+Wire Wire Line
+	5725 2700 5725 2575
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62B84E72
+P 5625 2900
+AR Path="/62B84E72" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84E72" Ref="Q19"  Part="1" 
+F 0 "Q19" V 5950 2825 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 5875 2650 50  0000 L BNN
+F 2 "" H 5825 2775 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 5825 2750 50  0001 L BNN
+	1    5625 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5225 2575 4825 2575
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84E6A
+P 5375 2575
+AR Path="/62B84E6A" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84E6A" Ref="R70"  Part="1" 
+F 0 "R70" V 5495 2475 50  0000 L BNN
+F 1 "CRG0603F4K7" H 4625 2125 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4625 2025 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4625 1925 50  0001 L BNN
+F 4 "4.7k" V 5395 2515 39  0000 L BNN "Resistance"
+	1    5375 2575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4525 2275 5075 2275
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84E62
+P 4825 2825
+AR Path="/62B84E62" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84E62" Ref="R75"  Part="1" 
+F 0 "R75" V 4945 2725 50  0000 L BNN
+F 1 "CRG0603F4K7" H 4075 2375 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 4075 2275 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 4075 2175 50  0001 L BNN
+F 4 "4.7k" V 4845 2765 39  0000 L BNN "Resistance"
+	1    4825 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84E5B
+P 4525 2825
+AR Path="/62B84E5B" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84E5B" Ref="R74"  Part="1" 
+F 0 "R74" V 4645 2725 50  0000 L BNN
+F 1 "CRG0603F4K7" H 3775 2375 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3775 2275 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 3775 2175 50  0001 L BNN
+F 4 "4.7k" V 4545 2765 39  0000 L BNN "Resistance"
+	1    4525 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4825 3200 5725 3200
+Wire Wire Line
+	4525 2675 4525 2275
+Connection ~ 4825 3200
+Wire Wire Line
+	4525 3200 4525 2975
+Wire Wire Line
+	4825 2675 4825 2575
+Wire Wire Line
+	4825 3200 4825 2975
+Wire Wire Line
+	4525 3200 4825 3200
+Connection ~ 6550 3200
+Wire Wire Line
+	6050 3200 6550 3200
+Wire Wire Line
+	6550 3200 6550 3250
+Connection ~ 6050 3200
+Wire Wire Line
+	6550 3200 6550 2775
+Wire Wire Line
+	6050 2475 6050 3200
+$Comp
+L power:GND #PWR?
+U 1 1 62B84E42
+P 6550 3250
+AR Path="/62B84E42" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62B84E42" Ref="#PWR0160"  Part="1" 
+F 0 "#PWR0160" H 6550 3000 50  0001 C CNN
+F 1 "GND" H 6550 3100 50  0000 C CNN
+F 2 "" H 6550 3250 50  0001 C CNN
+F 3 "" H 6550 3250 50  0001 C CNN
+	1    6550 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84E3C
+P 6050 1625
+AR Path="/62B84E3C" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84E3C" Ref="R67"  Part="1" 
+F 0 "R67" V 6170 1525 50  0000 L BNN
+F 1 "CRG0603F4K7" H 5300 1175 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5300 1075 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 5300 975 50  0001 L BNN
+F 4 "4.7k" V 6070 1565 39  0000 L BNN "Resistance"
+	1    6050 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 1975 6050 2075
+Wire Wire Line
+	6550 1375 6550 1775
+Connection ~ 6050 1975
+Wire Wire Line
+	6050 1975 6250 1975
+Wire Wire Line
+	6050 1775 6050 1975
+Connection ~ 6550 1375
+Wire Wire Line
+	6050 1375 6550 1375
+Wire Wire Line
+	6050 1475 6050 1375
+Wire Wire Line
+	6550 1325 6550 1375
+$Comp
+L custom:DMG6602 Q?
+U 2 1 62B84E28
+P 6450 1975
+AR Path="/62B84E28" Ref="Q?"  Part="2" 
+AR Path="/62A8D0C3/62B84E28" Ref="Q13"  Part="2" 
+F 0 "Q13" H 6650 2050 50  0000 L CNN
+F 1 "DMG6602" H 6650 1975 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6650 1900 50  0001 L CIN
+F 3 "" H 6450 1975 50  0001 L CNN
+	2    6450 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:DMG6602 Q?
+U 1 1 62B84E22
+P 6450 2575
+AR Path="/62B84E22" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84E22" Ref="Q13"  Part="1" 
+F 0 "Q13" H 6650 2650 50  0000 L CNN
+F 1 "DMG6602" H 6650 2575 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 6650 2500 50  0001 L CIN
+F 3 "" H 6450 2575 50  0001 L CNN
+	1    6450 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62B84E1B
+P 6550 1325
+AR Path="/62B84E1B" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62B84E1B" Ref="#PWR0157"  Part="1" 
+F 0 "#PWR0157" H 6550 1175 50  0001 C CNN
+F 1 "+12V" H 6550 1465 50  0000 C CNN
+F 2 "" H 6550 1325 50  0001 C CNN
+F 3 "" H 6550 1325 50  0001 C CNN
+	1    6550 1325
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62B84E15
+P 2550 2275
+AR Path="/62B84E15" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84E15" Ref="Q15"  Part="1" 
+F 0 "Q15" V 2875 2200 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 2800 2025 50  0000 L BNN
+F 2 "" H 2750 2150 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 2750 2125 50  0001 L BNN
+	1    2550 2275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1675 2275 2350 2275
+Connection ~ 1675 2275
+Wire Wire Line
+	1675 2900 1675 2275
+Wire Wire Line
+	2025 2900 1675 2900
+Wire Wire Line
+	2325 3200 2650 3200
+Connection ~ 2325 3200
+Wire Wire Line
+	2325 3100 2325 3200
+Connection ~ 2325 2575
+Wire Wire Line
+	2325 2575 2850 2575
+Wire Wire Line
+	2325 2575 2125 2575
+Wire Wire Line
+	2325 2700 2325 2575
+$Comp
+L custom:SSM3K35AMFV Q?
+U 1 1 62B84E04
+P 2225 2900
+AR Path="/62B84E04" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84E04" Ref="Q18"  Part="1" 
+F 0 "Q18" V 2550 2825 50  0000 L BNN
+F 1 "SSM3K35AMFV" V 2475 2650 50  0000 L BNN
+F 2 "" H 2425 2775 50  0001 L BIN
+F 3 "datasheets/SSM3K35AMFV.pdf" H 2425 2750 50  0001 L BNN
+	1    2225 2900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1425 2575
+Wire Wire Line
+	1825 2575 1425 2575
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84DFC
+P 1975 2575
+AR Path="/62B84DFC" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84DFC" Ref="R69"  Part="1" 
+F 0 "R69" V 2095 2475 50  0000 L BNN
+F 1 "CRG0603F4K7" H 1225 2125 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1225 2025 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 1225 1925 50  0001 L BNN
+F 4 "4.7k" V 1995 2515 39  0000 L BNN "Resistance"
+	1    1975 2575
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1125 2275 1675 2275
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84DF4
+P 1425 2825
+AR Path="/62B84DF4" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84DF4" Ref="R73"  Part="1" 
+F 0 "R73" V 1545 2725 50  0000 L BNN
+F 1 "CRG0603F4K7" H 675 2375 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 675 2275 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 675 2175 50  0001 L BNN
+F 4 "4.7k" V 1445 2765 39  0000 L BNN "Resistance"
+	1    1425 2825
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84DED
+P 1125 2825
+AR Path="/62B84DED" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84DED" Ref="R72"  Part="1" 
+F 0 "R72" V 1245 2725 50  0000 L BNN
+F 1 "CRG0603F4K7" H 375 2375 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 375 2275 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 375 2175 50  0001 L BNN
+F 4 "4.7k" V 1145 2765 39  0000 L BNN "Resistance"
+	1    1125 2825
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1425 3200 2325 3200
+Connection ~ 1125 2275
+Wire Wire Line
+	1125 2675 1125 2275
+Connection ~ 1425 3200
+Wire Wire Line
+	1125 3200 1125 2975
+Wire Wire Line
+	1025 2275 1125 2275
+Wire Wire Line
+	1425 2675 1425 2575
+Wire Wire Line
+	1425 3200 1425 2975
+Wire Wire Line
+	1025 2575 1425 2575
+Wire Wire Line
+	1125 3200 1425 3200
+Connection ~ 3150 3200
+Wire Wire Line
+	2650 3200 3150 3200
+Wire Wire Line
+	3150 3200 3150 3250
+Connection ~ 2650 3200
+Wire Wire Line
+	3150 3200 3150 2775
+Wire Wire Line
+	2650 2475 2650 3200
+$Comp
+L power:GND #PWR?
+U 1 1 62B84DD4
+P 3150 3250
+AR Path="/62B84DD4" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62B84DD4" Ref="#PWR0159"  Part="1" 
+F 0 "#PWR0159" H 3150 3000 50  0001 C CNN
+F 1 "GND" H 3150 3100 50  0000 C CNN
+F 2 "" H 3150 3250 50  0001 C CNN
+F 3 "" H 3150 3250 50  0001 C CNN
+	1    3150 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 62B84DCE
+P 2650 1625
+AR Path="/62B84DCE" Ref="R?"  Part="1" 
+AR Path="/62A8D0C3/62B84DCE" Ref="R66"  Part="1" 
+F 0 "R66" V 2770 1525 50  0000 L BNN
+F 1 "CRG0603F4K7" H 1900 1175 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 1900 1075 50  0001 L BNN
+F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 1900 975 50  0001 L BNN
+F 4 "4.7k" V 2670 1565 39  0000 L BNN "Resistance"
+	1    2650 1625
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3150 2275 3150 2375
+Wire Wire Line
+	2650 1975 2650 2075
+Wire Wire Line
+	3150 1375 3150 1775
+Connection ~ 3150 2275
+Wire Wire Line
+	3150 2275 3250 2275
+Wire Wire Line
+	3150 2175 3150 2275
+Connection ~ 2650 1975
+Wire Wire Line
+	2650 1975 2850 1975
+Wire Wire Line
+	2650 1775 2650 1975
+Connection ~ 3150 1375
+Wire Wire Line
+	2650 1375 3150 1375
+Wire Wire Line
+	2650 1475 2650 1375
+Wire Wire Line
+	3150 1325 3150 1375
+$Comp
+L custom:DMG6602 Q?
+U 2 1 62B84DBA
+P 3050 1975
+AR Path="/62B84DBA" Ref="Q?"  Part="2" 
+AR Path="/62A8D0C3/62B84DBA" Ref="Q12"  Part="2" 
+F 0 "Q12" H 3250 2050 50  0000 L CNN
+F 1 "DMG6602" H 3250 1975 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3250 1900 50  0001 L CIN
+F 3 "" H 3050 1975 50  0001 L CNN
+	2    3050 1975
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:DMG6602 Q?
+U 1 1 62B84DB4
+P 3050 2575
+AR Path="/62B84DB4" Ref="Q?"  Part="1" 
+AR Path="/62A8D0C3/62B84DB4" Ref="Q12"  Part="1" 
+F 0 "Q12" H 3250 2650 50  0000 L CNN
+F 1 "DMG6602" H 3250 2575 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:TSOT-23-6" H 3250 2500 50  0001 L CIN
+F 3 "" H 3050 2575 50  0001 L CNN
+	1    3050 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 62B84DAD
+P 3150 1325
+AR Path="/62B84DAD" Ref="#PWR?"  Part="1" 
+AR Path="/62A8D0C3/62B84DAD" Ref="#PWR0156"  Part="1" 
+F 0 "#PWR0156" H 3150 1175 50  0001 C CNN
+F 1 "+12V" H 3150 1465 50  0000 C CNN
+F 2 "" H 3150 1325 50  0001 C CNN
+F 3 "" H 3150 1325 50  0001 C CNN
+	1    3150 1325
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

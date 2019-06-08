@@ -2,13 +2,13 @@ EESchema Schematic File Version 4
 LIBS:flipdot_driver-cache
 EELAYER 29 0
 EELAYER END
-$Descr A4 11693 8268
+$Descr USLetter 11000 8500
 encoding utf-8
 Sheet 3 20
-Title ""
+Title "FLIPDOT_DRIVER"
 Date ""
 Rev ""
-Comp ""
+Comp "DYLAN DAILEY"
 Comment1 ""
 Comment2 ""
 Comment3 ""
@@ -52,23 +52,23 @@ $EndComp
 $Comp
 L Connector:Screw_Terminal_01x04 J?
 U 1 1 5E580BEC
-P 5400 4175
-F 0 "J?" H 5400 4375 50  0000 C CNN
-F 1 "Screw_Terminal_01x04" V 5500 4075 50  0001 C CNN
-F 2 "" H 5400 4175 50  0001 C CNN
-F 3 "" H 5400 4175 50  0001 C CNN
-	1    5400 4175
+P 5400 4275
+F 0 "J?" H 5400 4475 50  0000 C CNN
+F 1 "Screw_Terminal_01x04" V 5500 4175 50  0001 C CNN
+F 2 "" H 5400 4275 50  0001 C CNN
+F 3 "" H 5400 4275 50  0001 C CNN
+	1    5400 4275
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5E580BF2
-P 5150 4425
-F 0 "#PWR?" H 5150 4175 50  0001 C CNN
-F 1 "GND" H 5150 4275 50  0000 C CNN
-F 2 "" H 5150 4425 50  0001 C CNN
-F 3 "" H 5150 4425 50  0001 C CNN
-	1    5150 4425
+P 5150 4525
+F 0 "#PWR?" H 5150 4275 50  0001 C CNN
+F 1 "GND" H 5150 4375 50  0000 C CNN
+F 2 "" H 5150 4525 50  0001 C CNN
+F 3 "" H 5150 4525 50  0001 C CNN
+	1    5150 4525
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -82,7 +82,7 @@ F 3 "" H 4675 4175 50  0001 C CNN
 	1    4675 4175
 	1    0    0    -1  
 $EndComp
-Text Notes 4950 4975 0    60   ~ 0
+Text Notes 4950 5075 0    60   ~ 0
 LABEL POSITIVE AND\nNEGATIVE TERMINALS\nON SILKSCREEN
 $Comp
 L Device:CP1 C?
@@ -202,19 +202,19 @@ Wire Wire Line
 	5750 2775 5750 2825
 Connection ~ 5750 2825
 Wire Wire Line
-	5150 4175 5200 4175
+	5150 4275 5200 4275
 Wire Wire Line
 	4900 3825 4900 3875
 Wire Wire Line
-	5150 4075 5200 4075
-Connection ~ 5150 4075
-Wire Wire Line
-	5200 4275 5150 4275
-Wire Wire Line
-	5150 4275 5150 4375
+	5150 4175 5200 4175
+Connection ~ 5150 4175
 Wire Wire Line
 	5200 4375 5150 4375
-Connection ~ 5150 4375
+Wire Wire Line
+	5150 4375 5150 4475
+Wire Wire Line
+	5200 4475 5150 4475
+Connection ~ 5150 4475
 Wire Wire Line
 	4675 3975 4675 4075
 Wire Wire Line
@@ -255,9 +255,9 @@ Wire Wire Line
 Wire Wire Line
 	6650 2825 6650 2875
 Wire Wire Line
-	5150 4075 5150 4175
+	5150 4175 5150 4275
 Wire Wire Line
-	5150 4375 5150 4425
+	5150 4475 5150 4525
 Wire Wire Line
 	4675 4075 4675 4175
 Wire Wire Line
@@ -269,7 +269,7 @@ Wire Wire Line
 Wire Wire Line
 	6150 3875 6150 4025
 Wire Wire Line
-	5150 3875 5150 4075
+	5150 3875 5150 4175
 Wire Wire Line
 	5150 3875 5500 3875
 $Comp
