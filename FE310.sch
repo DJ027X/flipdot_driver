@@ -658,7 +658,7 @@ $EndComp
 Text GLabel 9550 2825 2    50   Input ~ 0
 IVDD_FE310
 Text GLabel 9550 3625 2    50   Output ~ 0
-!ROW_RESET
+ROW_ON
 Text GLabel 9550 3725 2    50   Output ~ 0
 !COL_RESET
 Text GLabel 9550 3825 2    50   Output ~ 0

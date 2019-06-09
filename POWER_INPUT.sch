@@ -85,17 +85,6 @@ $EndComp
 Text Notes 4950 5075 0    60   ~ 0
 LABEL POSITIVE AND\nNEGATIVE TERMINALS\nON SILKSCREEN
 $Comp
-L Device:CP1 C22
-U 1 1 5E580BFF
-P 4850 2625
-F 0 "C22" H 4875 2725 50  0000 L CNN
-F 1 "NP_470uF" H 4450 2525 50  0000 L CNN
-F 2 "" H 4850 2625 50  0001 C CNN
-F 3 "" H 4850 2625 50  0001 C CNN
-	1    4850 2625
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:SMAJ12A D5
 U 1 1 5E580C05
 P 6150 4175
@@ -369,8 +358,6 @@ F 3 "~" H 7370 4555 50  0001 C CNN
 	1    7450 4475
 	0    -1   -1   0   
 $EndComp
-Text Notes 3725 2625 0    50   ~ 0
-Need to make my\nown version + footprint\nof this part
 Connection ~ 6375 3875
 Wire Wire Line
 	6375 3875 6650 3875
@@ -397,4 +384,15 @@ Wire Wire Line
 	4900 3875 5150 3875
 Wire Wire Line
 	4575 3875 4900 3875
+$Comp
+L custom:NP_470uF C?
+U 1 1 5CFDB81D
+P 4850 2625
+F 0 "C?" H 4875 2725 50  0000 L CNN
+F 1 "NP_470uF" H 4450 2500 50  0000 L CNN
+F 2 "" H 4850 2625 50  0001 C CNN
+F 3 "~" H 4850 2625 50  0001 C CNN
+	1    4850 2625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

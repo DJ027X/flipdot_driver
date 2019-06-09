@@ -559,7 +559,7 @@ AR Path="/621F0CB4/622B9F6D" Ref="U13"  Part="1"
 F 0 "U13" H 5475 3050 60  0000 C CNN
 F 1 "74HC595" H 5525 2100 60  0000 C CNN
 F 2 "" H 5225 2650 60  0001 C CNN
-F 3 "" H 5225 2650 60  0001 C CNN
+F 3 "~/datasheets/74HC_HCT595.pdf" H 5225 2650 60  0001 C CNN
 	1    5525 2600
 	1    0    0    -1  
 $EndComp
@@ -697,36 +697,24 @@ Text Label 1250 5825 0    50   ~ 0
 ROW_SR_CHAIN
 Wire Wire Line
 	1825 5775 1925 5775
-Text Label 4475 2350 0    50   ~ 0
-ROW_SR_CHAIN
-Wire Wire Line
-	4475 2350 5075 2350
-Text GLabel 1825 2450 0    50   Input ~ 0
-!ROW_RESET
 Text GLabel 1825 2550 0    50   Input ~ 0
 !ENABLE
 Text GLabel 1825 2650 0    50   Input ~ 0
 !ROW_SHCP
 Text GLabel 1825 2750 0    50   Input ~ 0
 ROW_SHCP
-Text GLabel 1825 5375 0    50   Input ~ 0
-!ROW_RESET
 Text GLabel 1825 5475 0    50   Input ~ 0
 !ENABLE
 Text GLabel 1825 5575 0    50   Input ~ 0
 !ROW_SHCP
 Text GLabel 1825 5675 0    50   Input ~ 0
 ROW_SHCP
-Text GLabel 4975 2450 0    50   Input ~ 0
-!ROW_RESET
 Text GLabel 4975 2550 0    50   Input ~ 0
 !ENABLE
 Text GLabel 4975 2650 0    50   Input ~ 0
 !ROW_SHCP
 Text GLabel 4975 2750 0    50   Input ~ 0
 ROW_SHCP
-Text GLabel 4975 5375 0    50   Input ~ 0
-!ROW_RESET
 Text GLabel 4975 5475 0    50   Input ~ 0
 !ENABLE
 Text GLabel 4975 5575 0    50   Input ~ 0
@@ -818,4 +806,16 @@ Text GLabel 6075 2850 2    50   Output ~ 0
 ROW06_OFF
 Text GLabel 6075 2950 2    50   Output ~ 0
 ROW07_OFF
+Wire Wire Line
+	5075 2350 4975 2350
+Text GLabel 4975 2350 0    50   Input ~ 0
+ROW_IN
+Text GLabel 1825 5375 0    50   Input ~ 0
+ROW_ON
+Text GLabel 1825 2450 0    50   Input ~ 0
+ROW_ON
+Text GLabel 4975 2450 0    50   Input ~ 0
+ROW_OFF
+Text GLabel 4975 5375 0    50   Input ~ 0
+ROW_OFF
 $EndSCHEMATC
