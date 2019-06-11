@@ -16,21 +16,6 @@ Comment4 ""
 $EndDescr
 $Comp
 L power:GND #PWR?
-U 1 1 5D4AE458
-P 4575 3225
-AR Path="/5D4AE458" Ref="#PWR?"  Part="1" 
-AR Path="/627E3ADC/5D4AE458" Ref="#PWR?"  Part="1" 
-AR Path="/620EB9A4/5D4AE458" Ref="#PWR?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE458" Ref="#PWR099"  Part="1" 
-F 0 "#PWR099" H 4575 2975 50  0001 C CNN
-F 1 "GND" H 4575 3075 50  0000 C CNN
-F 2 "" H 4575 3225 50  0001 C CNN
-F 3 "" H 4575 3225 50  0001 C CNN
-	1    4575 3225
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 5D4AE45E
 P 6900 5800
 AR Path="/5D4AE45E" Ref="#PWR?"  Part="1" 
@@ -44,43 +29,10 @@ F 3 "" H 6900 5800 50  0001 C CNN
 	1    6900 5800
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3975 3175 4175 3175
-Wire Wire Line
-	4575 2425 4575 2475
-Wire Wire Line
-	4175 3125 4175 3175
-Wire Wire Line
-	4575 3175 4575 3125
-Wire Wire Line
-	4375 3125 4375 3175
-Connection ~ 4575 3175
-Wire Wire Line
-	4175 2425 4175 2675
-Wire Wire Line
-	4375 2425 4375 2575
-Connection ~ 4375 3175
 Connection ~ 4175 2675
 Connection ~ 4375 2575
 Connection ~ 4575 2475
-Wire Wire Line
-	4175 2125 4175 2075
-Wire Wire Line
-	3975 2075 4175 2075
-Wire Wire Line
-	3975 2025 3975 2075
-Wire Wire Line
-	4575 2075 4575 2125
-Connection ~ 4375 2075
-Wire Wire Line
-	3975 2425 3975 2775
 Connection ~ 3975 2775
-Wire Wire Line
-	3975 2125 3975 2075
-Connection ~ 4175 2075
-Wire Wire Line
-	3975 3175 3975 3125
-Connection ~ 4175 3175
 Wire Wire Line
 	6700 4375 6900 4375
 Wire Wire Line
@@ -106,26 +58,6 @@ Connection ~ 6400 4875
 Wire Wire Line
 	6400 4800 6400 4875
 Wire Wire Line
-	4375 3175 4575 3175
-Wire Wire Line
-	4575 3175 4575 3225
-Wire Wire Line
-	4175 2675 4175 2825
-Wire Wire Line
-	4375 2575 4375 2825
-Wire Wire Line
-	4575 2475 4575 2825
-Wire Wire Line
-	4375 2075 4575 2075
-Wire Wire Line
-	4375 2075 4375 2125
-Wire Wire Line
-	3975 2775 3975 2825
-Wire Wire Line
-	4175 2075 4375 2075
-Wire Wire Line
-	4175 3175 4375 3175
-Wire Wire Line
 	7100 4375 6900 4375
 Wire Wire Line
 	7100 4875 7100 5025
@@ -149,21 +81,6 @@ F 3 "" H 6900 4275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 5D4AE4CB
-P 3975 2025
-AR Path="/5D4AE4CB" Ref="#PWR?"  Part="1" 
-AR Path="/627E3ADC/5D4AE4CB" Ref="#PWR?"  Part="1" 
-AR Path="/620EB9A4/5D4AE4CB" Ref="#PWR?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE4CB" Ref="#PWR097"  Part="1" 
-F 0 "#PWR097" H 3975 1875 50  0001 C CNN
-F 1 "+3V3" H 3975 2165 50  0000 C CNN
-F 2 "" H 3975 2025 50  0001 C CNN
-F 3 "" H 3975 2025 50  0001 C CNN
-	1    3975 2025
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:NP_R_0603 R?
 U 1 1 5D4AE4D2
 P 6700 4575
@@ -177,166 +94,6 @@ F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 4025 50  0001 L BNN
 F 3 "" H 5950 3925 50  0001 L BNN
 F 4 "NP" V 6725 4525 47  0000 L BNN "Resistance"
 	1    6700 4575
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:NP_R_0603 R?
-U 1 1 5D4AE4E0
-P 3975 2275
-AR Path="/5D4AE4E0" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE4E0" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE4E0" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE4E0" Ref="R64"  Part="1" 
-F 0 "R64" V 4095 2175 50  0000 L BNN
-F 1 "NP_R_0603" H 3225 1825 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3225 1725 50  0001 L BNN
-F 3 "" H 3225 1625 50  0001 L BNN
-F 4 "NP" V 4000 2225 47  0000 L BNN "Resistance"
-	1    3975 2275
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:NP_R_0603 R?
-U 1 1 5D4AE4E7
-P 4175 2275
-AR Path="/5D4AE4E7" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE4E7" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE4E7" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE4E7" Ref="R65"  Part="1" 
-F 0 "R65" V 4295 2175 50  0000 L BNN
-F 1 "NP_R_0603" H 3425 1825 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3425 1725 50  0001 L BNN
-F 3 "" H 3425 1625 50  0001 L BNN
-F 4 "NP" V 4200 2225 47  0000 L BNN "Resistance"
-	1    4175 2275
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:NP_R_0603 R?
-U 1 1 5D4AE4EE
-P 4575 2275
-AR Path="/5D4AE4EE" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE4EE" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE4EE" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE4EE" Ref="R67"  Part="1" 
-F 0 "R67" V 4695 2175 50  0000 L BNN
-F 1 "NP_R_0603" H 3825 1825 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3825 1725 50  0001 L BNN
-F 3 "" H 3825 1625 50  0001 L BNN
-F 4 "NP" V 4600 2225 47  0000 L BNN "Resistance"
-	1    4575 2275
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:NP_R_0603 R?
-U 1 1 5D4AE4FC
-P 4375 2975
-AR Path="/5D4AE4FC" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE4FC" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE4FC" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE4FC" Ref="R72"  Part="1" 
-F 0 "R72" V 4495 2875 50  0000 L BNN
-F 1 "NP_R_0603" H 3625 2525 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3625 2425 50  0001 L BNN
-F 3 "" H 3625 2325 50  0001 L BNN
-F 4 "NP" V 4400 2925 47  0000 L BNN "Resistance"
-	1    4375 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D4AE503
-P 7100 4575
-AR Path="/5D4AE503" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE503" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE503" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE503" Ref="R78"  Part="1" 
-F 0 "R78" V 7220 4475 50  0000 L BNN
-F 1 "CRG0603F4K7" H 6350 4125 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 4025 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 6350 3925 50  0001 L BNN
-F 4 "4.7k" V 7120 4515 39  0000 L BNN "Resistance"
-	1    7100 4575
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D4AE518
-P 6700 5500
-AR Path="/5D4AE518" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE518" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE518" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE518" Ref="R80"  Part="1" 
-F 0 "R80" V 6820 5400 50  0000 L BNN
-F 1 "CRG0603F4K7" H 5950 5050 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 4950 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 5950 4850 50  0001 L BNN
-F 4 "4.7k" V 6720 5440 39  0000 L BNN "Resistance"
-	1    6700 5500
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D4AE51F
-P 3975 2975
-AR Path="/5D4AE51F" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE51F" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE51F" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE51F" Ref="R70"  Part="1" 
-F 0 "R70" V 4095 2875 50  0000 L BNN
-F 1 "CRG0603F4K7" H 3225 2525 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3225 2425 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 3225 2325 50  0001 L BNN
-F 4 "4.7k" V 3995 2915 39  0000 L BNN "Resistance"
-	1    3975 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D4AE526
-P 4175 2975
-AR Path="/5D4AE526" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE526" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE526" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE526" Ref="R71"  Part="1" 
-F 0 "R71" V 4295 2875 50  0000 L BNN
-F 1 "CRG0603F4K7" H 3425 2525 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3425 2425 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 3425 2325 50  0001 L BNN
-F 4 "4.7k" V 4195 2915 39  0000 L BNN "Resistance"
-	1    4175 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D4AE52D
-P 4575 2975
-AR Path="/5D4AE52D" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE52D" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE52D" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE52D" Ref="R73"  Part="1" 
-F 0 "R73" V 4695 2875 50  0000 L BNN
-F 1 "CRG0603F4K7" H 3825 2525 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3825 2425 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 3825 2325 50  0001 L BNN
-F 4 "4.7k" V 4595 2915 39  0000 L BNN "Resistance"
-	1    4575 2975
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D4AE53B
-P 4375 2275
-AR Path="/5D4AE53B" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D4AE53B" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D4AE53B" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D4AE53B" Ref="R66"  Part="1" 
-F 0 "R66" V 4495 2175 50  0000 L BNN
-F 1 "CRG0603F4K7" H 3625 1825 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 3625 1725 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 3625 1625 50  0001 L BNN
-F 4 "4.7k" V 4395 2215 39  0000 L BNN "Resistance"
-	1    4375 2275
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -354,7 +111,6 @@ F 3 "datasheets/SSM3K35AMFV.pdf" H 7200 5075 50  0001 L BNN
 	1    7000 5225
 	1    0    0    -1  
 $EndComp
-Connection ~ 3975 2075
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5D4AE55B
@@ -579,38 +335,6 @@ F 4 "NP" V 6725 2275 47  0000 L BNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D0ECA94
-P 7100 2325
-AR Path="/5D0ECA94" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D0ECA94" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D0ECA94" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D0ECA94" Ref="R69"  Part="1" 
-F 0 "R69" V 7220 2225 50  0000 L BNN
-F 1 "CRG0603F4K7" H 6350 1875 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 6350 1775 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 6350 1675 50  0001 L BNN
-F 4 "4.7k" V 7120 2265 39  0000 L BNN "Resistance"
-	1    7100 2325
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D0ECA9B
-P 6700 3250
-AR Path="/5D0ECA9B" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D0ECA9B" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D0ECA9B" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D0ECA9B" Ref="R74"  Part="1" 
-F 0 "R74" V 6820 3150 50  0000 L BNN
-F 1 "CRG0603F4K7" H 5950 2800 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5950 2700 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 5950 2600 50  0001 L BNN
-F 4 "4.7k" V 6720 3190 39  0000 L BNN "Resistance"
-	1    6700 3250
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:SSM3K35AMFV Q?
 U 1 1 5D0ECAA1
 P 7000 2975
@@ -753,38 +477,6 @@ F 4 "NP" V 3300 4525 47  0000 L BNN "Resistance"
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D11F462
-P 3675 4575
-AR Path="/5D11F462" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D11F462" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D11F462" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D11F462" Ref="R76"  Part="1" 
-F 0 "R76" V 3795 4475 50  0000 L BNN
-F 1 "CRG0603F4K7" H 2925 4125 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2925 4025 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 2925 3925 50  0001 L BNN
-F 4 "4.7k" V 3695 4515 39  0000 L BNN "Resistance"
-	1    3675 4575
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:CRG0603F4K7 R?
-U 1 1 5D11F469
-P 3275 5500
-AR Path="/5D11F469" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/5D11F469" Ref="R?"  Part="1" 
-AR Path="/620EB9A4/5D11F469" Ref="R?"  Part="1" 
-AR Path="/5D4A63FF/5D11F469" Ref="R79"  Part="1" 
-F 0 "R79" V 3395 5400 50  0000 L BNN
-F 1 "CRG0603F4K7" H 2525 5050 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2525 4950 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 2525 4850 50  0001 L BNN
-F 4 "4.7k" V 3295 5440 39  0000 L BNN "Resistance"
-	1    3275 5500
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:SSM3K35AMFV Q?
 U 1 1 5D11F46F
 P 3575 5225
@@ -851,5 +543,283 @@ F 2 "" H 4175 4800 50  0001 C CNN
 F 3 "~" H 4175 4800 50  0001 C CNN
 	1    3975 4800
 	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4575 2475 4575 2825
+Wire Wire Line
+	4175 2675 4175 2825
+Wire Wire Line
+	3975 2775 3975 2825
+Wire Wire Line
+	4375 2575 4375 2825
+$Comp
+L custom:NP_R_0603 R?
+U 1 1 5D4AE4FC
+P 4375 2975
+AR Path="/5D4AE4FC" Ref="R?"  Part="1" 
+AR Path="/627E3ADC/5D4AE4FC" Ref="R?"  Part="1" 
+AR Path="/620EB9A4/5D4AE4FC" Ref="R?"  Part="1" 
+AR Path="/5D4A63FF/5D4AE4FC" Ref="R72"  Part="1" 
+F 0 "R72" V 4500 2875 50  0000 L BNN
+F 1 "NP_R_0603" H 3625 2525 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3625 2425 50  0001 L BNN
+F 3 "" H 3625 2325 50  0001 L BNN
+F 4 "NP" V 4400 2925 47  0000 L BNN "Resistance"
+	1    4375 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 3175 4375 3175
+Wire Wire Line
+	4575 3175 4575 3225
+Wire Wire Line
+	4375 3175 4575 3175
+Connection ~ 4175 3175
+Wire Wire Line
+	3975 3175 3975 3125
+Connection ~ 4375 3175
+Connection ~ 4575 3175
+Wire Wire Line
+	4375 3125 4375 3175
+Wire Wire Line
+	4575 3175 4575 3125
+Wire Wire Line
+	4175 3125 4175 3175
+Wire Wire Line
+	3975 3175 4175 3175
+$Comp
+L power:GND #PWR?
+U 1 1 5D4AE458
+P 4575 3225
+AR Path="/5D4AE458" Ref="#PWR?"  Part="1" 
+AR Path="/627E3ADC/5D4AE458" Ref="#PWR?"  Part="1" 
+AR Path="/620EB9A4/5D4AE458" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A63FF/5D4AE458" Ref="#PWR099"  Part="1" 
+F 0 "#PWR099" H 4575 2975 50  0001 C CNN
+F 1 "GND" H 4575 3075 50  0000 C CNN
+F 2 "" H 4575 3225 50  0001 C CNN
+F 3 "" H 4575 3225 50  0001 C CNN
+	1    4575 3225
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D03699A
+P 4575 2975
+F 0 "R?" V 4700 2875 50  0000 L BNN
+F 1 "CRG0603F4K7" H 3875 2575 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3875 2475 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 3875 2375 50  0001 L BNN
+F 4 "4k7" V 4575 2975 50  0000 C CNN "VALUE"
+F 5 "5%" V 4525 2800 50  0001 C CNN "TOLERANCE"
+	1    4575 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D0366BC
+P 4175 2975
+F 0 "R?" V 4300 2875 50  0000 L BNN
+F 1 "CRG0603F4K7" H 3475 2575 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3475 2475 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 3475 2375 50  0001 L BNN
+F 4 "4k7" V 4175 2975 50  0000 C CNN "VALUE"
+F 5 "5%" V 4125 2800 50  0001 C CNN "TOLERANCE"
+	1    4175 2975
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D03573E
+P 3975 2975
+F 0 "R?" V 4100 2875 50  0000 L BNN
+F 1 "CRG0603F4K7" H 3275 2575 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3275 2475 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 3275 2375 50  0001 L BNN
+F 4 "4k7" V 3975 2975 50  0000 C CNN "VALUE"
+F 5 "5%" V 3925 2800 50  0001 C CNN "TOLERANCE"
+	1    3975 2975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4375 2425 4375 2575
+Wire Wire Line
+	4575 2425 4575 2475
+Wire Wire Line
+	4175 2425 4175 2675
+Wire Wire Line
+	3975 2425 3975 2775
+Connection ~ 3975 2075
+$Comp
+L custom:NP_R_0603 R?
+U 1 1 5D4AE4EE
+P 4575 2275
+AR Path="/5D4AE4EE" Ref="R?"  Part="1" 
+AR Path="/627E3ADC/5D4AE4EE" Ref="R?"  Part="1" 
+AR Path="/620EB9A4/5D4AE4EE" Ref="R?"  Part="1" 
+AR Path="/5D4A63FF/5D4AE4EE" Ref="R67"  Part="1" 
+F 0 "R67" V 4695 2175 50  0000 L BNN
+F 1 "NP_R_0603" H 3825 1825 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3825 1725 50  0001 L BNN
+F 3 "" H 3825 1625 50  0001 L BNN
+F 4 "NP" V 4600 2225 47  0000 L BNN "Resistance"
+	1    4575 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_R_0603 R?
+U 1 1 5D4AE4E7
+P 4175 2275
+AR Path="/5D4AE4E7" Ref="R?"  Part="1" 
+AR Path="/627E3ADC/5D4AE4E7" Ref="R?"  Part="1" 
+AR Path="/620EB9A4/5D4AE4E7" Ref="R?"  Part="1" 
+AR Path="/5D4A63FF/5D4AE4E7" Ref="R65"  Part="1" 
+F 0 "R65" V 4295 2175 50  0000 L BNN
+F 1 "NP_R_0603" H 3425 1825 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3425 1725 50  0001 L BNN
+F 3 "" H 3425 1625 50  0001 L BNN
+F 4 "NP" V 4200 2225 47  0000 L BNN "Resistance"
+	1    4175 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_R_0603 R?
+U 1 1 5D4AE4E0
+P 3975 2275
+AR Path="/5D4AE4E0" Ref="R?"  Part="1" 
+AR Path="/627E3ADC/5D4AE4E0" Ref="R?"  Part="1" 
+AR Path="/620EB9A4/5D4AE4E0" Ref="R?"  Part="1" 
+AR Path="/5D4A63FF/5D4AE4E0" Ref="R64"  Part="1" 
+F 0 "R64" V 4095 2175 50  0000 L BNN
+F 1 "NP_R_0603" H 3225 1825 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3225 1725 50  0001 L BNN
+F 3 "" H 3225 1625 50  0001 L BNN
+F 4 "NP" V 4000 2225 47  0000 L BNN "Resistance"
+	1    3975 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5D4AE4CB
+P 3975 2025
+AR Path="/5D4AE4CB" Ref="#PWR?"  Part="1" 
+AR Path="/627E3ADC/5D4AE4CB" Ref="#PWR?"  Part="1" 
+AR Path="/620EB9A4/5D4AE4CB" Ref="#PWR?"  Part="1" 
+AR Path="/5D4A63FF/5D4AE4CB" Ref="#PWR097"  Part="1" 
+F 0 "#PWR097" H 3975 1875 50  0001 C CNN
+F 1 "+3V3" H 3975 2165 50  0000 C CNN
+F 2 "" H 3975 2025 50  0001 C CNN
+F 3 "" H 3975 2025 50  0001 C CNN
+	1    3975 2025
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4175 2075 4375 2075
+Wire Wire Line
+	4375 2075 4375 2125
+Wire Wire Line
+	4375 2075 4575 2075
+Connection ~ 4175 2075
+Wire Wire Line
+	3975 2125 3975 2075
+Connection ~ 4375 2075
+Wire Wire Line
+	4575 2075 4575 2125
+Wire Wire Line
+	3975 2025 3975 2075
+Wire Wire Line
+	3975 2075 4175 2075
+Wire Wire Line
+	4175 2125 4175 2075
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D037099
+P 4375 2275
+F 0 "R?" V 4500 2175 50  0000 L BNN
+F 1 "CRG0603F4K7" H 3675 1875 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 3675 1775 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 3675 1675 50  0001 L BNN
+F 4 "4k7" V 4375 2275 50  0000 C CNN "VALUE"
+F 5 "5%" V 4325 2100 50  0001 C CNN "TOLERANCE"
+	1    4375 2275
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D04A2E0
+P 7100 2325
+F 0 "R?" V 7225 2225 50  0000 L BNN
+F 1 "CRG0603F4K7" H 6400 1925 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6400 1825 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 6400 1725 50  0001 L BNN
+F 4 "4k7" V 7100 2325 50  0000 C CNN "VALUE"
+F 5 "5%" V 7050 2150 50  0001 C CNN "TOLERANCE"
+	1    7100 2325
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D04ABB5
+P 6700 3250
+F 0 "R?" V 6825 3150 50  0000 L BNN
+F 1 "CRG0603F4K7" H 6000 2850 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 2750 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 6000 2650 50  0001 L BNN
+F 4 "4k7" V 6700 3250 50  0000 C CNN "VALUE"
+F 5 "5%" V 6650 3075 50  0001 C CNN "TOLERANCE"
+	1    6700 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D04B149
+P 3675 4575
+F 0 "R?" V 3800 4475 50  0000 L BNN
+F 1 "CRG0603F4K7" H 2975 4175 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2975 4075 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 2975 3975 50  0001 L BNN
+F 4 "4k7" V 3675 4575 50  0000 C CNN "VALUE"
+F 5 "5%" V 3625 4400 50  0001 C CNN "TOLERANCE"
+	1    3675 4575
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D04B871
+P 3275 5500
+F 0 "R?" V 3400 5400 50  0000 L BNN
+F 1 "CRG0603F4K7" H 2575 5100 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2575 5000 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 2575 4900 50  0001 L BNN
+F 4 "4k7" V 3275 5500 50  0000 C CNN "VALUE"
+F 5 "5%" V 3225 5325 50  0001 C CNN "TOLERANCE"
+	1    3275 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D04BCA3
+P 6700 5500
+F 0 "R?" V 6825 5400 50  0000 L BNN
+F 1 "CRG0603F4K7" H 6000 5100 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6000 5000 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 6000 4900 50  0001 L BNN
+F 4 "4k7" V 6700 5500 50  0000 C CNN "VALUE"
+F 5 "5%" V 6650 5325 50  0001 C CNN "TOLERANCE"
+	1    6700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D04C10F
+P 7100 4575
+F 0 "R?" V 7225 4475 50  0000 L BNN
+F 1 "CRG0603F4K7" H 6400 4175 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 6400 4075 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 6400 3975 50  0001 L BNN
+F 4 "4k7" V 7100 4575 50  0000 C CNN "VALUE"
+F 5 "5%" V 7050 4400 50  0001 C CNN "TOLERANCE"
+	1    7100 4575
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

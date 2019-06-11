@@ -238,21 +238,6 @@ F 5 "16V" H 1665 1009 50  0000 L CNN "Rating"
 	1    1550 1100
 	1    0    0    -1  
 $EndComp
-$Comp
-L custom:NP_C_0603 C?
-U 1 1 626060EE
-P 2450 1100
-AR Path="/626060EE" Ref="C?"  Part="1" 
-AR Path="/621F0CB4/626060EE" Ref="C?"  Part="1" 
-AR Path="/625CA44F/626060EE" Ref="C66"  Part="1" 
-F 0 "C66" H 2565 1146 50  0000 L CNN
-F 1 "NP_C_0603" H 1500 650 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 550 50  0001 L BNN
-F 3 "" H 1500 450 50  0001 L BNN
-F 4 "NP" H 2565 1055 50  0000 L CNN "NP"
-	1    2450 1100
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 1250 2000 1300
 Wire Wire Line
@@ -353,21 +338,6 @@ F 5 "16V" H 1665 3409 50  0000 L CNN "Rating"
 	1    1550 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L custom:NP_C_0603 C?
-U 1 1 62606125
-P 2450 3500
-AR Path="/62606125" Ref="C?"  Part="1" 
-AR Path="/621F0CB4/62606125" Ref="C?"  Part="1" 
-AR Path="/625CA44F/62606125" Ref="C75"  Part="1" 
-F 0 "C75" H 2565 3546 50  0000 L CNN
-F 1 "NP_C_0603" H 1500 3050 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 2950 50  0001 L BNN
-F 3 "" H 1500 2850 50  0001 L BNN
-F 4 "NP" H 2565 3455 50  0000 L CNN "NP"
-	1    2450 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2000 3650 2000 3700
 Wire Wire Line
@@ -466,21 +436,6 @@ F 3 "datasheets/CL10B104KO8NNNC.pdf" H 600 5250 50  0001 L BNN
 F 4 "0.1uF" H 1665 5900 50  0000 L CNN "Capacitance"
 F 5 "16V" H 1665 5809 50  0000 L CNN "Rating"
 	1    1550 5900
-	1    0    0    -1  
-$EndComp
-$Comp
-L custom:NP_C_0603 C?
-U 1 1 6260615C
-P 2450 5900
-AR Path="/6260615C" Ref="C?"  Part="1" 
-AR Path="/621F0CB4/6260615C" Ref="C?"  Part="1" 
-AR Path="/625CA44F/6260615C" Ref="C81"  Part="1" 
-F 0 "C81" H 2565 5946 50  0000 L CNN
-F 1 "NP_C_0603" H 1500 5450 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 5350 50  0001 L BNN
-F 3 "" H 1500 5250 50  0001 L BNN
-F 4 "NP" H 2565 5855 50  0000 L CNN "NP"
-	1    2450 5900
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -592,21 +547,6 @@ Wire Wire Line
 Wire Wire Line
 	7675 1250 7675 1300
 $Comp
-L custom:NP_C_0603 C?
-U 1 1 62606197
-P 8125 1100
-AR Path="/62606197" Ref="C?"  Part="1" 
-AR Path="/621F0CB4/62606197" Ref="C?"  Part="1" 
-AR Path="/625CA44F/62606197" Ref="C72"  Part="1" 
-F 0 "C72" H 8240 1146 50  0000 L CNN
-F 1 "NP_C_0603" H 7175 650 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 7175 550 50  0001 L BNN
-F 3 "" H 7175 450 50  0001 L BNN
-F 4 "NP" H 8240 1055 50  0000 L CNN "NP"
-	1    8125 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:CL10B104KO8NNNC C?
 U 1 1 6260619F
 P 7225 1100
@@ -706,21 +646,6 @@ Wire Wire Line
 	4825 6100 5275 6100
 Wire Wire Line
 	4825 6050 4825 6100
-$Comp
-L custom:NP_C_0603 C?
-U 1 1 626061CE
-P 5275 5900
-AR Path="/626061CE" Ref="C?"  Part="1" 
-AR Path="/621F0CB4/626061CE" Ref="C?"  Part="1" 
-AR Path="/625CA44F/626061CE" Ref="C84"  Part="1" 
-F 0 "C84" H 5390 5946 50  0000 L CNN
-F 1 "NP_C_0603" H 4325 5450 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4325 5350 50  0001 L BNN
-F 3 "" H 4325 5250 50  0001 L BNN
-F 4 "NP" H 5390 5855 50  0000 L CNN "NP"
-	1    5275 5900
-	1    0    0    -1  
-$EndComp
 $Comp
 L custom:CL10B104KO8NNNC C?
 U 1 1 626061D6
@@ -822,21 +747,6 @@ Wire Wire Line
 Wire Wire Line
 	4825 3650 4825 3700
 $Comp
-L custom:NP_C_0603 C?
-U 1 1 62606205
-P 5275 3500
-AR Path="/62606205" Ref="C?"  Part="1" 
-AR Path="/621F0CB4/62606205" Ref="C?"  Part="1" 
-AR Path="/625CA44F/62606205" Ref="C78"  Part="1" 
-F 0 "C78" H 5390 3546 50  0000 L CNN
-F 1 "NP_C_0603" H 4325 3050 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4325 2950 50  0001 L BNN
-F 3 "" H 4325 2850 50  0001 L BNN
-F 4 "NP" H 5390 3455 50  0000 L CNN "NP"
-	1    5275 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:CL10B104KO8NNNC C?
 U 1 1 6260620D
 P 4375 3500
@@ -936,21 +846,6 @@ Wire Wire Line
 	4825 1300 5275 1300
 Wire Wire Line
 	4825 1250 4825 1300
-$Comp
-L custom:NP_C_0603 C?
-U 1 1 6260623C
-P 5275 1100
-AR Path="/6260623C" Ref="C?"  Part="1" 
-AR Path="/621F0CB4/6260623C" Ref="C?"  Part="1" 
-AR Path="/625CA44F/6260623C" Ref="C69"  Part="1" 
-F 0 "C69" H 5390 1146 50  0000 L CNN
-F 1 "NP_C_0603" H 4325 650 50  0001 L BNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4325 550 50  0001 L BNN
-F 3 "" H 4325 450 50  0001 L BNN
-F 4 "NP" H 5390 1055 50  0000 L CNN "NP"
-	1    5275 1100
-	1    0    0    -1  
-$EndComp
 $Comp
 L custom:CL10B104KO8NNNC C?
 U 1 1 62606244
@@ -1477,4 +1372,109 @@ Wire Wire Line
 	7150 2400 7225 2400
 Text GLabel 1475 1900 0    50   Input ~ 0
 COL_IN
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 5D061C7A
+P 2450 1100
+AR Path="/5D061C7A" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/5D061C7A" Ref="C?"  Part="1" 
+AR Path="/625CA44F/5D061C7A" Ref="C66"  Part="1" 
+F 0 "C66" H 2565 1146 50  0000 L CNN
+F 1 "NP_0603" H 2500 975 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 550 50  0001 L BNN
+F 3 "" H 1500 450 50  0001 L BNN
+F 4 "NP" H 2565 1055 50  0001 L CNN "NP"
+	1    2450 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 5D06EE2A
+P 5275 1100
+AR Path="/5D06EE2A" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/5D06EE2A" Ref="C?"  Part="1" 
+AR Path="/625CA44F/5D06EE2A" Ref="C69"  Part="1" 
+F 0 "C69" H 5390 1146 50  0000 L CNN
+F 1 "NP_0603" H 5325 975 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4325 550 50  0001 L BNN
+F 3 "" H 4325 450 50  0001 L BNN
+F 4 "NP" H 5390 1055 50  0001 L CNN "NP"
+	1    5275 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 5D07BF71
+P 8125 1100
+AR Path="/5D07BF71" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/5D07BF71" Ref="C?"  Part="1" 
+AR Path="/625CA44F/5D07BF71" Ref="C72"  Part="1" 
+F 0 "C72" H 8240 1146 50  0000 L CNN
+F 1 "NP_0603" H 8175 975 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 7175 550 50  0001 L BNN
+F 3 "" H 7175 450 50  0001 L BNN
+F 4 "NP" H 8240 1055 50  0001 L CNN "NP"
+	1    8125 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 5D088D64
+P 5275 3500
+AR Path="/5D088D64" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/5D088D64" Ref="C?"  Part="1" 
+AR Path="/625CA44F/5D088D64" Ref="C78"  Part="1" 
+F 0 "C78" H 5390 3546 50  0000 L CNN
+F 1 "NP_0603" H 5325 3375 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4325 2950 50  0001 L BNN
+F 3 "" H 4325 2850 50  0001 L BNN
+F 4 "NP" H 5390 3455 50  0001 L CNN "NP"
+	1    5275 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 5D095C9B
+P 2450 3500
+AR Path="/5D095C9B" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/5D095C9B" Ref="C?"  Part="1" 
+AR Path="/625CA44F/5D095C9B" Ref="C75"  Part="1" 
+F 0 "C75" H 2565 3546 50  0000 L CNN
+F 1 "NP_0603" H 2500 3375 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 2950 50  0001 L BNN
+F 3 "" H 1500 2850 50  0001 L BNN
+F 4 "NP" H 2565 3455 50  0001 L CNN "NP"
+	1    2450 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 5D0A2AF4
+P 2450 5900
+AR Path="/5D0A2AF4" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/5D0A2AF4" Ref="C?"  Part="1" 
+AR Path="/625CA44F/5D0A2AF4" Ref="C81"  Part="1" 
+F 0 "C81" H 2565 5946 50  0000 L CNN
+F 1 "NP_0603" H 2500 5775 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1500 5350 50  0001 L BNN
+F 3 "" H 1500 5250 50  0001 L BNN
+F 4 "NP" H 2565 5855 50  0001 L CNN "NP"
+	1    2450 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L custom:NP_C_0603 C?
+U 1 1 5D0AFB4B
+P 5275 5900
+AR Path="/5D0AFB4B" Ref="C?"  Part="1" 
+AR Path="/621F0CB4/5D0AFB4B" Ref="C?"  Part="1" 
+AR Path="/625CA44F/5D0AFB4B" Ref="C84"  Part="1" 
+F 0 "C84" H 5390 5946 50  0000 L CNN
+F 1 "NP_0603" H 5325 5775 50  0000 L BNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4325 5350 50  0001 L BNN
+F 3 "" H 4325 5250 50  0001 L BNN
+F 4 "NP" H 5390 5855 50  0001 L CNN "NP"
+	1    5275 5900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

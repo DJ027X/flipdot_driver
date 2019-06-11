@@ -234,20 +234,6 @@ F 3 "~" H 3700 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L custom:CRG0603F4K7 R?
-U 1 1 6285D1F0
-P 3100 2850
-AR Path="/6285D1F0" Ref="R?"  Part="1" 
-AR Path="/627E3ADC/6285D1F0" Ref="R89"  Part="1" 
-F 0 "R89" V 3220 2750 50  0000 L BNN
-F 1 "CRG0603F4K7" H 2350 2400 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 2350 2300 50  0001 L BNN
-F 3 "datasheets/PYu-RC_Group_51_RoHS_L_9.pdf" H 2350 2200 50  0001 L BNN
-F 4 "4.7k" V 3120 2790 39  0000 L BNN "Resistance"
-	1    3100 2850
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:DMG6602 Q?
 U 1 1 6285D241
 P 3400 2600
@@ -416,4 +402,17 @@ Text GLabel 4500 5550 0    50   Input ~ 0
 COL25
 Text GLabel 4500 5650 0    50   Input ~ 0
 COL27
+$Comp
+L custom:CRG0603F4K7 R?
+U 1 1 5D0BFF14
+P 3100 2850
+F 0 "R?" H 3170 2870 50  0000 L BNN
+F 1 "CRG0603F4K7" H 2400 2450 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 2400 2350 50  0001 L BNN
+F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 2400 2250 50  0001 L BNN
+F 4 "4k7" V 3100 2850 50  0000 C CNN "VALUE"
+F 5 "5%" H 3220 2810 50  0000 C CNN "TOLERANCE"
+	1    3100 2850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
