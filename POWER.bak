@@ -1702,4 +1702,5 @@ $EndComp
 Wire Wire Line
 	1625 3525 1675 3525
 Connection ~ 1675 3525
+Connection ~ 2925 5000
 $EndSCHEMATC
