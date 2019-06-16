@@ -1,4 +1,4 @@
-15840715685425479
+15842276468016479
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42074,8 +42074,8 @@ custom
 
 
 0
-32
-32
+64
+64
 custom
 490-14124-1-ND
 
@@ -42278,6 +42278,13 @@ TACTILE_SWITCH
 
 0
 4
+2
+custom
+TACTILE_SWITCH_SMALL
+
+
+0
+2
 2
 custom
 TERMINAL_BLOCK_1x2
