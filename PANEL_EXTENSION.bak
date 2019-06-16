@@ -83,84 +83,85 @@ U 1 1 621E7970
 P 6450 5625
 F 0 "U23" H 6400 5875 60  0000 C CNN
 F 1 "CM1293A-04SO" H 6550 5375 60  0000 C CNN
-F 2 "" H 6300 5525 60  0001 C CNN
-F 3 "datasheets/CM1293A-04SO-D.PDF" H 6450 5275 60  0001 C CNN
+F 2 "custom:SOT-457" H 6300 5525 60  0001 C CNN
+F 3 "~/datasheets/CM1293A-04SO-D.PDF" H 6450 5275 60  0001 C CNN
+F 4 "CM1293A" H 6450 5625 50  0001 C CNN "TEXT"
 	1    6450 5625
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP54
+L Connector:TestPoint TP59
 U 1 1 621E7976
 P 8150 5375
-F 0 "TP54" V 8175 5575 50  0000 L BNN
+F 0 "TP59" V 8175 5575 50  0000 L BNN
 F 1 "TestPoint" H 7900 5425 50  0001 C CNN
-F 2 "" H 8350 5375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 8350 5375 50  0001 C CNN
 F 3 "~" H 8350 5375 50  0001 C CNN
 	1    8150 5375
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP53
+L Connector:TestPoint TP58
 U 1 1 621E797C
 P 8050 5375
-F 0 "TP53" V 8075 5575 50  0000 L BNN
+F 0 "TP58" V 8075 5575 50  0000 L BNN
 F 1 "TestPoint" H 7800 5425 50  0001 C CNN
-F 2 "" H 8250 5375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 8250 5375 50  0001 C CNN
 F 3 "~" H 8250 5375 50  0001 C CNN
 	1    8050 5375
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP52
+L Connector:TestPoint TP57
 U 1 1 621E7982
 P 7950 5375
-F 0 "TP52" V 7975 5575 50  0000 L BNN
+F 0 "TP57" V 7975 5575 50  0000 L BNN
 F 1 "TestPoint" H 7700 5425 50  0001 C CNN
-F 2 "" H 8150 5375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 8150 5375 50  0001 C CNN
 F 3 "~" H 8150 5375 50  0001 C CNN
 	1    7950 5375
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP51
+L Connector:TestPoint TP56
 U 1 1 621E7988
 P 7850 5375
-F 0 "TP51" V 7875 5575 50  0000 L BNN
+F 0 "TP56" V 7875 5575 50  0000 L BNN
 F 1 "TestPoint" H 7600 5425 50  0001 C CNN
-F 2 "" H 8050 5375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 8050 5375 50  0001 C CNN
 F 3 "~" H 8050 5375 50  0001 C CNN
 	1    7850 5375
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP50
+L Connector:TestPoint TP55
 U 1 1 621E798E
 P 7750 5375
-F 0 "TP50" V 7775 5575 50  0000 L BNN
+F 0 "TP55" V 7775 5575 50  0000 L BNN
 F 1 "TestPoint" H 7500 5425 50  0001 C CNN
-F 2 "" H 7950 5375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7950 5375 50  0001 C CNN
 F 3 "~" H 7950 5375 50  0001 C CNN
 	1    7750 5375
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP49
+L Connector:TestPoint TP54
 U 1 1 621E7994
 P 7650 5375
-F 0 "TP49" V 7675 5575 50  0000 L BNN
+F 0 "TP54" V 7675 5575 50  0000 L BNN
 F 1 "TestPoint" H 7400 5425 50  0001 C CNN
-F 2 "" H 7850 5375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7850 5375 50  0001 C CNN
 F 3 "~" H 7850 5375 50  0001 C CNN
 	1    7650 5375
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP48
+L Connector:TestPoint TP53
 U 1 1 621E799A
 P 7550 5375
-F 0 "TP48" V 7575 5575 50  0000 L BNN
+F 0 "TP53" V 7575 5575 50  0000 L BNN
 F 1 "TestPoint" H 7300 5425 50  0001 C CNN
-F 2 "" H 7750 5375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7750 5375 50  0001 C CNN
 F 3 "~" H 7750 5375 50  0001 C CNN
 	1    7550 5375
 	-1   0    0    1   
@@ -221,8 +222,9 @@ U 1 1 621E79C1
 P 6450 4725
 F 0 "U21" H 6400 4975 60  0000 C CNN
 F 1 "CM1293A-04SO" H 6450 4475 60  0000 C CNN
-F 2 "" H 6300 4625 60  0001 C CNN
-F 3 "datasheets/CM1293A-04SO-D.PDF" H 6450 4375 60  0001 C CNN
+F 2 "custom:SOT-457" H 6300 4625 60  0001 C CNN
+F 3 "~/datasheets/CM1293A-04SO-D.PDF" H 6450 4375 60  0001 C CNN
+F 4 "CM1293A" H 6450 4725 50  0001 C CNN "TEXT"
 	1    6450 4725
 	1    0    0    -1  
 $EndComp
@@ -237,7 +239,7 @@ U 1 1 621E7A0B
 P 7750 2650
 F 0 "J10" H 7750 3050 50  0000 C CNN
 F 1 "Conn_01x08_Male" H 7325 2625 50  0000 C CNN
-F 2 "" H 7750 2650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 7750 2650 50  0001 C CNN
 F 3 "" H 7750 2650 50  0001 C CNN
 	1    7750 2650
 	-1   0    0    -1  
@@ -296,12 +298,12 @@ Wire Wire Line
 Wire Wire Line
 	7550 4575 9325 4575
 $Comp
-L Connector:TestPoint TP55
+L Connector:TestPoint TP60
 U 1 1 5D298B1C
 P 8250 5375
-F 0 "TP55" V 8275 5575 50  0000 L BNN
+F 0 "TP60" V 8275 5575 50  0000 L BNN
 F 1 "TestPoint" H 8000 5425 50  0001 C CNN
-F 2 "" H 8450 5375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 8450 5375 50  0001 C CNN
 F 3 "~" H 8450 5375 50  0001 C CNN
 	1    8250 5375
 	-1   0    0    1   
@@ -312,23 +314,23 @@ Connection ~ 8250 5275
 Wire Wire Line
 	8250 5275 9325 5275
 $Comp
-L Connector:TestPoint TP45
+L Connector:TestPoint TP50
 U 1 1 5D2A7B5A
 P 3875 2375
-F 0 "TP45" V 3900 2575 50  0000 L BNN
+F 0 "TP50" V 3900 2575 50  0000 L BNN
 F 1 "TestPoint" H 3625 2425 50  0001 C CNN
-F 2 "" H 4075 2375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4075 2375 50  0001 C CNN
 F 3 "~" H 4075 2375 50  0001 C CNN
 	1    3875 2375
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP44
+L Connector:TestPoint TP49
 U 1 1 5D2A7B60
 P 3775 2375
-F 0 "TP44" V 3800 2575 50  0000 L BNN
+F 0 "TP49" V 3800 2575 50  0000 L BNN
 F 1 "TestPoint" H 3525 2425 50  0001 C CNN
-F 2 "" H 3975 2375 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3975 2375 50  0001 C CNN
 F 3 "~" H 3975 2375 50  0001 C CNN
 	1    3775 2375
 	1    0    0    -1  
@@ -444,23 +446,23 @@ Connection ~ 3875 2575
 Wire Wire Line
 	3875 2575 3675 2575
 $Comp
-L Connector:TestPoint TP47
+L Connector:TestPoint TP52
 U 1 1 5D55DA0B
 P 3875 4750
-F 0 "TP47" V 3900 4950 50  0000 L BNN
+F 0 "TP52" V 3900 4950 50  0000 L BNN
 F 1 "TestPoint" H 3625 4800 50  0001 C CNN
-F 2 "" H 4075 4750 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4075 4750 50  0001 C CNN
 F 3 "~" H 4075 4750 50  0001 C CNN
 	1    3875 4750
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector:TestPoint TP46
+L Connector:TestPoint TP51
 U 1 1 5D55DA11
 P 3775 4750
-F 0 "TP46" V 3800 4950 50  0000 L BNN
+F 0 "TP51" V 3800 4950 50  0000 L BNN
 F 1 "TestPoint" H 3525 4800 50  0001 C CNN
-F 2 "" H 3975 4750 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3975 4750 50  0001 C CNN
 F 3 "~" H 3975 4750 50  0001 C CNN
 	1    3775 4750
 	1    0    0    -1  

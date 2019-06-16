@@ -928,10 +928,10 @@ AR Path="/5D8A9673" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D8A9673" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D8A9673" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D8A9673" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D8A9673" Ref="TP58"  Part="1" 
-F 0 "TP58" V 2250 1375 50  0000 C CNN
+AR Path="/62CDD30D/5D8A9673" Ref="TP63"  Part="1" 
+F 0 "TP63" V 2250 1375 50  0000 C CNN
 F 1 "TestPoint" H 2100 1250 50  0001 C CNN
-F 2 "" H 2550 1200 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2550 1200 50  0001 C CNN
 F 3 "~" H 2550 1200 50  0001 C CNN
 	1    2350 1200
 	0    1    1    0   
@@ -949,10 +949,10 @@ AR Path="/5D8B6234" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D8B6234" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D8B6234" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D8B6234" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D8B6234" Ref="TP59"  Part="1" 
-F 0 "TP59" V 1550 1725 50  0000 C CNN
+AR Path="/62CDD30D/5D8B6234" Ref="TP64"  Part="1" 
+F 0 "TP64" V 1550 1725 50  0000 C CNN
 F 1 "TestPoint" H 1400 1600 50  0001 C CNN
-F 2 "" H 1850 1550 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1850 1550 50  0001 C CNN
 F 3 "~" H 1850 1550 50  0001 C CNN
 	1    1650 1550
 	0    -1   1    0   
@@ -970,10 +970,10 @@ AR Path="/5D8C35A8" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D8C35A8" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D8C35A8" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D8C35A8" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D8C35A8" Ref="TP61"  Part="1" 
-F 0 "TP61" H 1225 2150 50  0000 C CNN
+AR Path="/62CDD30D/5D8C35A8" Ref="TP66"  Part="1" 
+F 0 "TP66" H 1225 2150 50  0000 C CNN
 F 1 "TestPoint" H 975 1975 50  0001 C CNN
-F 2 "" H 1425 1925 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1425 1925 50  0001 C CNN
 F 3 "~" H 1425 1925 50  0001 C CNN
 	1    1225 1925
 	-1   0    0    -1  
@@ -988,10 +988,10 @@ AR Path="/5D8CA355" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D8CA355" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D8CA355" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D8CA355" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D8CA355" Ref="TP65"  Part="1" 
-F 0 "TP65" V 1950 2500 50  0000 C CNN
+AR Path="/62CDD30D/5D8CA355" Ref="TP70"  Part="1" 
+F 0 "TP70" V 1950 2500 50  0000 C CNN
 F 1 "TestPoint" H 1600 2400 50  0001 C CNN
-F 2 "" H 2050 2350 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2050 2350 50  0001 C CNN
 F 3 "~" H 2050 2350 50  0001 C CNN
 	1    1850 2350
 	0    1    1    0   
@@ -1009,10 +1009,10 @@ AR Path="/5D8DEDF0" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D8DEDF0" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D8DEDF0" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D8DEDF0" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D8DEDF0" Ref="TP63"  Part="1" 
-F 0 "TP63" H 2150 2200 50  0000 C CNN
+AR Path="/62CDD30D/5D8DEDF0" Ref="TP68"  Part="1" 
+F 0 "TP68" H 2150 2200 50  0000 C CNN
 F 1 "TestPoint" H 2025 2100 50  0001 C CNN
-F 2 "" H 2475 2050 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2475 2050 50  0001 C CNN
 F 3 "~" H 2475 2050 50  0001 C CNN
 	1    2275 2050
 	-1   0    0    1   
@@ -1028,10 +1028,10 @@ AR Path="/5D8F3B29" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D8F3B29" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D8F3B29" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D8F3B29" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D8F3B29" Ref="TP68"  Part="1" 
-F 0 "TP68" V 2625 3200 50  0000 C CNN
+AR Path="/62CDD30D/5D8F3B29" Ref="TP73"  Part="1" 
+F 0 "TP73" V 2625 3200 50  0000 C CNN
 F 1 "TestPoint" H 2475 3075 50  0001 C CNN
-F 2 "" H 2925 3025 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2925 3025 50  0001 C CNN
 F 3 "~" H 2925 3025 50  0001 C CNN
 	1    2725 3025
 	0    -1   1    0   
@@ -1047,10 +1047,10 @@ AR Path="/5D8FAF4C" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D8FAF4C" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D8FAF4C" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D8FAF4C" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D8FAF4C" Ref="TP72"  Part="1" 
-F 0 "TP72" H 3275 3975 50  0000 C CNN
+AR Path="/62CDD30D/5D8FAF4C" Ref="TP77"  Part="1" 
+F 0 "TP77" H 3275 3975 50  0000 C CNN
 F 1 "TestPoint" H 3025 3800 50  0001 C CNN
-F 2 "" H 3475 3750 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 3475 3750 50  0001 C CNN
 F 3 "~" H 3475 3750 50  0001 C CNN
 	1    3275 3750
 	1    0    0    1   
@@ -1071,10 +1071,10 @@ AR Path="/5D9267BD" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D9267BD" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D9267BD" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D9267BD" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D9267BD" Ref="TP69"  Part="1" 
-F 0 "TP69" H 1425 3475 50  0000 C CNN
+AR Path="/62CDD30D/5D9267BD" Ref="TP74"  Part="1" 
+F 0 "TP74" H 1425 3475 50  0000 C CNN
 F 1 "TestPoint" H 1175 3300 50  0001 C CNN
-F 2 "" H 1625 3250 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 1625 3250 50  0001 C CNN
 F 3 "~" H 1625 3250 50  0001 C CNN
 	1    1425 3250
 	-1   0    0    -1  
@@ -1089,10 +1089,10 @@ AR Path="/5D92DD7D" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D92DD7D" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D92DD7D" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D92DD7D" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D92DD7D" Ref="TP70"  Part="1" 
-F 0 "TP70" H 2225 3475 50  0000 C CNN
+AR Path="/62CDD30D/5D92DD7D" Ref="TP75"  Part="1" 
+F 0 "TP75" H 2225 3475 50  0000 C CNN
 F 1 "TestPoint" H 1975 3300 50  0001 C CNN
-F 2 "" H 2425 3250 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2425 3250 50  0001 C CNN
 F 3 "~" H 2425 3250 50  0001 C CNN
 	1    2225 3250
 	-1   0    0    -1  
@@ -1113,10 +1113,10 @@ AR Path="/5D9363B5" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D9363B5" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D9363B5" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D9363B5" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D9363B5" Ref="TP60"  Part="1" 
-F 0 "TP60" V 4950 1725 50  0000 C CNN
+AR Path="/62CDD30D/5D9363B5" Ref="TP65"  Part="1" 
+F 0 "TP65" V 4950 1725 50  0000 C CNN
 F 1 "TestPoint" H 4800 1600 50  0001 C CNN
-F 2 "" H 5250 1550 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5250 1550 50  0001 C CNN
 F 3 "~" H 5250 1550 50  0001 C CNN
 	1    5050 1550
 	0    -1   1    0   
@@ -1131,10 +1131,10 @@ AR Path="/5D9363BC" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D9363BC" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D9363BC" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D9363BC" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D9363BC" Ref="TP62"  Part="1" 
-F 0 "TP62" H 4625 2150 50  0000 C CNN
+AR Path="/62CDD30D/5D9363BC" Ref="TP67"  Part="1" 
+F 0 "TP67" H 4625 2150 50  0000 C CNN
 F 1 "TestPoint" H 4375 1975 50  0001 C CNN
-F 2 "" H 4825 1925 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4825 1925 50  0001 C CNN
 F 3 "~" H 4825 1925 50  0001 C CNN
 	1    4625 1925
 	-1   0    0    -1  
@@ -1155,10 +1155,10 @@ AR Path="/5D94EF08" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D94EF08" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D94EF08" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D94EF08" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D94EF08" Ref="TP66"  Part="1" 
-F 0 "TP66" V 5350 2500 50  0000 C CNN
+AR Path="/62CDD30D/5D94EF08" Ref="TP71"  Part="1" 
+F 0 "TP71" V 5350 2500 50  0000 C CNN
 F 1 "TestPoint" H 5000 2400 50  0001 C CNN
-F 2 "" H 5450 2350 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5450 2350 50  0001 C CNN
 F 3 "~" H 5450 2350 50  0001 C CNN
 	1    5250 2350
 	0    1    1    0   
@@ -1173,10 +1173,10 @@ AR Path="/5D94EF0F" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D94EF0F" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D94EF0F" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D94EF0F" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D94EF0F" Ref="TP64"  Part="1" 
-F 0 "TP64" H 5550 2200 50  0000 C CNN
+AR Path="/62CDD30D/5D94EF0F" Ref="TP69"  Part="1" 
+F 0 "TP69" H 5550 2200 50  0000 C CNN
 F 1 "TestPoint" H 5425 2100 50  0001 C CNN
-F 2 "" H 5875 2050 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5875 2050 50  0001 C CNN
 F 3 "~" H 5875 2050 50  0001 C CNN
 	1    5675 2050
 	-1   0    0    1   
@@ -1195,10 +1195,10 @@ AR Path="/5D95F68E" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D95F68E" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D95F68E" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D95F68E" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D95F68E" Ref="TP71"  Part="1" 
-F 0 "TP71" H 4925 3475 50  0000 C CNN
+AR Path="/62CDD30D/5D95F68E" Ref="TP76"  Part="1" 
+F 0 "TP76" H 4925 3475 50  0000 C CNN
 F 1 "TestPoint" H 4675 3300 50  0001 C CNN
-F 2 "" H 5125 3250 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5125 3250 50  0001 C CNN
 F 3 "~" H 5125 3250 50  0001 C CNN
 	1    4925 3250
 	-1   0    0    -1  
@@ -1216,10 +1216,10 @@ AR Path="/5D96862D" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D96862D" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D96862D" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D96862D" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D96862D" Ref="TP73"  Part="1" 
-F 0 "TP73" H 5975 3975 50  0000 C CNN
+AR Path="/62CDD30D/5D96862D" Ref="TP78"  Part="1" 
+F 0 "TP78" H 5975 3975 50  0000 C CNN
 F 1 "TestPoint" H 5725 3800 50  0001 C CNN
-F 2 "" H 6175 3750 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6175 3750 50  0001 C CNN
 F 3 "~" H 6175 3750 50  0001 C CNN
 	1    5975 3750
 	1    0    0    1   
@@ -1235,10 +1235,10 @@ AR Path="/5D971623" Ref="TP?"  Part="1"
 AR Path="/61C6D021/5D971623" Ref="TP?"  Part="1" 
 AR Path="/609E0ED6/5D971623" Ref="TP?"  Part="1" 
 AR Path="/621F0CB4/5D971623" Ref="TP?"  Part="1" 
-AR Path="/62CDD30D/5D971623" Ref="TP67"  Part="1" 
-F 0 "TP67" H 5750 3175 50  0000 C CNN
+AR Path="/62CDD30D/5D971623" Ref="TP72"  Part="1" 
+F 0 "TP72" H 5750 3175 50  0000 C CNN
 F 1 "TestPoint" H 5500 3000 50  0001 C CNN
-F 2 "" H 5950 2950 50  0001 C CNN
+F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5950 2950 50  0001 C CNN
 F 3 "~" H 5950 2950 50  0001 C CNN
 	1    5750 2950
 	-1   0    0    -1  

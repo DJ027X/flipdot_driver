@@ -1,4 +1,4 @@
-15828230449491479
+15840715685425479
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -42056,12 +42056,33 @@ custom
 2
 2
 custom
+7M-16.000MAAE-T
+
+
+0
+4
+4
+custom
 8-PowerSOIC
 
 
 0
 9
 9
+custom
+32x3_POP_1_3
+
+
+0
+32
+32
+custom
+490-14124-1-ND
+
+
+0
+2
+2
 custom
 C_0603
 Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator
@@ -42092,6 +42113,20 @@ DX4R105JJCR1800‎_MICRO_USB_B_CONNECTOR
 6
 custom
 EEE-1VA220SP
+
+
+0
+2
+2
+custom
+HTSSOP-14
+
+
+0
+15
+15
+custom
+MAKK2016T3R3M
 
 
 0
@@ -42140,6 +42175,13 @@ resistor
 2
 2
 custom
+NRS5020T6R8MMGJ
+
+
+0
+2
+2
+custom
 nuai_logo
 
 
@@ -42153,6 +42195,13 @@ nuai_logo_inverted
 0
 0
 0
+custom
+NX8045GB
+
+
+0
+2
+2
 custom
 RCL12254R30JNEG
 
@@ -42279,6 +42328,13 @@ SOT-23-6
 0
 6
 6
+custom
+USB4085-GF-A
+
+
+0
+20
+20
 custom
 X4B-XH-A
 
