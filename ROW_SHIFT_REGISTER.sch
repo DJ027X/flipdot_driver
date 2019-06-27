@@ -160,37 +160,37 @@ Wire Wire Line
 Wire Wire Line
 	2925 5875 2825 5875
 Wire Wire Line
-	5975 2250 6075 2250
+	5975 5875 6075 5875
 Wire Wire Line
-	5975 2350 6075 2350
+	5975 5775 6075 5775
 Wire Wire Line
-	5975 2450 6075 2450
-Wire Wire Line
-	6075 2550 5975 2550
-Wire Wire Line
-	5975 2650 6075 2650
-Wire Wire Line
-	6075 2750 5975 2750
-Wire Wire Line
-	6075 2850 5975 2850
-Wire Wire Line
-	6075 2950 5975 2950
-Wire Wire Line
-	6075 5175 5975 5175
-Wire Wire Line
-	6075 5275 5975 5275
-Wire Wire Line
-	6075 5375 5975 5375
-Wire Wire Line
-	6075 5475 5975 5475
+	5975 5675 6075 5675
 Wire Wire Line
 	6075 5575 5975 5575
 Wire Wire Line
-	6075 5675 5975 5675
+	5975 5475 6075 5475
 Wire Wire Line
-	6075 5775 5975 5775
+	6075 5375 5975 5375
 Wire Wire Line
-	6075 5875 5975 5875
+	6075 5275 5975 5275
+Wire Wire Line
+	6075 5175 5975 5175
+Wire Wire Line
+	6075 2950 5975 2950
+Wire Wire Line
+	6075 2850 5975 2850
+Wire Wire Line
+	6075 2750 5975 2750
+Wire Wire Line
+	6075 2650 5975 2650
+Wire Wire Line
+	6075 2550 5975 2550
+Wire Wire Line
+	6075 2450 5975 2450
+Wire Wire Line
+	6075 2350 5975 2350
+Wire Wire Line
+	6075 2250 5975 2250
 $Comp
 L power:+3V3 #PWR?
 U 1 1 622B9E98
@@ -686,67 +686,49 @@ F 3 "" H 5025 6025 50  0001 C CNN
 $EndComp
 Text GLabel 2925 2250 2    50   Output ~ 0
 ROW00_ON
-Text GLabel 2925 2350 2    50   Output ~ 0
-ROW01_ON
 Text GLabel 2925 2450 2    50   Output ~ 0
-ROW02_ON
-Text GLabel 2925 2550 2    50   Output ~ 0
-ROW03_ON
-Text GLabel 2925 2650 2    50   Output ~ 0
 ROW04_ON
-Text GLabel 2925 2750 2    50   Output ~ 0
-ROW05_ON
-Text GLabel 2925 2850 2    50   Output ~ 0
+Text GLabel 2925 2550 2    50   Output ~ 0
 ROW06_ON
-Text GLabel 2925 2950 2    50   Output ~ 0
-ROW07_ON
-Text GLabel 2925 5175 2    50   Output ~ 0
+Text GLabel 2925 2650 2    50   Output ~ 0
 ROW08_ON
-Text GLabel 2925 5275 2    50   Output ~ 0
-ROW09_ON
-Text GLabel 2925 5375 2    50   Output ~ 0
+Text GLabel 2925 2750 2    50   Output ~ 0
 ROW10_ON
-Text GLabel 2925 5475 2    50   Output ~ 0
-ROW11_ON
-Text GLabel 2925 5575 2    50   Output ~ 0
+Text GLabel 2925 2850 2    50   Output ~ 0
 ROW12_ON
-Text GLabel 2925 5675 2    50   Output ~ 0
-ROW13_ON
-Text GLabel 2925 5775 2    50   Output ~ 0
+Text GLabel 2925 2950 2    50   Output ~ 0
 ROW14_ON
-Text GLabel 2925 5875 2    50   Output ~ 0
-ROW15_ON
-Text GLabel 6075 5175 2    50   Output ~ 0
+Text GLabel 6075 5475 2    50   Output ~ 0
 ROW08_OFF
-Text GLabel 6075 5275 2    50   Output ~ 0
+Text GLabel 6075 2650 2    50   Output ~ 0
 ROW09_OFF
 Text GLabel 6075 5375 2    50   Output ~ 0
 ROW10_OFF
-Text GLabel 6075 5475 2    50   Output ~ 0
-ROW11_OFF
-Text GLabel 6075 5575 2    50   Output ~ 0
-ROW12_OFF
-Text GLabel 6075 5675 2    50   Output ~ 0
-ROW13_OFF
-Text GLabel 6075 5775 2    50   Output ~ 0
-ROW14_OFF
-Text GLabel 6075 5875 2    50   Output ~ 0
-ROW15_OFF
-Text GLabel 6075 2250 2    50   Output ~ 0
-ROW00_OFF
-Text GLabel 6075 2350 2    50   Output ~ 0
-ROW01_OFF
-Text GLabel 6075 2450 2    50   Output ~ 0
-ROW02_OFF
-Text GLabel 6075 2550 2    50   Output ~ 0
-ROW03_OFF
-Text GLabel 6075 2650 2    50   Output ~ 0
-ROW04_OFF
 Text GLabel 6075 2750 2    50   Output ~ 0
-ROW05_OFF
+ROW11_OFF
+Text GLabel 6075 5275 2    50   Output ~ 0
+ROW12_OFF
 Text GLabel 6075 2850 2    50   Output ~ 0
-ROW06_OFF
+ROW13_OFF
+Text GLabel 6075 5175 2    50   Output ~ 0
+ROW14_OFF
 Text GLabel 6075 2950 2    50   Output ~ 0
+ROW15_OFF
+Text GLabel 6075 5875 2    50   Output ~ 0
+ROW00_OFF
+Text GLabel 6075 2250 2    50   Output ~ 0
+ROW01_OFF
+Text GLabel 6075 5775 2    50   Output ~ 0
+ROW02_OFF
+Text GLabel 6075 2350 2    50   Output ~ 0
+ROW03_OFF
+Text GLabel 6075 5675 2    50   Output ~ 0
+ROW04_OFF
+Text GLabel 6075 2450 2    50   Output ~ 0
+ROW05_OFF
+Text GLabel 6075 5575 2    50   Output ~ 0
+ROW06_OFF
+Text GLabel 6075 2550 2    50   Output ~ 0
 ROW07_OFF
 Wire Wire Line
 	5075 2350 4975 2350
@@ -1083,4 +1065,22 @@ Wire Wire Line
 	4550 5775 5075 5775
 Wire Wire Line
 	1825 2350 1925 2350
+Text GLabel 2925 5875 2    50   Output ~ 0
+ROW01_ON
+Text GLabel 2925 5775 2    50   Output ~ 0
+ROW03_ON
+Text GLabel 2925 5675 2    50   Output ~ 0
+ROW05_ON
+Text GLabel 2925 5575 2    50   Output ~ 0
+ROW07_ON
+Text GLabel 2925 5475 2    50   Output ~ 0
+ROW09_ON
+Text GLabel 2925 5375 2    50   Output ~ 0
+ROW11_ON
+Text GLabel 2925 5275 2    50   Output ~ 0
+ROW13_ON
+Text GLabel 2925 5175 2    50   Output ~ 0
+ROW15_ON
+Text GLabel 2925 2350 2    50   Output ~ 0
+ROW02_ON
 $EndSCHEMATC
