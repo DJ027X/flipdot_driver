@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /home/dj/flipdot_driver/flipdot_driver.sch)
-    (date "Thu Jun 27 02:19:36 2019")
+    (date "Fri Jun 28 00:50:00 2019")
     (tool "Eeschema 5.1.2")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -916,7 +916,7 @@
       (tstamp 5D330B79))
     (comp (ref U5)
       (value IS25LP128-JBLE)
-      (footprint Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm)
+      (footprint Package_SO:SOIC-8_3.9x4.9mm_P1.27mm)
       (libsource (lib custom) (part IS25LP128-JBLE) (description ""))
       (sheetpath (names /FE310/) (tstamps /64D8274A/))
       (tstamp 65272BC8))
@@ -1560,7 +1560,7 @@
       (tstamp 5D18A7CB))
     (comp (ref U8)
       (value FT2232D)
-      (footprint Housings_QFP:LQFP-48_7x7mm_Pitch0.5mm)
+      (footprint Package_QFP:LQFP-48_7x7mm_P0.5mm)
       (datasheet /home/dj/datasheets/FT2232D.pdf)
       (libsource (lib custom) (part FT2232D) (description ""))
       (sheetpath (names /FT2232/) (tstamps /609E0ED6/))
@@ -6243,7 +6243,8 @@
       (docs /home/dj/datasheets/FT2232D.pdf)
       (fields
         (field (name Reference) U)
-        (field (name Value) FT2232D))
+        (field (name Value) FT2232D)
+        (field (name Footprint) Package_QFP:LQFP-48_7x7mm_P0.5mm))
       (pins
         (pin (num 1) (name EECLK) (type output))
         (pin (num 2) (name EEDATA) (type BiDi))
@@ -6311,7 +6312,8 @@
     (libpart (lib custom) (part IS25LP128-JBLE)
       (fields
         (field (name Reference) U)
-        (field (name Value) IS25LP128-JBLE))
+        (field (name Value) IS25LP128-JBLE)
+        (field (name Footprint) Package_SO:SOIC-8_3.9x4.9mm_P1.27mm))
       (pins
         (pin (num 1) (name CS#) (type input))
         (pin (num 2) (name MISO/IO1) (type BiDi))
