@@ -452,7 +452,7 @@ Wire Wire Line
 Wire Wire Line
 	7275 2925 7275 3025
 Wire Wire Line
-	9475 2825 9550 2825
+	9475 2825 10225 2825
 Wire Wire Line
 	9475 2925 9475 3025
 Wire Wire Line
@@ -546,8 +546,6 @@ F 4 "NP" V 4450 2025 47  0000 L BNN "Resistance"
 	1    4425 2075
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 2825 2    50   Input ~ 0
-IVDD_FE310
 Text GLabel 9550 3625 2    50   Output ~ 0
 ROW_ON
 Text GLabel 9550 3725 2    50   Output ~ 0
@@ -1462,4 +1460,6 @@ Text Label 1025 6900 0    60   ~ 0
 PLL_AVSS_FE310
 Wire Wire Line
 	2050 6900 2050 6800
+Text Label 10225 2825 2    60   ~ 0
+IVDD_FE310
 $EndSCHEMATC
