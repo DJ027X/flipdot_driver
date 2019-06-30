@@ -707,4 +707,18 @@ F 3 "" H 4700 2850 50  0001 C CNN
 	1    4700 2850
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	7200 5825 7200 5775
+$Comp
+L power:GND #PWR?
+U 1 1 5D1EC1AC
+P 7200 5825
+F 0 "#PWR?" H 7200 5575 50  0001 C CNN
+F 1 "GND" H 7200 5675 50  0000 C CNN
+F 2 "" H 7200 5825 50  0001 C CNN
+F 3 "" H 7200 5825 50  0001 C CNN
+	1    7200 5825
+	1    0    0    -1  
+$EndComp
+Connection ~ 7200 5775
 $EndSCHEMATC

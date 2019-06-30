@@ -1274,6 +1274,8 @@ $Comp
 L custom:USB-C_2.0_Connector J9
 U 1 1 5D62740B
 P 2500 1450
+AR Path="/5D62740B" Ref="J9"  Part="1" 
+AR Path="/609E0ED6/5D62740B" Ref="J9"  Part="1" 
 F 0 "J9" H 2250 1950 60  0000 C CNN
 F 1 "USB-C_2.0_Connector" H 2500 750 60  0000 C CNN
 F 2 "custom:USB4085-GF-A" H 2500 650 60  0001 C CNN
