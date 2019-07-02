@@ -1530,22 +1530,6 @@ Wire Wire Line
 	5775 7250 5775 7025
 $Comp
 L Connector:TestPoint TP?
-U 1 1 5D5C44D4
-P 2675 7075
-AR Path="/5D5C44D4" Ref="TP?"  Part="1" 
-AR Path="/60B0CF7E/5D5C44D4" Ref="TP19"  Part="1" 
-F 0 "TP19" V 2575 7225 50  0000 C CNN
-F 1 "TestPoint" H 2425 7125 50  0001 C CNN
-F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 2875 7075 50  0001 C CNN
-F 3 "~" H 2875 7075 50  0001 C CNN
-	1    2675 7075
-	0    -1   1    0   
-$EndComp
-Wire Wire Line
-	2675 7075 2725 7075
-Connection ~ 2725 7075
-$Comp
-L Connector:TestPoint TP?
 U 1 1 5D5CD745
 P 2675 5000
 AR Path="/5D5CD745" Ref="TP?"  Part="1" 
@@ -1778,8 +1762,8 @@ L power:+24V #PWR?
 U 1 1 5D1C8F9D
 P 7775 2250
 AR Path="/5D1C8F9D" Ref="#PWR?"  Part="1" 
-AR Path="/60B0CF7E/5D1C8F9D" Ref="#PWR?"  Part="1" 
-F 0 "#PWR?" H 7775 2100 50  0001 C CNN
+AR Path="/60B0CF7E/5D1C8F9D" Ref="#PWR0274"  Part="1" 
+F 0 "#PWR0274" H 7775 2100 50  0001 C CNN
 F 1 "+24V" H 7775 2400 50  0000 C CNN
 F 2 "" H 7775 2250 50  0001 C CNN
 F 3 "" H 7775 2250 50  0001 C CNN
