@@ -236,13 +236,13 @@ Wire Wire Line
 $Comp
 L Connector:Conn_01x08_Male J10
 U 1 1 621E7A0B
-P 7750 2650
-F 0 "J10" H 7750 3050 50  0000 C CNN
-F 1 "Conn_01x08_Male" H 7325 2625 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 7750 2650 50  0001 C CNN
-F 3 "" H 7750 2650 50  0001 C CNN
-	1    7750 2650
-	-1   0    0    -1  
+P 7750 2750
+F 0 "J10" H 7750 3150 50  0000 C CNN
+F 1 "Conn_01x08_Male" H 7325 2725 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Horizontal" H 7750 2750 50  0001 C CNN
+F 3 "" H 7750 2750 50  0001 C CNN
+	1    7750 2750
+	-1   0    0    1   
 $EndComp
 Text Label 1875 4950 0    60   ~ 0
 COL_DATA

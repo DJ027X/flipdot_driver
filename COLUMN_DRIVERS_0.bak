@@ -84,8 +84,6 @@ Text GLabel 4425 2275 0    50   Input ~ 0
 COL01_ON
 Wire Wire Line
 	4425 2275 4525 2275
-Wire Wire Line
-	4425 2575 4675 2575
 Text GLabel 1025 5175 0    50   Input ~ 0
 COL03_OFF
 Text GLabel 1025 4875 0    50   Input ~ 0
@@ -663,8 +661,6 @@ Wire Wire Line
 	5725 3100 5725 3200
 Connection ~ 5725 2575
 Wire Wire Line
-	5725 2575 6175 2575
-Wire Wire Line
 	5725 2575 5525 2575
 Wire Wire Line
 	5725 2700 5725 2575
@@ -683,8 +679,6 @@ F 3 "datasheets/SSM3K35AMFV.pdf" H 5825 2750 50  0001 L BNN
 $EndComp
 Wire Wire Line
 	5225 2575 4825 2575
-Wire Wire Line
-	4525 2275 4825 2275
 Wire Wire Line
 	4825 3200 5725 3200
 Wire Wire Line
@@ -728,8 +722,6 @@ Wire Wire Line
 Connection ~ 6050 1975
 Wire Wire Line
 	6050 1975 6250 1975
-Wire Wire Line
-	6050 1775 6050 1875
 Connection ~ 6550 1375
 Wire Wire Line
 	6050 1375 6550 1375
@@ -1420,154 +1412,17 @@ Wire Wire Line
 	2775 2575 2850 2575
 Wire Wire Line
 	6550 2175 6550 2275
-Wire Wire Line
-	6550 2275 6700 2275
 Connection ~ 6550 2275
 Wire Wire Line
 	6550 2275 6550 2375
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5DA46205
-P 4675 2175
-AR Path="/5DA46205" Ref="TP?"  Part="1" 
-AR Path="/61C6D021/5DA46205" Ref="TP?"  Part="1" 
-AR Path="/609E0ED6/5DA46205" Ref="TP?"  Part="1" 
-AR Path="/621F0CB4/5DA46205" Ref="TP?"  Part="1" 
-AR Path="/62A8D0C3/5DA46205" Ref="TP85"  Part="1" 
-F 0 "TP85" V 4675 2475 50  0000 C CNN
-F 1 "TestPoint" H 4425 2225 50  0001 C CNN
-F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4875 2175 50  0001 C CNN
-F 3 "~" H 4875 2175 50  0001 C CNN
-	1    4675 2175
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5DA4620E
-P 4825 2175
-AR Path="/5DA4620E" Ref="TP?"  Part="1" 
-AR Path="/61C6D021/5DA4620E" Ref="TP?"  Part="1" 
-AR Path="/609E0ED6/5DA4620E" Ref="TP?"  Part="1" 
-AR Path="/621F0CB4/5DA4620E" Ref="TP?"  Part="1" 
-AR Path="/62A8D0C3/5DA4620E" Ref="TP86"  Part="1" 
-F 0 "TP86" V 4825 2475 50  0000 C CNN
-F 1 "TestPoint" H 4575 2225 50  0001 C CNN
-F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 5025 2175 50  0001 C CNN
-F 3 "~" H 5025 2175 50  0001 C CNN
-	1    4825 2175
-	-1   0    0    -1  
-$EndComp
 Wire Wire Line
-	4825 2175 4825 2275
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5DA46217
-P 4425 3200
-AR Path="/5DA46217" Ref="TP?"  Part="1" 
-AR Path="/61C6D021/5DA46217" Ref="TP?"  Part="1" 
-AR Path="/609E0ED6/5DA46217" Ref="TP?"  Part="1" 
-AR Path="/621F0CB4/5DA46217" Ref="TP?"  Part="1" 
-AR Path="/62A8D0C3/5DA46217" Ref="TP91"  Part="1" 
-F 0 "TP91" V 4425 3500 50  0000 C CNN
-F 1 "TestPoint" H 4175 3250 50  0001 C CNN
-F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 4625 3200 50  0001 C CNN
-F 3 "~" H 4625 3200 50  0001 C CNN
-	1    4425 3200
-	0    -1   1    0   
-$EndComp
+	6050 1775 6050 1975
 Wire Wire Line
-	4425 3200 4525 3200
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5DA4621F
-P 5950 1875
-AR Path="/5DA4621F" Ref="TP?"  Part="1" 
-AR Path="/61C6D021/5DA4621F" Ref="TP?"  Part="1" 
-AR Path="/609E0ED6/5DA4621F" Ref="TP?"  Part="1" 
-AR Path="/621F0CB4/5DA4621F" Ref="TP?"  Part="1" 
-AR Path="/62A8D0C3/5DA4621F" Ref="TP81"  Part="1" 
-F 0 "TP81" V 5950 2175 50  0000 C CNN
-F 1 "TestPoint" H 5700 1925 50  0001 C CNN
-F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6150 1875 50  0001 C CNN
-F 3 "~" H 6150 1875 50  0001 C CNN
-	1    5950 1875
-	0    -1   1    0   
-$EndComp
+	6550 2275 6825 2275
 Wire Wire Line
-	5950 1875 6050 1875
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5DA46226
-P 5950 1375
-AR Path="/5DA46226" Ref="TP?"  Part="1" 
-AR Path="/61C6D021/5DA46226" Ref="TP?"  Part="1" 
-AR Path="/609E0ED6/5DA46226" Ref="TP?"  Part="1" 
-AR Path="/621F0CB4/5DA46226" Ref="TP?"  Part="1" 
-AR Path="/62A8D0C3/5DA46226" Ref="TP79"  Part="1" 
-F 0 "TP79" V 5950 1675 50  0000 C CNN
-F 1 "TestPoint" H 5700 1425 50  0001 C CNN
-F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6150 1375 50  0001 C CNN
-F 3 "~" H 6150 1375 50  0001 C CNN
-	1    5950 1375
-	0    -1   1    0   
-$EndComp
+	4425 2575 4825 2575
 Wire Wire Line
-	5950 1375 6050 1375
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5DA46230
-P 6800 2175
-AR Path="/5DA46230" Ref="TP?"  Part="1" 
-AR Path="/61C6D021/5DA46230" Ref="TP?"  Part="1" 
-AR Path="/609E0ED6/5DA46230" Ref="TP?"  Part="1" 
-AR Path="/621F0CB4/5DA46230" Ref="TP?"  Part="1" 
-AR Path="/62A8D0C3/5DA46230" Ref="TP87"  Part="1" 
-F 0 "TP87" V 6800 2475 50  0000 C CNN
-F 1 "TestPoint" H 6550 2225 50  0001 C CNN
-F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 7000 2175 50  0001 C CNN
-F 3 "~" H 7000 2175 50  0001 C CNN
-	1    6800 2175
-	0    1    1    0   
-$EndComp
+	4525 2275 5075 2275
 Wire Wire Line
-	6800 2175 6700 2175
-Wire Wire Line
-	6700 2175 6700 2275
-$Comp
-L Connector:TestPoint TP?
-U 1 1 5DA4623A
-P 6175 2675
-AR Path="/5DA4623A" Ref="TP?"  Part="1" 
-AR Path="/61C6D021/5DA4623A" Ref="TP?"  Part="1" 
-AR Path="/609E0ED6/5DA4623A" Ref="TP?"  Part="1" 
-AR Path="/621F0CB4/5DA4623A" Ref="TP?"  Part="1" 
-AR Path="/62A8D0C3/5DA4623A" Ref="TP89"  Part="1" 
-F 0 "TP89" H 6125 2925 50  0000 C CNN
-F 1 "TestPoint" H 5925 2725 50  0001 C CNN
-F 2 "custom:TestPoint_THTPad_D1.0mm_Drill0.5mm" H 6375 2675 50  0001 C CNN
-F 3 "~" H 6375 2675 50  0001 C CNN
-	1    6175 2675
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	6175 2675 6175 2575
-Connection ~ 4525 3200
-Connection ~ 4825 2275
-Wire Wire Line
-	4825 2275 5075 2275
-Connection ~ 6050 1375
-Connection ~ 6050 1875
-Wire Wire Line
-	6050 1875 6050 1975
-Connection ~ 6175 2575
-Wire Wire Line
-	6175 2575 6250 2575
-Connection ~ 6700 2275
-Wire Wire Line
-	6700 2275 6825 2275
-Wire Wire Line
-	4675 2175 4675 2575
-Connection ~ 4675 2575
-Wire Wire Line
-	4675 2575 4825 2575
+	5725 2575 6250 2575
 $EndSCHEMATC
