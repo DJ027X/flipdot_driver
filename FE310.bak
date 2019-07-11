@@ -249,12 +249,6 @@ Wire Wire Line
 Wire Wire Line
 	9550 5325 9325 5325
 Wire Wire Line
-	9550 5225 9325 5225
-Wire Wire Line
-	9550 5125 9325 5125
-Wire Wire Line
-	9550 4925 9325 4925
-Wire Wire Line
 	9550 5425 9325 5425
 Wire Wire Line
 	9550 4425 9325 4425
@@ -438,7 +432,7 @@ Wire Wire Line
 Wire Wire Line
 	9325 4325 9550 4325
 Wire Wire Line
-	9325 4525 10225 4525
+	9325 4525 10325 4525
 Wire Wire Line
 	9325 3425 10225 3425
 Wire Wire Line
@@ -546,7 +540,7 @@ F 4 "NP" V 4450 2025 47  0000 L BNN "Resistance"
 	1    4425 2075
 	1    0    0    -1  
 $EndComp
-Text GLabel 9550 3625 2    50   Output ~ 0
+Text GLabel 9550 4225 2    50   Output ~ 0
 ROW_ON
 Text GLabel 9550 3725 2    50   Output ~ 0
 !COL_RESET
@@ -556,7 +550,7 @@ Text GLabel 9550 3925 2    50   Output ~ 0
 ROW_IN
 Text GLabel 9550 4125 2    50   Output ~ 0
 COL_IN
-Text GLabel 9550 4225 2    50   Output ~ 0
+Text GLabel 9550 4425 2    50   Output ~ 0
 ROW_SHCP
 Text GLabel 9550 4325 2    50   Output ~ 0
 COL_SHCP
@@ -566,16 +560,10 @@ Text GLabel 9550 4725 2    50   Input ~ 0
 UART_FE_RX
 Text GLabel 9550 4825 2    50   Output ~ 0
 UART_FE_TX
-Text GLabel 9550 4425 2    50   Output ~ 0
+Text GLabel 9550 3625 2    50   Output ~ 0
 AUX_1
 Text GLabel 9550 5025 2    50   Output ~ 0
 LED_PWM
-Text GLabel 9550 4925 2    50   Output ~ 0
-AUX_2
-Text GLabel 9550 5125 2    50   Output ~ 0
-AUX_3
-Text GLabel 9550 5225 2    50   Output ~ 0
-AUX_4
 Text GLabel 9550 5325 2    50   Output ~ 0
 ROW_MODE_SEL
 Text GLabel 9550 5425 2    50   Output ~ 0
@@ -694,7 +682,7 @@ F 4 "1k0" V 7100 2000 50  0000 C CNN "Resistance"
 $EndComp
 Text Label 10225 3425 2    50   ~ 0
 PIEZO_0
-Text Label 10225 4525 2    50   ~ 0
+Text Label 10325 4525 2    50   ~ 0
 PIEZO_1
 Text Label 6725 1800 0    50   ~ 0
 PIEZO_0
@@ -1462,4 +1450,7 @@ Wire Wire Line
 	2050 6900 2050 6800
 Text Label 10225 2825 2    60   ~ 0
 IVDD_FE310
+NoConn ~ 9325 4925
+NoConn ~ 9325 5125
+NoConn ~ 9325 5225
 $EndSCHEMATC
