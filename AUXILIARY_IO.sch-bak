@@ -68,11 +68,7 @@ Wire Wire Line
 Wire Wire Line
 	4175 4850 4525 4850
 Wire Wire Line
-	4700 4800 4700 4950
-Wire Wire Line
-	4175 4950 4700 4950
-Wire Wire Line
-	4525 4800 4525 4850
+	4525 4600 4525 4850
 Text GLabel 7400 3475 0    50   BiDi ~ 0
 AUX_0
 Text GLabel 7400 3575 0    50   BiDi ~ 0
@@ -81,8 +77,6 @@ Wire Wire Line
 	7800 3575 7400 3575
 Text GLabel 5025 4850 2    50   UnSpc ~ 0
 AUX_0
-Text GLabel 5025 4950 2    50   UnSpc ~ 0
-AUX_1
 $Comp
 L custom:CRG0603F4K7 R28
 U 1 1 5D0133BA
@@ -317,23 +311,23 @@ LABEL PINS ON SILKSCREEN
 $Comp
 L custom:PTH_1.5_mm J4
 U 1 1 5D562B82
-P 4525 4675
-F 0 "J4" H 4475 4725 50  0000 L BNN
-F 1 "PTH_1.5_mm" H 4600 4650 50  0000 L BNN
-F 2 "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4325 4425 50  0001 L BNN
-F 3 "" H 4525 4775 50  0001 L BNN
-	1    4525 4675
+P 4525 4475
+F 0 "J4" H 4475 4525 50  0000 L BNN
+F 1 "PTH_1.5_mm" H 4600 4450 50  0000 L BNN
+F 2 "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4325 4225 50  0001 L BNN
+F 3 "" H 4525 4575 50  0001 L BNN
+	1    4525 4475
 	0    -1   -1   0   
 $EndComp
 $Comp
 L custom:PTH_1.5_mm J5
 U 1 1 5D563153
-P 4700 4675
-F 0 "J5" H 4650 4725 50  0000 L BNN
-F 1 "PTH_1.5_mm" H 4775 4650 50  0000 L BNN
-F 2 "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4500 4425 50  0001 L BNN
-F 3 "" H 4700 4775 50  0001 L BNN
-	1    4700 4675
+P 4700 4475
+F 0 "J5" H 4650 4525 50  0000 L BNN
+F 1 "PTH_1.5_mm" H 4775 4450 50  0000 L BNN
+F 2 "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4500 4225 50  0001 L BNN
+F 3 "" H 4700 4575 50  0001 L BNN
+	1    4700 4475
 	0    -1   -1   0   
 $EndComp
 $Comp
@@ -385,27 +379,20 @@ Text GLabel 5025 5050 2    50   UnSpc ~ 0
 AUX_2
 Wire Wire Line
 	4175 5050 4875 5050
-Wire Wire Line
-	4175 4750 4300 4750
-Wire Wire Line
-	4300 4750 4300 4650
 Connection ~ 4525 4850
-Connection ~ 4700 4950
-Wire Wire Line
-	4700 4950 5025 4950
 Wire Wire Line
 	4525 4850 5025 4850
 Wire Wire Line
-	4875 4800 4875 5050
+	4875 4600 4875 5050
 $Comp
 L custom:PTH_1.5_mm J6
 U 1 1 5D6E09D0
-P 4875 4675
-F 0 "J6" H 4825 4725 50  0000 L BNN
-F 1 "PTH_1.5_mm" H 4950 4650 50  0000 L BNN
-F 2 "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4675 4425 50  0001 L BNN
-F 3 "" H 4875 4775 50  0001 L BNN
-	1    4875 4675
+P 4875 4475
+F 0 "J6" H 4825 4525 50  0000 L BNN
+F 1 "PTH_1.5_mm" H 4950 4450 50  0000 L BNN
+F 2 "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm" H 4675 4225 50  0001 L BNN
+F 3 "" H 4875 4575 50  0001 L BNN
+	1    4875 4475
 	0    -1   -1   0   
 $EndComp
 Connection ~ 4875 5050
@@ -557,4 +544,17 @@ Text GLabel 7400 3675 0    50   BiDi ~ 0
 AUX_2
 Wire Wire Line
 	7800 3675 7400 3675
+Wire Wire Line
+	4175 4750 4700 4750
+Text GLabel 5025 4750 2    50   UnSpc ~ 0
+AUX_1
+Connection ~ 4700 4750
+Wire Wire Line
+	4700 4750 5025 4750
+Wire Wire Line
+	4300 4650 4300 4950
+Wire Wire Line
+	4300 4950 4175 4950
+Wire Wire Line
+	4700 4600 4700 4750
 $EndSCHEMATC
