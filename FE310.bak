@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:flipdot_driver-cache
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -1187,10 +1187,10 @@ Wire Wire Line
 	2050 6900 2050 6800
 Text Label 10225 2825 2    60   ~ 0
 IVDD_FE310
-Text GLabel 9550 4925 2    50   Output ~ 0
+Text GLabel 9550 5225 2    50   Output ~ 0
 AUX_0
 Wire Wire Line
-	9325 4925 9550 4925
+	9325 5225 9550 5225
 Wire Wire Line
 	9325 3425 10225 3425
 Text Label 10225 3425 2    50   ~ 0
@@ -1343,8 +1343,8 @@ Text Label 10325 4525 2    50   ~ 0
 PIEZO_1
 NoConn ~ 9325 5425
 Wire Wire Line
-	9325 5225 9550 5225
-Text GLabel 9550 5225 2    50   Output ~ 0
+	9325 4925 9550 4925
+Text GLabel 9550 4925 2    50   Output ~ 0
 AUX_2
 NoConn ~ 9325 5025
 $EndSCHEMATC

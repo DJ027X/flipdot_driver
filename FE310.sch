@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:flipdot_driver-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr USLetter 11000 8500
 encoding utf-8
@@ -990,19 +990,6 @@ Connection ~ 5350 3925
 Wire Wire Line
 	5350 3925 5875 3925
 $Comp
-L custom:CRG0603F4K7 R31
-U 1 1 5D66CDE1
-P 5875 3625
-F 0 "R31" H 5945 3645 50  0000 L BNN
-F 1 "CRG0603F4K7" H 5175 3225 50  0001 L BNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 5175 3125 50  0001 L BNN
-F 3 "/home/dj/datasheets/Pyu-RC_Group_51_RoHS_L_9.pdf" H 5175 3025 50  0001 L BNN
-F 4 "4k7" V 5875 3625 50  0000 C CNN "VALUE"
-F 5 "5%" H 5995 3585 50  0000 C CNN "TOLERANCE"
-	1    5875 3625
-	1    0    0    -1  
-$EndComp
-$Comp
 L custom:CRG0603F4K7 R34
 U 1 1 5D66D72B
 P 5425 5775
@@ -1347,4 +1334,16 @@ Wire Wire Line
 Text GLabel 9550 4925 2    50   Output ~ 0
 AUX_2
 NoConn ~ 9325 5025
+$Comp
+L custom:NP_R_0603 R31
+U 1 1 5D658FD3
+P 5875 3625
+F 0 "R31" V 5995 3525 50  0000 L BNN
+F 1 "NP_R_0603" H 5125 3175 50  0001 L BNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5125 3075 50  0001 L BNN
+F 3 "" H 5125 2975 50  0001 L BNN
+F 4 "NP" V 5900 3575 47  0000 L BNN "Resistance"
+	1    5875 3625
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
